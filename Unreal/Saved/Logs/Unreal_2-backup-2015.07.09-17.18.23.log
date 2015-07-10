@@ -1,0 +1,43 @@
+﻿[2015.07.09-15.18.21:559][  0]Log file open, 07/09/15 17:18:21
+[2015.07.09-15.18.21:559][  0]LogInit:Display: Running engine for game: Unreal
+[2015.07.09-15.18.21:559][  0]LogInit:Display: RandInit(-1415736630) SRandInit(-1415736629).
+[2015.07.09-15.18.21:559][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.07.09-15.18.21:559][  0]LogStats: Stats thread started
+[2015.07.09-15.18.21:559][  0]LogInit: Version: 4.8.1-2591939+++depot+UE4-Releases+4.8
+[2015.07.09-15.18.21:559][  0]LogInit: API Version: 2579680
+[2015.07.09-15.18.21:559][  0]LogInit: Compiled (64-bit): Jun 18 2015 11:02:04
+[2015.07.09-15.18.21:559][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.07.09-15.18.21:559][  0]LogInit: Build Configuration: Development
+[2015.07.09-15.18.21:559][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.8
+[2015.07.09-15.18.21:559][  0]LogInit: Command line:  /Temp/Autosaves/Game/Maps/UEDPCMap -game -PIEVIACONSOLE -ResX=1280 -ResY=720  -Multiprocess -featureleveles2 -faketouches 
+[2015.07.09-15.18.21:559][  0]LogInit: Base directory: D:/Programme/Epic Games/4.8/Engine/Binaries/Win64/
+[2015.07.09-15.18.21:559][  0]LogInit: Rocket: 1
+[2015.07.09-15.18.21:568][  0]LogInit: Using libcurl 7.41.0
+[2015.07.09-15.18.21:568][  0]LogInit:  - built for x86_64-pc-win32
+[2015.07.09-15.18.21:568][  0]LogInit:  - supports SSL with WinSSL
+[2015.07.09-15.18.21:568][  0]LogInit:  - other features:
+[2015.07.09-15.18.21:568][  0]LogInit:      CURL_VERSION_SSL
+[2015.07.09-15.18.21:568][  0]LogInit:      CURL_VERSION_IPV6
+[2015.07.09-15.18.21:568][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.07.09-15.18.21:568][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.07.09-15.18.21:568][  0]LogInit:      CURL_VERSION_IDN
+[2015.07.09-15.18.21:568][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.07.09-15.18.21:568][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.07.09-15.18.21:568][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.07.09-15.18.21:568][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.07.09-15.18.21:568][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.07.09-15.18.21:579][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.07.09-15.18.21:588][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.07.09-15.18.21:594][  0]LogInit: Object subsystem initialized
+[2015.07.09-15.18.21:595][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.07.09-15.18.21:595][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Jakob/Desktop/Radius Jam/Kraken/Unreal/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.07.09-15.18.21:595][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.07.09-15.18.21:595][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Jakob/Desktop/Radius Jam/Kraken/Unreal/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.07.09-15.18.21:595][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.07.09-15.18.21:595][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Jakob/Desktop/Radius Jam/Kraken/Unreal/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.07.09-15.18.21:596][  0]LogInit: Selected Device Profile: [Windows]
+[2015.07.09-15.18.21:596][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.07.09-15.18.21:598][  0]LogInit: Computer: MSI_GS70
+[2015.07.09-15.18.21:598][  0]LogInit: User: Jakob
+[2015.07.09-15.18.21:598][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.07.09-15.18.21:598][  0]LogInit: High frequency ti

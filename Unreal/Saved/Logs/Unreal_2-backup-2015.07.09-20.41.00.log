@@ -1,0 +1,185 @@
+﻿[2015.07.09-18.40.04:564][  0]Log file open, 07/09/15 20:40:04
+[2015.07.09-18.40.04:565][  0]LogInit:Display: Running engine for game: Unreal
+[2015.07.09-18.40.04:565][  0]LogInit:Display: RandInit(-835852270) SRandInit(-835852270).
+[2015.07.09-18.40.04:565][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.07.09-18.40.04:565][  0]LogStats: Stats thread started
+[2015.07.09-18.40.04:565][  0]LogInit: Version: 4.8.1-2591939+++depot+UE4-Releases+4.8
+[2015.07.09-18.40.04:565][  0]LogInit: API Version: 2579680
+[2015.07.09-18.40.04:565][  0]LogInit: Compiled (64-bit): Jun 18 2015 11:02:04
+[2015.07.09-18.40.04:565][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.07.09-18.40.04:565][  0]LogInit: Build Configuration: Development
+[2015.07.09-18.40.04:565][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.8
+[2015.07.09-18.40.04:565][  0]LogInit: Command line:  /Temp/Autosaves/Game/Maps/UEDPCMap -game -PIEVIACONSOLE -ResX=1280 -ResY=720  -Multiprocess -featureleveles2 -faketouches 
+[2015.07.09-18.40.04:565][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.8/Engine/Binaries/Win64/
+[2015.07.09-18.40.04:565][  0]LogInit: Rocket: 1
+[2015.07.09-18.40.04:590][  0]LogInit: Using libcurl 7.41.0
+[2015.07.09-18.40.04:590][  0]LogInit:  - built for x86_64-pc-win32
+[2015.07.09-18.40.04:590][  0]LogInit:  - supports SSL with WinSSL
+[2015.07.09-18.40.04:590][  0]LogInit:  - other features:
+[2015.07.09-18.40.04:590][  0]LogInit:      CURL_VERSION_SSL
+[2015.07.09-18.40.04:590][  0]LogInit:      CURL_VERSION_IPV6
+[2015.07.09-18.40.04:590][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.07.09-18.40.04:590][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.07.09-18.40.04:590][  0]LogInit:      CURL_VERSION_IDN
+[2015.07.09-18.40.04:590][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.07.09-18.40.04:590][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.07.09-18.40.04:590][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.07.09-18.40.04:590][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.07.09-18.40.04:590][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.07.09-18.40.04:603][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.07.09-18.40.04:618][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.07.09-18.40.04:625][  0]LogInit: Object subsystem initialized
+[2015.07.09-18.40.04:626][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.07.09-18.40.04:626][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Matthias/Desktop/Kraken/Kraken/Unreal/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.07.09-18.40.04:626][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.07.09-18.40.04:626][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Matthias/Desktop/Kraken/Kraken/Unreal/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.07.09-18.40.04:626][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.07.09-18.40.04:626][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Matthias/Desktop/Kraken/Kraken/Unreal/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.07.09-18.40.04:627][  0]LogInit: Selected Device Profile: [Windows]
+[2015.07.09-18.40.04:627][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.07.09-18.40.04:629][  0]LogInit: Computer: MATTHIAS-PC
+[2015.07.09-18.40.04:629][  0]LogInit: User: Matthias
+[2015.07.09-18.40.04:629][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.07.09-18.40.04:629][  0]LogInit: High frequency timer resolution =3.172753 MHz
+[2015.07.09-18.40.04:629][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2015.07.09-18.40.04:629][  0]LogMemory: Platform Memory Stats for Windows
+[2015.07.09-18.40.04:629][  0]LogMemory: Process Physical Memory: 48.98 MB used, 48.98 MB peak
+[2015.07.09-18.40.04:629][  0]LogMemory: Process Virtual Memory: 25.39 MB used, 25.39 MB peak
+[2015.07.09-18.40.04:629][  0]LogMemory: Physical Memory: 5559.25 MB used, 16322.78 MB total
+[2015.07.09-18.40.04:629][  0]LogMemory: Virtual Memory: 285.47 MB used, 8388608.00 MB total
+[2015.07.09-18.40.04:684][  0]LogTextLocalizationManager: The requested culture ('de_DE') has no localization data; falling back to 'en' for localization and internationalization data.
+[2015.07.09-18.40.04:989][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Localization Resource: (C:/Program Files/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (-630476809) Localized String: (Import to {0}...)
+Localization Resource: (C:/Program Files/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (1271782899) Localized String: (Imports an asset from file to this folder.)
+[2015.07.09-18.40.05:316][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 670 (Feature Level 11_0)
+[2015.07.09-18.40.05:316][  0]LogD3D11RHI: Adapter has 1990MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 2 output[s]
+[2015.07.09-18.40.05:316][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.07.09-18.40.05:322][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.07.09-18.40.05:329][  0]LogD3D11RHI: Async texture creation enabled
+[2015.07.09-18.40.05:343][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.07.09-18.40.06:081][  0]LogTemp:Display: Loaded TP DesktopTargetPlatform
+[2015.07.09-18.40.06:097][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.07.09-18.40.06:112][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.07.09-18.40.06:125][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.07.09-18.40.06:140][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.07.09-18.40.06:153][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.07.09-18.40.06:165][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.07.09-18.40.06:177][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.07.09-18.40.06:189][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.07.09-18.40.06:201][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.07.09-18.40.06:213][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.07.09-18.40.06:224][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.07.09-18.40.06:300][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.07.09-18.40.06:313][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.07.09-18.40.06:325][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.07.09-18.40.06:339][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.07.09-18.40.06:339][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.07.09-18.40.06:559][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.07.09-18.40.06:612][  0]LogDerivedDataCache: Loaded boot cache 0.05s 53MB C:/Users/Matthias/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.07.09-18.40.06:612][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Matthias/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc
+[2015.07.09-18.40.06:612][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Matthias/Desktop/Kraken/Kraken/Unreal/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.07.09-18.40.06:612][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.07.09-18.40.06:612][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Matthias/Desktop/Kraken/Kraken/Unreal/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.07.09-18.40.06:612][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.07.09-18.40.06:765][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.07.09-18.40.06:776][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Matthias/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.07.09-18.40.07:250][  0]ImportText (ComponentSweepMultiTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",ShapeType="TriggerCapsule",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.07.09-18.40.07:251][  0]ImportText (LineTraceSingleByChannelTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.07.09-18.40.07:258][  0]LogInit: Selected Device Profile: [Windows]
+[2015.07.09-18.40.07:350][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.07.09-18.40.07:350][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.07.09-18.40.07:681][  0]LogMaterial: Missing cached shader map for material WorldGridMaterial, compiling. Is special engine material.
+[2015.07.09-18.40.32:035][  0]LogMaterial: Missing cached shader map for material DefaultDeferredDecalMaterial, compiling. 
+[2015.07.09-18.40.32:336][  0]LogMaterial: Missing cached shader map for material DefaultLightFunctionMaterial, compiling. 
+[2015.07.09-18.40.32:424][  0]LogMaterial: Missing cached shader map for material DefaultPostProcessMaterial, compiling. 
+[2015.07.09-18.40.32:723][  0]LogMaterial: Missing cached shader map for material SkySphereMaterial, compiling. 
+[2015.07.09-18.40.32:731][  0]LogMaterial: Missing cached shader map for material FloorPlaneMaterial, compiling. 
+[2015.07.09-18.40.32:803][  0]LogMaterial: Missing cached shader map for material LandscapeGizmo_Mat, compiling. 
+[2015.07.09-18.40.32:816][  0]LogMaterial: Missing cached shader map for material LandscapeGizmoHeight_Mat, compiling. 
+[2015.07.09-18.40.32:833][  0]LogMaterial: Missing cached shader map for material SplineEditorMeshMat, compiling. 
+[2015.07.09-18.40.32:841][  0]LogMaterial: Missing cached shader map for material Widget3DPassThrough, compiling. 
+[2015.07.09-18.40.32:846][  0]LogMaterial: Missing cached shader map for material Widget3DPassThrough, compiling. 
+[2015.07.09-18.40.32:850][  0]LogMaterial: Missing cached shader map for material Widget3DPassThrough, compiling. 
+[2015.07.09-18.40.32:858][  0]LogMaterial: Missing cached shader map for material Widget3DPassThrough, compiling. 
+[2015.07.09-18.40.32:868][  0]LogMaterial: Missing cached shader map for material MatineeCam_mat, compiling. 
+[2015.07.09-18.40.32:899][  0]LogMaterial: Missing cached shader map for material HelpActorMaterial, compiling. 
+[2015.07.09-18.40.32:945][  0]LogMaterial: Missing cached shader map for material DefaultTextMaterialOpaque, compiling. 
+[2015.07.09-18.40.33:007][  0]LogMaterial: Missing cached shader map for material DefaultMaterial, compiling. 
+[2015.07.09-18.40.33:192][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.07.09-18.40.34:380][  0]LogWindowsMoviePlayer: Unable to load movie: ../../../../../../Users/Matthias/Desktop/Kraken/Kraken/Unreal/Content/Movies/Default_Startup.mp4
+[2015.07.09-18.40.34:588][  0]LogMaterial: Missing cached shader map for material DefaultSpriteMaterial, compiling. 
+[2015.07.09-18.40.34:592][  0]LogMaterial: Missing cached shader map for material DefaultSpriteMaterial, compiling. 
+[2015.07.09-18.40.34:697][  0]SourceControl: Info Source control is disabled
+[2015.07.09-18.40.34:697][  0]SourceControl: Info Source control is disabled
+[2015.07.09-18.40.34:753][  0]SourceControl: Info Source control is disabled
+[2015.07.09-18.40.35:132][  0]LogMaterial: Missing cached shader map for material LM_HandColor, compiling. 
+[2015.07.09-18.40.35:343][  0]LogObj: 25781 objects as part of root set at end of initial load.
+[2015.07.09-18.40.35:343][  0]LogUObjectAllocator: 5195976 out of 0 bytes used by permanent object pool.
+[2015.07.09-18.40.35:382][  0]LogMaterial: Missing cached shader map for material HighResScreenshot, compiling. 
+[2015.07.09-18.40.35:385][  0]LogMaterial: Missing cached shader map for material HighResScreenshotMask, compiling. 
+[2015.07.09-18.40.35:392][  0]LogMaterial: Missing cached shader map for material HighResScreenshotCaptureRegion, compiling. 
+[2015.07.09-18.40.35:416][  0]LogAutomationTest:Warning: ERR: Transient text cannot be serialized "Testing Transient serialization detection".
+[2015.07.09-18.40.35:416][  0]LogEngine: Initializing Engine...
+[2015.07.09-18.40.35:419][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
+[2015.07.09-18.40.35:420][  0]LogHMD:Warning: SteamVR failed to initialize.  Error: 110
+[2015.07.09-18.40.35:433][  0]LogMaterial: Missing cached shader map for material WireframeMaterial, compiling. Is special engine material.
+[2015.07.09-18.40.35:447][  0]LogMaterial: Missing cached shader map for material LevelColorationLitMaterial, compiling. Is special engine material.
+[2015.07.09-18.40.35:504][  0]LogMaterial: Missing cached shader map for material LevelColorationUnlitMaterial, compiling. Is special engine material.
+[2015.07.09-18.40.35:518][  0]LogMaterial: Missing cached shader map for material MAT_LevelColorationLitLightmapUV, compiling. Is special engine material.
+[2015.07.09-18.40.35:518][  0]LogMaterial:Warning: Failed to compile Material /Engine/EngineDebugMaterials/MAT_LevelColorationLitLightmapUV.MAT_LevelColorationLitLightmapUV for platform PCD3D_ES2, Default Material will be used in game.
+[2015.07.09-18.40.35:519][  0]LogMaterial:Warning: 	(Node LightmapUVs) Node not supported in feature level ES2
+[2015.07.09-18.40.35:523][  0]LogMaterial: Missing cached shader map for material ShadedLevelColorationLitMaterial, compiling. Is special engine material.
+[2015.07.09-18.40.35:589][  0]LogMaterial: Missing cached shader map for material ShadedLevelColorationUnlitMateri, compiling. Is special engine material.
+[2015.07.09-18.40.35:601][  0]LogMaterial: Missing cached shader map for material VertexColorMaterial, compiling. 
+[2015.07.09-18.40.35:613][  0]LogMaterial: Missing cached shader map for material VertexColorViewMode_ColorOnly, compiling. 
+[2015.07.09-18.40.35:617][  0]LogMaterial: Missing cached shader map for material VertexColorViewMode_AlphaAsColor, compiling. 
+[2015.07.09-18.40.35:621][  0]LogMaterial: Missing cached shader map for material VertexColorViewMode_RedOnly, compiling. 
+[2015.07.09-18.40.35:624][  0]LogMaterial: Missing cached shader map for material VertexColorViewMode_GreenOnly, compiling. 
+[2015.07.09-18.40.35:629][  0]LogMaterial: Missing cached shader map for material VertexColorViewMode_BlueOnly, compiling. 
+[2015.07.09-18.40.35:633][  0]LogMaterial: Missing cached shader map for material RemoveSurfaceMaterial, compiling. 
+[2015.07.09-18.40.35:636][  0]LogMaterial: Missing cached shader map for material DebugMeshMaterial, compiling. 
+[2015.07.09-18.40.35:642][  0]LogMaterial: Missing cached shader map for material M_InvalidLightmapSettings, compiling. 
+[2015.07.09-18.40.35:650][  0]LogMaterial: Missing cached shader map for material GizmoMaterial, compiling. 
+[2015.07.09-18.40.35:661][  0]LogInit: XAudio2 using 'Headset (Sound Blaster Tactic(3D) Alpha)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.09-18.40.35:669][  0]LogInit: FAudioDevice initialized.
+[2015.07.09-18.40.35:672][  0]LogInit: Texture streaming: Disabled
+[2015.07.09-18.40.35:674][  0]LogMaterial: Missing cached shader map for material BaseColor, compiling. 
+[2015.07.09-18.40.35:678][  0]LogMaterial: Missing cached shader map for material CustomDepth, compiling. 
+[2015.07.09-18.40.35:681][  0]LogMaterial: Missing cached shader map for material DecalMask, compiling. 
+[2015.07.09-18.40.35:684][  0]LogMaterial: Missing cached shader map for material FinalImage, compiling. 
+[2015.07.09-18.40.35:688][  0]LogMaterial: Missing cached shader map for material LightingModel, compiling. 
+[2015.07.09-18.40.35:691][  0]LogMaterial: Missing cached shader map for material MaterialAO, compiling. 
+[2015.07.09-18.40.35:693][  0]LogMaterial: Missing cached shader map for material Metallic, compiling. 
+[2015.07.09-18.40.35:697][  0]LogMaterial: Missing cached shader map for material Opacity, compiling. 
+[2015.07.09-18.40.35:700][  0]LogMaterial: Missing cached shader map for material Roughness, compiling. 
+[2015.07.09-18.40.35:704][  0]LogMaterial: Missing cached shader map for material SceneColor, compiling. 
+[2015.07.09-18.40.35:707][  0]LogMaterial: Missing cached shader map for material SceneDepth, compiling. 
+[2015.07.09-18.40.35:711][  0]LogMaterial: Missing cached shader map for material SeparateTranslucencyRGB, compiling. 
+[2015.07.09-18.40.35:713][  0]LogMaterial: Missing cached shader map for material SeparateTranslucencyA, compiling. 
+[2015.07.09-18.40.35:716][  0]LogMaterial: Missing cached shader map for material Specular, compiling. 
+[2015.07.09-18.40.35:720][  0]LogMaterial: Missing cached shader map for material SubsurfaceColor, compiling. 
+[2015.07.09-18.40.35:722][  0]LogMaterial: Missing cached shader map for material WorldNormal, compiling. 
+[2015.07.09-18.40.35:726][  0]LogMaterial: Missing cached shader map for material AmbientOcclusion, compiling. 
+[2015.07.09-18.40.35:731][  0]LogMaterial: Missing cached shader map for material CustomDepthWorldUnits, compiling. 
+[2015.07.09-18.40.35:735][  0]LogMaterial: Missing cached shader map for material SceneDepthWorldUnits, compiling. 
+[2015.07.09-18.40.35:888][  0]LogNet: Browse: /Temp/Autosaves/Game/Maps/UEDPCMap?Name=Player
+[2015.07.09-18.40.35:889][  0]LogLoad: LoadMap: /Temp/Autosaves/Game/Maps/UEDPCMap?Name=Player
+[2015.07.09-18.40.35:903][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000FB7EE80
+[2015.07.09-18.40.35:913][  0]LogMemory: Platform Memory Stats for Windows
+[2015.07.09-18.40.35:913][  0]LogMemory: Process Physical Memory: 409.02 MB used, 409.02 MB peak
+[2015.07.09-18.40.35:913][  0]LogMemory: Process Virtual Memory: 365.73 MB used, 368.74 MB peak
+[2015.07.09-18.40.35:913][  0]LogMemory: Physical Memory: 6128.06 MB used, 16322.78 MB total
+[2015.07.09-18.40.35:913][  0]LogMemory: Virtual Memory: 878.88 MB used, 8388608.00 MB total
+[2015.07.09-18.40.35:913][  0]LogMemory: 
+[2015.07.09-18.40.35:913][  0]Allocator Stats for TBB: (not implemented)
+[2015.07.09-18.40.36:389][  0]LogMaterial: Missing cached shader map for material mat_tentacle, compiling. 
+[2015.07.09-18.40.36:400][  0]LogMaterial: Missing cached shader map for material M_Water, compiling. 
+[2015.07.09-18.40.36:421][  0]LogMaterial: Missing cached shader map for material M_Water_T, compiling. 
+[2015.07.09-18.40.36:431][  0]LogMaterial: Missing cached shader map for material M_Sky_Panning_Clouds2, compiling. 
+[2015.07.09-18.40.36:504][  0]LogAIModule: Creating AISystem for world Map
+[2015.07.09-18.40.36:505][  0]LogWorld: Game class is 'BP_Gamemode_C'
+[2015.07.09-18.40.36:534][  0]LogWorld: Bringing World /Temp/Autosaves/Game/Maps/UEDPCMap.Map up for play (max tick rate 0) at 2015.07.09-20.40.36
+[2015.07.09-18.40.36:537][  0]LogWorld: Bringing up level for play took: 0.004587
+[2015.07.09-18.40.36:552][  0]LogInit:Display: Game Engine Initialized.
+[2015.07.09-18.40.36:854][  0]LogAssetRegistry: FAssetRegistry took 0.0002 seconds to start up
+[2015.07.09-18.40.36:854][  0]
