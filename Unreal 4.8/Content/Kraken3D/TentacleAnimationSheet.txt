@@ -1,5 +1,0 @@
-Tentacle Animations :
-
-0 - 30 : CrazyAnimation
-40 - 60 : DyingAnimation
-65 - 95 : IdleAnimation
