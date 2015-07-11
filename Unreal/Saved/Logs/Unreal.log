@@ -1,3 +1,713 @@
+<<<<<<< HEAD
+﻿[2015.07.11-10.57.09:712][  0]Log file open, 07/11/15 12:57:09
+[2015.07.11-10.57.09:712][  0]LogInit:Display: Running engine for game: Unreal
+[2015.07.11-10.57.09:712][  0]LogInit:Display: RandInit(-1015311986) SRandInit(-1015311985).
+[2015.07.11-10.57.09:712][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.07.11-10.57.09:712][  0]LogStats: Stats thread started
+[2015.07.11-10.57.09:712][  0]LogInit: Version: 4.8.1-2591939+++depot+UE4-Releases+4.8
+[2015.07.11-10.57.09:712][  0]LogInit: API Version: 2579680
+[2015.07.11-10.57.09:712][  0]LogInit: Compiled (64-bit): Jun 18 2015 11:02:04
+[2015.07.11-10.57.09:712][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.07.11-10.57.09:712][  0]LogInit: Build Configuration: Development
+[2015.07.11-10.57.09:712][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.8
+[2015.07.11-10.57.09:712][  0]LogInit: Command line:  
+[2015.07.11-10.57.09:712][  0]LogInit: Base directory: D:/Programme/Epic Games/4.8/Engine/Binaries/Win64/
+[2015.07.11-10.57.09:712][  0]LogInit: Rocket: 1
+[2015.07.11-10.57.09:722][  0]LogInit: Using libcurl 7.41.0
+[2015.07.11-10.57.09:722][  0]LogInit:  - built for x86_64-pc-win32
+[2015.07.11-10.57.09:722][  0]LogInit:  - supports SSL with WinSSL
+[2015.07.11-10.57.09:722][  0]LogInit:  - other features:
+[2015.07.11-10.57.09:722][  0]LogInit:      CURL_VERSION_SSL
+[2015.07.11-10.57.09:722][  0]LogInit:      CURL_VERSION_IPV6
+[2015.07.11-10.57.09:722][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.07.11-10.57.09:722][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.07.11-10.57.09:722][  0]LogInit:      CURL_VERSION_IDN
+[2015.07.11-10.57.09:722][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.07.11-10.57.09:722][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.07.11-10.57.09:722][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.07.11-10.57.09:722][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.07.11-10.57.09:722][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.07.11-10.57.09:729][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.07.11-10.57.09:738][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.07.11-10.57.09:744][  0]LogInit: Object subsystem initialized
+[2015.07.11-10.57.09:745][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.07.11-10.57.09:745][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Jakob/Desktop/Radius Jam/Kraken/Unreal/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.07.11-10.57.09:745][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.07.11-10.57.09:745][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Jakob/Desktop/Radius Jam/Kraken/Unreal/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.07.11-10.57.09:745][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.07.11-10.57.09:745][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Jakob/Desktop/Radius Jam/Kraken/Unreal/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.07.11-10.57.09:745][  0]LogInit: Selected Device Profile: [Windows]
+[2015.07.11-10.57.09:745][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.07.11-10.57.09:750][  0]LogInit: Computer: MSI_GS70
+[2015.07.11-10.57.09:750][  0]LogInit: User: Jakob
+[2015.07.11-10.57.09:750][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.07.11-10.57.09:750][  0]LogInit: High frequency timer resolution =2.435779 MHz
+[2015.07.11-10.57.09:750][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2015.07.11-10.57.09:750][  0]LogMemory: Platform Memory Stats for Windows
+[2015.07.11-10.57.09:750][  0]LogMemory: Process Physical Memory: 49.09 MB used, 49.09 MB peak
+[2015.07.11-10.57.09:750][  0]LogMemory: Process Virtual Memory: 23.26 MB used, 23.26 MB peak
+[2015.07.11-10.57.09:750][  0]LogMemory: Physical Memory: 3648.57 MB used, 8111.15 MB total
+[2015.07.11-10.57.09:750][  0]LogMemory: Virtual Memory: 296.59 MB used, 134217728.00 MB total
+[2015.07.11-10.57.10:033][  0]LogTextLocalizationManager: The requested culture ('de_AT') has no localization data; falling back to 'en' for localization and internationalization data.
+[2015.07.11-10.57.10:231][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Localization Resource: (D:/Programme/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (-630476809) Localized String: (Import to {0}...)
+Localization Resource: (D:/Programme/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (1271782899) Localized String: (Imports an asset from file to this folder.)
+[2015.07.11-10.57.10:754][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 860M  (Feature Level 11_0)
+[2015.07.11-10.57.10:754][  0]LogD3D11RHI: Adapter has 1986MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 1 output[s]
+[2015.07.11-10.57.10:760][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 4600 (Feature Level 11_0)
+[2015.07.11-10.57.10:760][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 1792MB of shared system memory, 0 output[s]
+[2015.07.11-10.57.10:760][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.07.11-10.57.10:761][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.07.11-10.57.10:761][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.07.11-10.57.10:764][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.07.11-10.57.10:775][  0]LogD3D11RHI: Async texture creation enabled
+[2015.07.11-10.57.10:793][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.07.11-10.57.11:499][  0]LogTemp:Display: Loaded TP DesktopTargetPlatform
+[2015.07.11-10.57.11:508][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.07.11-10.57.11:518][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.07.11-10.57.11:528][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.07.11-10.57.11:539][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.07.11-10.57.11:547][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.07.11-10.57.11:555][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.07.11-10.57.11:563][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.07.11-10.57.11:572][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.07.11-10.57.11:580][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.07.11-10.57.11:589][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.07.11-10.57.11:597][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.07.11-10.57.11:633][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.07.11-10.57.11:641][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.07.11-10.57.11:649][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.07.11-10.57.11:659][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.07.11-10.57.11:659][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.07.11-10.57.11:793][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.07.11-10.57.11:846][  0]LogDerivedDataCache: Loaded boot cache 0.05s 53MB C:/Users/Jakob/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.07.11-10.57.11:846][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Jakob/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc
+[2015.07.11-10.57.11:846][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Jakob/Desktop/Radius Jam/Kraken/Unreal/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.07.11-10.57.11:846][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.07.11-10.57.11:846][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Jakob/Desktop/Radius Jam/Kraken/Unreal/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.07.11-10.57.11:846][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.07.11-10.57.11:979][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.07.11-10.57.11:991][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Jakob/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.07.11-10.57.12:160][  0]LogInit: Selected Device Profile: [Windows]
+[2015.07.11-10.57.12:229][  0]ImportText (ComponentSweepMultiTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",ShapeType="TriggerCapsule",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.07.11-10.57.12:229][  0]ImportText (LineTraceSingleByChannelTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.07.11-10.57.12:247][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.07.11-10.57.12:247][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.07.11-10.57.12:503][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.07.11-10.57.13:226][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.07.11-10.57.13:476][  0]SourceControl: Info Source control is disabled
+[2015.07.11-10.57.13:497][  0]SourceControl: Info Source control is disabled
+[2015.07.11-10.57.13:503][  0]SourceControl: Info Source control is disabled
+[2015.07.11-10.57.13:509][  0]SourceControl: Info Source control is disabled
+[2015.07.11-10.57.13:657][  0]LogObj: 26273 objects as part of root set at end of initial load.
+[2015.07.11-10.57.13:657][  0]LogUObjectAllocator: 5409248 out of 0 bytes used by permanent object pool.
+[2015.07.11-10.57.13:714][  0]LogEngine: Initializing Engine...
+[2015.07.11-10.57.13:716][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
+[2015.07.11-10.57.13:717][  0]LogHMD:Warning: SteamVR failed to initialize.  Error: 110
+[2015.07.11-10.57.13:836][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.07.11-10.57.13:839][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.07.11-10.57.14:192][  0]LogInit: FAudioDevice initialized.
+[2015.07.11-10.57.14:225][  0]LogDerivedDataCache: Saved boot cache 0.03s 53MB C:/Users/Jakob/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.07.11-10.57.14:231][  0]LogInit: Texture streaming: Disabled
+[2015.07.11-10.57.14:245][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.07.11-10.57.14:245][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.8.1-2591939+++depot+UE4-Releases+4.8
+[2015.07.11-10.57.14:245][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 2ba9d0d049d2972117b151bc0c3acc28|4533cdaded26474d9ed1abf6b6e619aa|be7c777f-62af-4e3f-abb2-ee0a44546db9
+[2015.07.11-10.57.14:245][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.07.11-10.57.14:276][  0]LogInit: Transaction tracking system initialized
+[2015.07.11-10.57.14:355][  0]BlueprintLog: New page: Editor Load
+[2015.07.11-10.57.14:380][  0]LogAssetRegistry: FAssetRegistry took 0.0104 seconds to start up
+[2015.07.11-10.57.14:381][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.07.11-10.57.14:846][  0]LogConsoleManager:Warning: Console variable 'r.VSync' wasn't set ('GameSetting' has a lower priority than 'SystemSettingsIni')
+[2015.07.11-10.57.14:846][  0]LogConsoleResponse:Display: 
+[2015.07.11-10.57.14:924][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.07.11-10.57.15:041][  0]SourceControl: Info Source control is disabled
+[2015.07.11-10.57.15:041][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.07.11-10.57.15:042][  0]LightingResults: New page: Lighting Build
+[2015.07.11-10.57.15:049][  0]MapCheck: New page: Map Check
+[2015.07.11-10.57.15:049][  0]LightingResults: New page: Lighting Build
+[2015.07.11-10.57.15:057][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B30E72C9A0
+[2015.07.11-10.57.15:365][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2015.07.11-10.57.15:370][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.07.11-10.57.15:377][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.07.11-10.57.15:405][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 27.573ms to complete.
+[2015.07.11-10.57.15:405][  0]LogFileHelpers: Loading map 'Template_Default' took 0.364
+[2015.07.11-10.57.15:505][  0]LogCollectionManager: Loaded 0 collections in 0.001124 seconds
+[2015.07.11-10.57.15:512][  0]LogContentBrowser: Native class hierarchy populated in 0.0063 seconds. Added 1792 classes and 301 folders.
+[2015.07.11-10.57.15:538][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2015.07.11-10.57.15:559][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2015.07.11-10.57.15:569][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2015.07.11-10.57.15:620][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.07.11-10.57.15:624][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.07.11-10.57.15:646][  0]LogLoad: Full Startup: 7.04 seconds (BP compile: 0.12 seconds)
+[2015.07.11-10.57.15:731][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.07.11-10.57.15:760][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.07.11-10.57.15:878][  0]LogRenderer: Reallocating scene render targets to support 1208x576 (Frame:2).
+[2015.07.11-10.57.16:252][  7]LogAssetRegistry: Asset discovery search completed in 1.8817 seconds
+[2015.07.11-10.59.22:420][762]LogAIModule: Creating AISystem for world Singleplayer
+[2015.07.11-10.59.22:620][762]Cmd: MAP LOAD FILE="C:/Users/Jakob/Desktop/Radius Jam/Kraken/Unreal/Content/Maps/Singleplayer.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.07.11-10.59.22:620][762]LightingResults: New page: Lighting Build
+[2015.07.11-10.59.22:658][762]LoadErrors: New page: Loading map: Singleplayer.umap
+[2015.07.11-10.59.22:659][762]MapCheck: New page: Map Check
+[2015.07.11-10.59.22:659][762]LightingResults: New page: Lighting Build
+[2015.07.11-10.59.22:668][762]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B314B86A20
+[2015.07.11-10.59.22:793][762]LogAIModule: Creating AISystem for world Singleplayer
+[2015.07.11-10.59.22:828][762]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.07.11-10.59.22:848][762]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.07.11-10.59.23:146][762]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 297.23ms to complete.
+[2015.07.11-10.59.23:147][762]LogFileHelpers: Loading map 'Singleplayer' took 0.527
+[2015.07.11-11.01.37:593][698]LogEditorViewport: Clicking on Actor (LMB): BP_Path_C (BP_Path6)
+[2015.07.11-11.01.41:332][922]LogEditorViewport: Clicking on Actor (LMB): BP_Path_C (BP_Path3)
+[2015.07.11-11.01.43:492][ 50]LogEditorViewport: Clicking on Actor (LMB): BP_Path_C (BP_Path2)
+[2015.07.11-11.01.46:317][219]LogEditorViewport: Clicking on Actor (LMB): BP_Path_C (BP_Path5)
+[2015.07.11-11.01.47:544][292]LogEditorViewport: Clicking on Actor (LMB): BP_Path_C (BP_Path7)
+[2015.07.11-11.01.50:346][460]LogEditorViewport: Clicking on Actor (LMB): BP_Path_C (BP_Path4)
+[2015.07.11-11.01.58:407][943]LogEditorViewport: Clicking on Actor (LMB): BP_Path_C (BP_Path2)
+[2015.07.11-11.02.02:769][204]LogEditorViewport: Clicking on Actor (LMB): BP_Path_C (BP_Path2)
+[2015.07.11-11.02.38:443][254]LogEditorViewport: Clicking on Actor (LMB): BP_Path_C (BP_Path2)
+[2015.07.11-11.03.06:345][902]LogEditorViewport: Clicking on Actor (LMB): BP_Path_C (BP_Path2)
+[2015.07.11-11.03.40:262][883]LogEditorViewport: Clicking Background
+[2015.07.11-11.03.42:306][  6]LogEditorViewport: Clicking on Actor (LMB): BP_Path_C (BP_Path2)
+[2015.07.11-11.03.44:282][124]LogEditorViewport: Clicking on Actor (LMB): BP_Path_C (BP_Path3)
+[2015.07.11-11.03.49:886][457]LogEditorViewport: Clicking Background
+[2015.07.11-11.03.50:319][483]LogEditorViewport: Clicking on Actor (LMB): BP_Path_C (BP_Path3)
+[2015.07.11-11.03.53:555][676]LogEditorViewport: Clicking Background
+[2015.07.11-11.03.54:040][705]LogEditorViewport: Clicking on Actor (LMB): BP_Path_C (BP_Path3)
+[2015.07.11-11.05.16:484][481]LogEditorViewport: Clicking on Actor (LMB): BP_Path_C (BP_Path3)
+[2015.07.11-11.05.20:063][692]LogEditorViewport: Clicking on Actor (LMB): BP_Path_C (BP_Path4)
+[2015.07.11-11.05.25:527][ 19]LogEditorViewport: Clicking on Actor (LMB): BP_Path_C (BP_Path4)
+[2015.07.11-11.05.28:842][217]LogEditorViewport: Clicking on Actor (LMB): BP_Path_C (BP_Path4)
+[2015.07.11-11.06.02:887][197]LogEditorViewport: Clicking Background
+[2015.07.11-11.06.04:320][283]LogEditorViewport: Clicking on Actor (LMB): BP_Path_C (BP_Path4)
+[2015.07.11-11.06.33:223][981]LogEditorViewport: Clicking on Actor (LMB): BP_Path_C (BP_Path4)
+[2015.07.11-11.06.54:745][254]LogEditorViewport: Clicking Background
+[2015.07.11-11.06.56:847][380]LogEditorViewport: Clicking on Actor (LMB): BP_Path_C (BP_Path2)
+[2015.07.11-11.06.58:051][452]LogEditorViewport: Clicking on Actor (LMB): BP_Path_C (BP_Path3)
+[2015.07.11-11.06.59:224][522]LogEditorViewport: Clicking on Actor (LMB): BP_Path_C (BP_Path4)
+[2015.07.11-11.07.01:263][644]LogEditorViewport: Clicking on Actor (LMB): BP_Path_C (BP_Path8)
+[2015.07.11-11.07.04:436][833]LogEditorViewport: Clicking on Actor (LMB): BP_Path_C (BP_Path)
+[2015.07.11-11.07.10:381][189]LogEditorViewport: Clicking on Actor (LMB): BP_Path_C (BP_Path8)
+[2015.07.11-11.07.14:958][463]Cmd: TRANSACTION UNDO
+[2015.07.11-11.07.14:977][463]LogEditorTransaction: Undo Move Actors
+[2015.07.11-11.08.55:543][353]LogEditorViewport: Clicking Background
+[2015.07.11-11.09.05:393][944]LogEditorViewport: Clicking on Actor (LMB): BP_Path_C (BP_Path8)
+[2015.07.11-11.09.10:014][220]LogEditorViewport: Clicking on Actor (LMB): TriggerBox (TriggerBox3)
+[2015.07.11-11.09.15:734][557]LogEditorViewport: Clicking on Actor (LMB): BP_Path_C (BP_Path4)
+[2015.07.11-11.09.17:096][638]LogEditorViewport: Clicking on Actor (LMB): BP_Path_C (BP_Path3)
+[2015.07.11-11.09.17:916][687]LogEditorViewport: Clicking on Actor (LMB): BP_Path_C (BP_Path2)
+[2015.07.11-11.09.18:808][740]LogEditorViewport: Clicking on Actor (LMB): BP_Path_C (BP_Path3)
+[2015.07.11-11.09.19:629][789]LogEditorViewport: Clicking on Actor (LMB): BP_Path_C (BP_Path4)
+[2015.07.11-11.09.23:678][ 31]LogEditorViewport: Clicking on Actor (LMB): BP_Path_C (BP_Path8)
+[2015.07.11-11.09.25:183][121]LogEditorViewport: Clicking on Actor (LMB): BP_Path_C (BP_Path)
+[2015.07.11-11.09.26:989][229]LogEditorViewport: Clicking on Actor (LMB): BP_Path_C (BP_Path7)
+[2015.07.11-11.09.34:933][702]Cmd: TRANSACTION UNDO
+[2015.07.11-11.09.34:933][702]LogEditorTransaction: Undo Marquee Select
+[2015.07.11-11.09.37:097][819]Cmd: TRANSACTION UNDO
+[2015.07.11-11.09.37:097][819]LogEditorTransaction: Undo Move Actors
+[2015.07.11-11.09.47:799][433]LogEditorViewport: Clicking on Actor (LMB): PaperFlipbookActor (water)
+[2015.07.11-11.09.48:976][502]Cmd: TRANSACTION UNDO
+[2015.07.11-11.09.48:976][502]LogEditorTransaction: Undo Clicking on Actors
+[2015.07.11-11.09.58:014][ 19]Cmd: TRANSACTION UNDO
+[2015.07.11-11.09.58:014][ 19]LogEditorTransaction: Undo Marquee Select
+[2015.07.11-11.10.37:624][327]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComponent0) Not registered. Aborting.
+[2015.07.11-11.10.37:733][327]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Singleplayer" FILE="C:/Users/Jakob/Desktop/Radius Jam/Kraken/Unreal/Saved/Autosaves/Game/Maps/Singleplayer_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2015.07.11-11.10.37:817][327]LogSavePackage: Save=77.198303ms
+[2015.07.11-11.10.37:817][327]LogSavePackage: Moving 'C:/Users/Jakob/Desktop/Radius Jam/Kraken/Unreal/Saved/Singleplayer_Auto1E33325564738899D08FD7FBF9AB95761.tmp' to 'C:/Users/Jakob/Desktop/Radius Jam/Kraken/Unreal/Saved/Autosaves/Game/Maps/Singleplayer_Auto1.umap'
+[2015.07.11-11.10.37:846][327]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Singleplayer' took 0.223
+[2015.07.11-11.10.37:846][327]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.223
+[2015.07.11-11.12.02:142][233]Cmd: TRANSACTION UNDO
+[2015.07.11-11.12.02:142][233]LogEditorTransaction: Undo Marquee Select
+[2015.07.11-11.12.24:964][584]LogEditorViewport: Clicking on Actor (LMB): BP_Path_C (BP_Path6)
+[2015.07.11-11.13.16:087][569]LogEditorViewport: Clicking on Actor (LMB): BP_Path_C (BP_Path5)
+[2015.07.11-11.13.17:701][665]LogEditorViewport: Clicking on Actor (LMB): BP_Path_C (BP_Path7)
+[2015.07.11-11.13.18:409][707]LogEditorViewport: Clicking on Actor (LMB): BP_Path_C (BP_Path)
+[2015.07.11-11.13.19:216][755]LogEditorViewport: Clicking on Actor (LMB): BP_Path_C (BP_Path6)
+[2015.07.11-11.13.20:231][815]LogEditorViewport: Clicking on Actor (LMB): BP_Path_C (BP_Path5)
+[2015.07.11-11.13.36:258][746]LogEditorViewport: Clicking Background
+[2015.07.11-11.13.37:509][821]LogEditorViewport: Clicking on Actor (LMB): BP_Path_C (BP_Path9)
+[2015.07.11-11.14.10:511][741]Cmd: TRANSACTION UNDO
+[2015.07.11-11.14.10:512][741]LogEditorTransaction: Undo Marquee Select
+[2015.07.11-11.14.14:569][973]LogEditorViewport: Clicking Background
+[2015.07.11-11.14.20:786][346]LogEditorViewport: Clicking on Actor (LMB): BP_Path_C (BP_Path)
+[2015.07.11-11.14.22:309][437]LogEditorViewport: Clicking on Actor (LMB): BP_Path_C (BP_Path8)
+[2015.07.11-11.14.23:507][507]LogEditorViewport: Clicking on Actor (LMB): BP_Path_C (BP_Path4)
+[2015.07.11-11.14.31:689][997]LogEditorViewport: Clicking on Actor (LMB): BP_Path_C (BP_Path9)
+[2015.07.11-11.14.36:116][262]LogEditorViewport: Clicking on Actor (LMB): BP_Path_C (BP_Path)
+[2015.07.11-11.14.37:737][359]LogEditorViewport: Clicking on Actor (LMB): BP_Path_C (BP_Path9)
+[2015.07.11-11.14.46:422][874]LogEditorViewport: Clicking on Actor (LMB): BP_Path_C (BP_Path8)
+[2015.07.11-11.14.47:466][936]LogEditorViewport: Clicking on Actor (LMB): BP_Path_C (BP_Path)
+[2015.07.11-11.14.49:721][ 71]LogEditorViewport: Clicking on Actor (LMB): BP_Path_C (BP_Path7)
+[2015.07.11-11.14.53:387][289]Cmd: TRANSACTION UNDO
+[2015.07.11-11.14.53:387][289]LogEditorTransaction: Undo Marquee Select
+[2015.07.11-11.14.56:740][476]LogEditorViewport: Clicking on Actor (LMB): BP_Path_C (BP_Path6)
+[2015.07.11-11.15.09:695][244]LogEditorViewport: Clicking on Actor (LMB): BP_Path_C (BP_Path5)
+[2015.07.11-11.15.13:173][452]Cmd: TRANSACTION UNDO
+[2015.07.11-11.15.13:173][452]LogEditorTransaction: Undo Marquee Select
+[2015.07.11-11.15.20:443][873]LogEditorViewport: Clicking on Actor (LMB): BP_Path_C (BP_Path9)
+[2015.07.11-11.15.22:808][ 14]LogEditorViewport: Clicking on Actor (LMB): BP_Path_C (BP_Path4)
+[2015.07.11-11.15.26:659][243]LogEditorViewport: Clicking on Actor (LMB): BP_Path_C (BP_Path3)
+[2015.07.11-11.15.28:571][357]LogEditorViewport: Clicking on Actor (LMB): BP_Path_C (BP_Path2)
+[2015.07.11-11.15.30:705][484]LogEditorViewport: Clicking on Actor (LMB): BP_Path_C (BP_Path6)
+[2015.07.11-11.15.32:307][579]LogEditorViewport: Clicking on Actor (LMB): BP_Path_C (BP_Path7)
+[2015.07.11-11.15.46:080][381]LogEditorViewport: Clicking on Actor (LMB): BP_Path_C (BP_Path5)
+[2015.07.11-11.15.47:226][449]LogEditorViewport: Clicking on Actor (LMB): BP_Path_C (BP_Path9)
+[2015.07.11-11.15.53:313][810]LogEditorViewport: Clicking on Actor (LMB): BP_Path_C (BP_Path3)
+[2015.07.11-11.15.54:128][858]LogEditorViewport: Clicking on Actor (LMB): BP_Path_C (BP_Path2)
+[2015.07.11-11.16.20:708][349]LogEditorViewport: Clicking on Actor (LMB): BP_Path_C (BP_Path9)
+[2015.07.11-11.16.21:678][406]LogEditorViewport: Clicking on Actor (LMB): BP_Path_C (BP_Path5)
+[2015.07.11-11.16.22:539][457]LogEditorViewport: Clicking on Actor (LMB): BP_Path_C (BP_Path13)
+[2015.07.11-11.16.30:973][945]Cmd: TRANSACTION UNDO
+[2015.07.11-11.16.30:973][945]LogEditorTransaction: Undo Marquee Select
+[2015.07.11-11.16.44:680][711]LogEditorViewport: Clicking on Actor (LMB): BP_Path_C (BP_Path12)
+[2015.07.11-11.17.11:402][204]LogEditorViewport: Clicking on Actor (LMB): BP_Path_C (BP_Path14)
+[2015.07.11-11.17.42:084][945]LogEditorViewport: Clicking on Actor (LMB): BP_Path_C (BP_Path8)
+[2015.07.11-11.17.44:772][105]LogEditorViewport: Clicking on Actor (LMB): BP_Path_C (BP_Path11)
+[2015.07.11-11.18.18:046][963]LogEditorViewport: Clicking on Actor (LMB): BP_Path_C (BP_Path10)
+[2015.07.11-11.20.23:557][195]Cmd: TRANSACTION UNDO
+[2015.07.11-11.20.23:557][195]LogEditorTransaction: Undo Marquee Select
+[2015.07.11-11.21.19:364][454]LogEditorViewport: Clicking Background
+[2015.07.11-11.21.21:733][596]LogEditorViewport: Clicking on Actor (LMB): BP_Path_C (BP_Path10)
+[2015.07.11-11.21.32:410][224]LogEditorViewport: Clicking Background
+[2015.07.11-11.21.47:702][107]Cmd: TRANSACTION UNDO
+[2015.07.11-11.21.47:702][107]LogEditorTransaction: Undo Marquee Select
+[2015.07.11-11.21.56:043][589]Cmd: TRANSACTION UNDO
+[2015.07.11-11.21.56:043][589]LogEditorTransaction: Undo Marquee Select
+[2015.07.11-11.22.24:939][261]LogEditorViewport: Clicking Background
+[2015.07.11-11.22.26:106][331]LogEditorViewport: Clicking on Actor (LMB): BP_Path_C (BP_Path9)
+[2015.07.11-11.22.26:506][354]LogEditorViewport: Clicking on Actor (LMB): BP_Path_C (BP_Path15)
+[2015.07.11-11.22.28:045][444]LogEditorViewport: Clicking on Actor (LMB): BP_Path_C (BP_Path14)
+[2015.07.11-11.22.28:471][469]LogEditorViewport: Clicking on Actor (LMB): BP_Path_C (BP_Path8)
+[2015.07.11-11.22.29:148][509]LogEditorViewport: Clicking on Actor (LMB): BP_Path_C (BP_Path16)
+[2015.07.11-11.22.49:950][707]Cmd: TRANSACTION UNDO
+[2015.07.11-11.22.49:950][707]LogEditorTransaction: Undo Marquee Select
+[2015.07.11-11.22.55:328][  5]LogEditorViewport: Clicking on Actor (LMB): TriggerBox (TriggerBox)
+[2015.07.11-11.22.56:180][ 55]LogEditorViewport: Clicking on Actor (LMB): PaperFlipbookActor (water)
+[2015.07.11-11.22.56:627][ 81]LogEditorViewport: Clicking Background
+[2015.07.11-11.22.59:943][275]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Singleplayer" FILE="C:/Users/Jakob/Desktop/Radius Jam/Kraken/Unreal/Content/Maps/Singleplayer.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.07.11-11.23.00:126][275]LogSavePackage: Save=90.922859ms
+[2015.07.11-11.23.00:126][275]LogSavePackage: Moving 'C:/Users/Jakob/Desktop/Radius Jam/Kraken/Unreal/Saved/SingleplayerB3253C414D46AA62767513832BE9B4DD.tmp' to 'C:/Users/Jakob/Desktop/Radius Jam/Kraken/Unreal/Content/Maps/Singleplayer.umap'
+[2015.07.11-11.23.02:064][389]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.07.11-11.23.02:064][389]LogPlayLevel: [PIE] Compiling Singleplayer before PIE...
+[2015.07.11-11.23.02:134][389]LogPlayLevel: PIE:  Blueprint regeneration took 70 ms (1 blueprints)
+[2015.07.11-11.23.02:141][389]PIE: New page: PIE session: Singleplayer (Jul 11, 2015, 3:23:02 PM)
+[2015.07.11-11.23.02:141][389]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Singleplayer
+[2015.07.11-11.23.02:149][389]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007621s)
+[2015.07.11-11.23.02:149][389]LogAIModule: Creating AISystem for world Singleplayer
+[2015.07.11-11.23.02:150][389]LogPlayLevel: PIE: World Init took: (0.001106s)
+[2015.07.11-11.23.02:150][389]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Singleplayer.Singleplayer to /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer (0.008927s)
+[2015.07.11-11.23.02:173][389]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.07.11-11.23.02:181][389]LogInit: FAudioDevice initialized.
+[2015.07.11-11.23.02:228][389]LogWorld: Game class is 'BP_Gamemode_C'
+[2015.07.11-11.23.02:234][389]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer up for play (max tick rate 60) at 2015.07.11-13.23.02
+[2015.07.11-11.23.02:234][389]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.11-11.23.02:235][389]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.11-11.23.02:238][389]LogWorld: Bringing up level for play took: 0.007836
+[2015.07.11-11.23.02:260][389]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Singleplayer -0.644
+[2015.07.11-11.23.02:281][389]LogRenderer: Reallocating scene render targets to support 1296x760 (Frame:27090).
+[2015.07.11-11.23.05:072][551]LogBlueprintUserMessages: X=134.376 Y=668.155 Z=-5.000
+[2015.07.11-11.23.05:072][551]LogBlueprintUserMessages: X=544.992 Y=-132.456 Z=-5.000
+[2015.07.11-11.23.05:073][551]LogBlueprintUserMessages: X=-98.619 Y=617.445 Z=-5.000
+[2015.07.11-11.23.05:073][551]LogBlueprintUserMessages: X=501.558 Y=-204.006 Z=-5.000
+[2015.07.11-11.23.05:074][551]LogBlueprintUserMessages: X=503.155 Y=-340.920 Z=-5.000
+[2015.07.11-11.23.05:074][551]LogBlueprintUserMessages: X=481.584 Y=277.815 Z=-5.000
+[2015.07.11-11.23.05:075][551]LogBlueprintUserMessages: X=-451.726 Y=308.495 Z=-5.000
+[2015.07.11-11.23.05:075][551]LogBlueprintUserMessages: X=-671.107 Y=594.194 Z=-5.000
+[2015.07.11-11.23.05:076][551]LogBlueprintUserMessages: X=-426.978 Y=399.494 Z=-5.000
+[2015.07.11-11.23.05:077][551]LogBlueprintUserMessages: X=-457.723 Y=-233.413 Z=-5.000
+[2015.07.11-11.23.05:077][551]LogBlueprintUserMessages: X=39.208 Y=-597.692 Z=-5.000
+[2015.07.11-11.23.05:078][551]LogBlueprintUserMessages: X=-410.958 Y=-359.779 Z=-5.000
+[2015.07.11-11.23.05:080][551]LogBlueprintUserMessages: X=-417.713 Y=7.018 Z=-5.000
+[2015.07.11-11.23.05:080][551]LogBlueprintUserMessages: X=21.807 Y=-643.537 Z=-5.000
+[2015.07.11-11.23.05:081][551]LogBlueprintUserMessages: X=470.808 Y=396.743 Z=-5.000
+[2015.07.11-11.23.05:081][551]LogBlueprintUserMessages: X=28.298 Y=629.628 Z=-5.000
+[2015.07.11-11.23.05:081][551]LogBlueprintUserMessages: X=125.142 Y=-597.507 Z=-5.000
+[2015.07.11-11.23.08:068][730]LogBlueprintUserMessages: X=124.705 Y=-534.127 Z=-5.000
+[2015.07.11-11.23.08:068][730]LogBlueprintUserMessages: X=15.645 Y=480.731 Z=-5.000
+[2015.07.11-11.23.08:068][730]LogBlueprintUserMessages: X=363.835 Y=-285.099 Z=-5.000
+[2015.07.11-11.23.08:069][730]LogBlueprintUserMessages: X=100.243 Y=521.244 Z=-5.000
+[2015.07.11-11.23.08:069][730]LogBlueprintUserMessages: X=368.217 Y=-275.556 Z=-5.000
+[2015.07.11-11.23.08:070][730]LogBlueprintUserMessages: X=427.643 Y=-226.104 Z=-5.000
+[2015.07.11-11.23.08:070][730]LogBlueprintUserMessages: X=-141.147 Y=473.903 Z=-5.000
+[2015.07.11-11.23.08:070][730]LogBlueprintUserMessages: X=-375.198 Y=-359.678 Z=-5.000
+[2015.07.11-11.23.08:070][730]LogBlueprintUserMessages: X=-636.172 Y=448.136 Z=-5.000
+[2015.07.11-11.23.08:071][730]LogBlueprintUserMessages: X=335.024 Y=309.221 Z=-5.000
+[2015.07.11-11.23.08:071][730]LogBlueprintUserMessages: X=-300.377 Y=274.600 Z=-5.000
+[2015.07.11-11.23.08:071][730]LogBlueprintUserMessages: X=82.590 Y=-453.699 Z=-5.000
+[2015.07.11-11.23.08:072][730]LogBlueprintUserMessages: X=321.216 Y=383.837 Z=-5.000
+[2015.07.11-11.23.08:072][730]LogBlueprintUserMessages: X=-277.574 Y=407.885 Z=-5.000
+[2015.07.11-11.23.08:072][730]LogBlueprintUserMessages: X=-269.818 Y=31.190 Z=-5.000
+[2015.07.11-11.23.08:072][730]LogBlueprintUserMessages: X=95.934 Y=-458.107 Z=-5.000
+[2015.07.11-11.23.08:073][730]LogBlueprintUserMessages: X=-262.399 Y=-339.789 Z=-5.000
+[2015.07.11-11.23.11:066][909]LogBlueprintUserMessages: X=-127.767 Y=415.781 Z=-5.000
+[2015.07.11-11.23.11:066][909]LogBlueprintUserMessages: X=167.149 Y=-325.829 Z=-5.000
+[2015.07.11-11.23.11:067][909]LogBlueprintUserMessages: X=234.663 Y=-343.846 Z=-5.000
+[2015.07.11-11.23.11:067][909]LogBlueprintUserMessages: X=221.724 Y=-419.761 Z=-5.000
+[2015.07.11-11.23.11:067][909]LogBlueprintUserMessages: X=-43.253 Y=448.968 Z=-5.000
+[2015.07.11-11.23.11:068][909]LogBlueprintUserMessages: X=157.200 Y=392.256 Z=-5.000
+[2015.07.11-11.23.11:068][909]LogBlueprintUserMessages: X=220.346 Y=-241.918 Z=-5.000
+[2015.07.11-11.23.11:068][909]LogBlueprintUserMessages: X=196.507 Y=366.480 Z=-5.000
+[2015.07.11-11.23.11:069][909]LogBlueprintUserMessages: X=-269.919 Y=-466.805 Z=-5.000
+[2015.07.11-11.23.11:069][909]LogBlueprintUserMessages: X=297.767 Y=-301.111 Z=-5.000
+[2015.07.11-11.23.11:069][909]LogBlueprintUserMessages: X=-158.049 Y=327.326 Z=-5.000
+[2015.07.11-11.23.11:070][909]LogBlueprintUserMessages: X=-115.328 Y=-310.664 Z=-5.000
+[2015.07.11-11.23.11:070][909]LogBlueprintUserMessages: X=-189.761 Y=162.047 Z=-5.000
+[2015.07.11-11.23.11:070][909]LogBlueprintUserMessages: X=-582.510 Y=308.096 Z=-5.000
+[2015.07.11-11.23.11:071][909]LogBlueprintUserMessages: X=188.587 Y=314.072 Z=-5.000
+[2015.07.11-11.23.11:071][909]LogBlueprintUserMessages: X=-158.672 Y=223.953 Z=-5.000
+[2015.07.11-11.23.11:071][909]LogBlueprintUserMessages: X=-43.672 Y=-364.652 Z=-5.000
+[2015.07.11-11.23.14:065][ 88]LogBlueprintUserMessages: X=-481.135 Y=196.660 Z=-5.000
+[2015.07.11-11.23.14:065][ 88]LogBlueprintUserMessages: X=-17.615 Y=173.308 Z=-5.000
+[2015.07.11-11.23.14:066][ 88]LogBlueprintUserMessages: X=-169.494 Y=367.371 Z=-5.000
+[2015.07.11-11.23.14:066][ 88]LogBlueprintUserMessages: X=21.075 Y=433.833 Z=-5.000
+[2015.07.11-11.23.14:066][ 88]LogBlueprintUserMessages: X=294.119 Y=-288.467 Z=-5.000
+[2015.07.11-11.23.14:067][ 88]LogBlueprintUserMessages: X=253.211 Y=-202.994 Z=-5.000
+[2015.07.11-11.23.14:067][ 88]LogBlueprintUserMessages: X=83.953 Y=-352.121 Z=-5.000
+[2015.07.11-11.23.14:067][ 88]LogBlueprintUserMessages: X=153.179 Y=-341.542 Z=-5.000
+[2015.07.11-11.23.14:068][ 88]LogBlueprintUserMessages: X=123.434 Y=503.953 Z=-5.000
+[2015.07.11-11.23.14:068][ 88]LogBlueprintUserMessages: X=70.296 Y=301.540 Z=-5.000
+[2015.07.11-11.23.14:069][ 88]LogBlueprintUserMessages: X=70.658 Y=-237.152 Z=-5.000
+[2015.07.11-11.23.14:069][ 88]LogBlueprintUserMessages: X=-161.960 Y=-272.470 Z=-5.000
+[2015.07.11-11.23.14:069][ 88]LogBlueprintUserMessages: X=127.552 Y=172.188 Z=-5.000
+[2015.07.11-11.23.14:070][ 88]LogBlueprintUserMessages: X=-112.863 Y=-451.952 Z=-5.000
+[2015.07.11-11.23.14:070][ 88]LogBlueprintUserMessages: X=-163.758 Y=311.490 Z=-5.000
+[2015.07.11-11.23.14:070][ 88]LogBlueprintUserMessages: X=-54.352 Y=209.484 Z=-5.000
+[2015.07.11-11.23.14:071][ 88]LogBlueprintUserMessages: X=28.813 Y=-269.945 Z=-5.000
+[2015.07.11-11.23.15:350][165]LogGameMode: ProcessServerTravel: ?Restart
+[2015.07.11-11.23.15:351][165]LogEngine: Server switch level: ?Restart
+[2015.07.11-11.23.15:351][165]LogNet: Browse: /Game/Maps/Singleplayer?Restart
+[2015.07.11-11.23.15:351][165]LogLoad: LoadMap: /Game/Maps/Singleplayer
+[2015.07.11-11.23.15:424][165]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B326ADA8E0
+[2015.07.11-11.23.15:425][165]Cmd: MEM
+[2015.07.11-11.23.15:446][165]LogMemory: Platform Memory Stats for Windows
+[2015.07.11-11.23.15:446][165]LogMemory: Process Physical Memory: 633.93 MB used, 633.93 MB peak
+[2015.07.11-11.23.15:446][165]LogMemory: Process Virtual Memory: 1074.91 MB used, 1155.49 MB peak
+[2015.07.11-11.23.15:446][165]LogMemory: Physical Memory: 4353.89 MB used, 8111.15 MB total
+[2015.07.11-11.23.15:446][165]LogMemory: Virtual Memory: 1682.59 MB used, 134217728.00 MB total
+[2015.07.11-11.23.15:446][165]LogMemory: 
+[2015.07.11-11.23.15:446][165]Allocator Stats for TBB: (not implemented)
+[2015.07.11-11.23.15:446][165]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Singleplayer
+[2015.07.11-11.23.15:454][165]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007626s)
+[2015.07.11-11.23.15:455][165]LogAIModule: Creating AISystem for world Singleplayer
+[2015.07.11-11.23.15:455][165]LogPlayLevel: PIE: World Init took: (0.001193s)
+[2015.07.11-11.23.15:455][165]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Singleplayer.Singleplayer to /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer (0.009019s)
+[2015.07.11-11.23.15:455][165]LogWorld: Game class is 'BP_Gamemode_C'
+[2015.07.11-11.23.15:460][165]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer up for play (max tick rate 60) at 2015.07.11-13.23.15
+[2015.07.11-11.23.15:460][165]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.11-11.23.15:461][165]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.11-11.23.15:464][165]LogWorld: Bringing up level for play took: 0.006947
+[2015.07.11-11.23.18:356][333]LogBlueprintUserMessages: X=-457.947 Y=-233.024 Z=-5.000
+[2015.07.11-11.23.18:356][333]LogBlueprintUserMessages: X=21.500 Y=-643.858 Z=-5.000
+[2015.07.11-11.23.18:357][333]LogBlueprintUserMessages: X=-98.551 Y=617.883 Z=-5.000
+[2015.07.11-11.23.18:358][333]LogBlueprintUserMessages: X=39.121 Y=-598.130 Z=-5.000
+[2015.07.11-11.23.18:359][333]LogBlueprintUserMessages: X=471.253 Y=396.757 Z=-5.000
+[2015.07.11-11.23.18:359][333]LogBlueprintUserMessages: X=-452.189 Y=308.438 Z=-5.000
+[2015.07.11-11.23.18:360][333]LogBlueprintUserMessages: X=501.983 Y=-203.878 Z=-5.000
+[2015.07.11-11.23.18:360][333]LogBlueprintUserMessages: X=482.017 Y=277.710 Z=-5.000
+[2015.07.11-11.23.18:361][333]LogBlueprintUserMessages: X=-671.201 Y=594.627 Z=-5.000
+[2015.07.11-11.23.18:361][333]LogBlueprintUserMessages: X=125.178 Y=-597.950 Z=-5.000
+[2015.07.11-11.23.18:361][333]LogBlueprintUserMessages: X=134.279 Y=668.590 Z=-5.000
+[2015.07.11-11.23.18:362][333]LogBlueprintUserMessages: X=503.565 Y=-341.092 Z=-5.000
+[2015.07.11-11.23.18:362][333]LogBlueprintUserMessages: X=28.477 Y=630.035 Z=-5.000
+[2015.07.11-11.23.18:362][333]LogBlueprintUserMessages: X=545.332 Y=-132.169 Z=-5.000
+[2015.07.11-11.23.18:363][333]LogBlueprintUserMessages: X=-411.424 Y=-359.832 Z=-5.000
+[2015.07.11-11.23.18:363][333]LogBlueprintUserMessages: X=-427.443 Y=399.467 Z=-5.000
+[2015.07.11-11.23.18:364][333]LogBlueprintUserMessages: X=-418.186 Y=7.034 Z=-5.000
+[2015.07.11-11.23.21:364][513]LogBlueprintUserMessages: X=-262.346 Y=-339.780 Z=-5.000
+[2015.07.11-11.23.21:365][513]LogBlueprintUserMessages: X=124.741 Y=-534.088 Z=-5.000
+[2015.07.11-11.23.21:366][513]LogBlueprintUserMessages: X=-375.166 Y=-359.722 Z=-5.000
+[2015.07.11-11.23.21:367][513]LogBlueprintUserMessages: X=321.163 Y=383.827 Z=-5.000
+[2015.07.11-11.23.21:367][513]LogBlueprintUserMessages: X=-141.172 Y=473.855 Z=-5.000
+[2015.07.11-11.23.21:368][513]LogBlueprintUserMessages: X=95.960 Y=-458.059 Z=-5.000
+[2015.07.11-11.23.21:368][513]LogBlueprintUserMessages: X=368.171 Y=-275.584 Z=-5.000
+[2015.07.11-11.23.21:369][513]LogBlueprintUserMessages: X=-300.325 Y=274.583 Z=-5.000
+[2015.07.11-11.23.21:369][513]LogBlueprintUserMessages: X=334.972 Y=309.232 Z=-5.000
+[2015.07.11-11.23.21:370][513]LogBlueprintUserMessages: X=-269.767 Y=31.213 Z=-5.000
+[2015.07.11-11.23.21:371][513]LogBlueprintUserMessages: X=-277.521 Y=407.888 Z=-5.000
+[2015.07.11-11.23.21:372][513]LogBlueprintUserMessages: X=427.600 Y=-226.136 Z=-5.000
+[2015.07.11-11.23.21:373][513]LogBlueprintUserMessages: X=82.559 Y=-453.654 Z=-5.000
+[2015.07.11-11.23.21:374][513]LogBlueprintUserMessages: X=-636.158 Y=448.085 Z=-5.000
+[2015.07.11-11.23.21:374][513]LogBlueprintUserMessages: X=15.678 Y=480.679 Z=-5.000
+[2015.07.11-11.23.21:375][513]LogBlueprintUserMessages: X=100.205 Y=521.199 Z=-5.000
+[2015.07.11-11.23.21:375][513]LogBlueprintUserMessages: X=363.786 Y=-285.081 Z=-5.000
+[2015.07.11-11.23.24:362][688]LogBlueprintUserMessages: X=234.608 Y=-343.864 Z=-5.000
+[2015.07.11-11.23.24:363][688]LogBlueprintUserMessages: X=-43.301 Y=448.942 Z=-5.000
+[2015.07.11-11.23.24:364][688]LogBlueprintUserMessages: X=188.550 Y=314.028 Z=-5.000
+[2015.07.11-11.23.24:364][688]LogBlueprintUserMessages: X=-269.863 Y=-466.832 Z=-5.000
+[2015.07.11-11.23.24:365][688]LogBlueprintUserMessages: X=-115.273 Y=-310.656 Z=-5.000
+[2015.07.11-11.23.24:365][688]LogBlueprintUserMessages: X=221.759 Y=-419.715 Z=-5.000
+[2015.07.11-11.23.24:366][688]LogBlueprintUserMessages: X=167.176 Y=-325.779 Z=-5.000
+[2015.07.11-11.23.24:366][688]LogBlueprintUserMessages: X=220.293 Y=-241.905 Z=-5.000
+[2015.07.11-11.23.24:366][688]LogBlueprintUserMessages: X=-158.010 Y=327.271 Z=-5.000
+[2015.07.11-11.23.24:367][688]LogBlueprintUserMessages: X=157.245 Y=392.221 Z=-5.000
+[2015.07.11-11.23.24:367][688]LogBlueprintUserMessages: X=-582.483 Y=308.047 Z=-5.000
+[2015.07.11-11.23.24:368][688]LogBlueprintUserMessages: X=-189.756 Y=162.107 Z=-5.000
+[2015.07.11-11.23.24:368][688]LogBlueprintUserMessages: X=-158.618 Y=223.933 Z=-5.000
+[2015.07.11-11.23.24:368][688]LogBlueprintUserMessages: X=196.465 Y=366.523 Z=-5.000
+[2015.07.11-11.23.24:369][688]LogBlueprintUserMessages: X=-43.721 Y=-364.624 Z=-5.000
+[2015.07.11-11.23.24:369][688]LogBlueprintUserMessages: X=-127.710 Y=415.784 Z=-5.000
+[2015.07.11-11.23.24:370][688]LogBlueprintUserMessages: X=297.715 Y=-301.135 Z=-5.000
+[2015.07.11-11.23.27:361][864]LogBlueprintUserMessages: X=253.251 Y=-202.931 Z=-5.000
+[2015.07.11-11.23.27:362][864]LogBlueprintUserMessages: X=21.149 Y=433.840 Z=-5.000
+[2015.07.11-11.23.27:362][864]LogBlueprintUserMessages: X=-112.790 Y=-451.932 Z=-5.000
+[2015.07.11-11.23.27:362][864]LogBlueprintUserMessages: X=127.538 Y=172.112 Z=-5.000
+[2015.07.11-11.23.27:363][864]LogBlueprintUserMessages: X=83.877 Y=-352.115 Z=-5.000
+[2015.07.11-11.23.27:363][864]LogBlueprintUserMessages: X=-169.550 Y=367.322 Z=-5.000
+[2015.07.11-11.23.27:363][864]LogBlueprintUserMessages: X=294.136 Y=-288.389 Z=-5.000
+[2015.07.11-11.23.27:363][864]LogBlueprintUserMessages: X=153.102 Y=-341.546 Z=-5.000
+[2015.07.11-11.23.27:364][864]LogBlueprintUserMessages: X=28.882 Y=-269.913 Z=-5.000
+[2015.07.11-11.23.27:364][864]LogBlueprintUserMessages: X=-162.006 Y=-272.409 Z=-5.000
+[2015.07.11-11.23.27:364][864]LogBlueprintUserMessages: X=123.338 Y=503.966 Z=-5.000
+[2015.07.11-11.23.27:365][864]LogBlueprintUserMessages: X=70.204 Y=301.536 Z=-5.000
+[2015.07.11-11.23.27:365][864]LogBlueprintUserMessages: X=70.584 Y=-237.178 Z=-5.000
+[2015.07.11-11.23.27:365][864]LogBlueprintUserMessages: X=-54.285 Y=209.443 Z=-5.000
+[2015.07.11-11.23.27:365][864]LogBlueprintUserMessages: X=-17.544 Y=173.282 Z=-5.000
+[2015.07.11-11.23.27:366][864]LogBlueprintUserMessages: X=-481.068 Y=196.620 Z=-5.000
+[2015.07.11-11.23.27:366][864]LogBlueprintUserMessages: X=-163.726 Y=311.560 Z=-5.000
+[2015.07.11-11.23.30:360][ 35]LogBlueprintUserMessages: X=289.308 Y=-135.785 Z=-5.000
+[2015.07.11-11.23.30:361][ 35]LogBlueprintUserMessages: X=-332.034 Y=159.313 Z=-5.000
+[2015.07.11-11.23.30:362][ 35]LogBlueprintUserMessages: X=168.593 Y=26.762 Z=-5.000
+[2015.07.11-11.23.30:362][ 35]LogBlueprintUserMessages: X=36.949 Y=-452.523 Z=-5.000
+[2015.07.11-11.23.30:363][ 35]LogBlueprintUserMessages: X=203.246 Y=-62.598 Z=-5.000
+[2015.07.11-11.23.30:363][ 35]LogBlueprintUserMessages: X=171.796 Y=437.002 Z=-5.000
+[2015.07.11-11.23.30:363][ 35]LogBlueprintUserMessages: X=-214.193 Y=225.316 Z=-5.000
+[2015.07.11-11.23.30:364][ 35]LogBlueprintUserMessages: X=-35.028 Y=392.683 Z=-5.000
+[2015.07.11-11.23.30:364][ 35]LogBlueprintUserMessages: X=-65.167 Y=-328.267 Z=-5.000
+[2015.07.11-11.23.30:365][ 35]LogBlueprintUserMessages: X=117.078 Y=106.950 Z=-5.000
+[2015.07.11-11.23.30:365][ 35]LogBlueprintUserMessages: X=91.226 Y=279.517 Z=-5.000
+[2015.07.11-11.23.30:365][ 35]LogBlueprintUserMessages: X=-193.021 Y=-121.172 Z=-5.000
+[2015.07.11-11.23.30:366][ 35]LogBlueprintUserMessages: X=5.368 Y=-307.473 Z=-5.000
+[2015.07.11-11.23.30:366][ 35]LogBlueprintUserMessages: X=151.936 Y=-182.532 Z=-5.000
+[2015.07.11-11.23.30:366][ 35]LogBlueprintUserMessages: X=-44.694 Y=-340.991 Z=-5.000
+[2015.07.11-11.23.30:367][ 35]LogBlueprintUserMessages: X=-37.405 Y=513.062 Z=-5.000
+[2015.07.11-11.23.30:368][ 35]LogBlueprintUserMessages: X=-78.253 Y=272.188 Z=-5.000
+[2015.07.11-11.23.33:357][210]LogBlueprintUserMessages: X=-52.177 Y=186.071 Z=-5.000
+[2015.07.11-11.23.33:357][210]LogBlueprintUserMessages: X=-173.101 Y=448.373 Z=-5.000
+[2015.07.11-11.23.33:357][210]LogBlueprintUserMessages: X=185.782 Y=-464.975 Z=-5.000
+[2015.07.11-11.23.33:358][210]LogBlueprintUserMessages: X=222.423 Y=-111.863 Z=-5.000
+[2015.07.11-11.23.33:358][210]LogBlueprintUserMessages: X=176.876 Y=-57.005 Z=-5.000
+[2015.07.11-11.23.33:359][210]LogBlueprintUserMessages: X=-182.000 Y=148.282 Z=-5.000
+[2015.07.11-11.23.33:359][210]LogBlueprintUserMessages: X=-8.855 Y=159.103 Z=-5.000
+[2015.07.11-11.23.33:359][210]LogBlueprintUserMessages: X=298.058 Y=358.252 Z=-5.000
+[2015.07.11-11.23.33:360][210]LogBlueprintUserMessages: X=47.120 Y=-86.885 Z=-5.000
+[2015.07.11-11.23.33:360][210]LogBlueprintUserMessages: X=-133.346 Y=-462.608 Z=-5.000
+[2015.07.11-11.23.33:361][210]LogBlueprintUserMessages: X=243.987 Y=-64.285 Z=-5.000
+[2015.07.11-11.23.33:361][210]LogBlueprintUserMessages: X=119.048 Y=-46.253 Z=-5.000
+[2015.07.11-11.23.33:361][210]LogBlueprintUserMessages: X=120.310 Y=384.541 Z=-5.000
+[2015.07.11-11.23.33:362][210]LogBlueprintUserMessages: X=-124.840 Y=-206.462 Z=-5.000
+[2015.07.11-11.23.33:362][210]LogBlueprintUserMessages: X=-117.094 Y=-217.773 Z=-5.000
+[2015.07.11-11.23.33:362][210]LogBlueprintUserMessages: X=243.732 Y=250.544 Z=-5.000
+[2015.07.11-11.23.33:362][210]LogBlueprintUserMessages: X=-183.890 Y=29.369 Z=-5.000
+[2015.07.11-11.23.36:366][386]LogBlueprintUserMessages: X=136.485 Y=113.040 Z=-5.000
+[2015.07.11-11.23.36:367][386]LogBlueprintUserMessages: X=391.340 Y=218.754 Z=-5.000
+[2015.07.11-11.23.36:368][386]LogBlueprintUserMessages: X=187.506 Y=-262.081 Z=-5.000
+[2015.07.11-11.23.36:369][386]LogBlueprintUserMessages: X=292.995 Y=-395.535 Z=-5.000
+[2015.07.11-11.23.36:369][386]LogBlueprintUserMessages: X=89.612 Y=246.031 Z=-5.000
+[2015.07.11-11.23.36:370][386]LogBlueprintUserMessages: X=-248.742 Y=313.055 Z=-5.000
+[2015.07.11-11.23.36:371][386]LogBlueprintUserMessages: X=-113.760 Y=163.080 Z=-5.000
+[2015.07.11-11.23.36:372][386]LogBlueprintUserMessages: X=-31.542 Y=144.367 Z=-5.000
+[2015.07.11-11.23.36:373][386]LogBlueprintUserMessages: X=57.755 Y=-160.893 Z=-5.000
+[2015.07.11-11.23.36:373][386]LogBlueprintUserMessages: X=-147.088 Y=-67.520 Z=-5.000
+[2015.07.11-11.23.36:374][386]LogBlueprintUserMessages: X=-2.886 Y=-95.160 Z=-5.000
+[2015.07.11-11.23.36:374][386]LogBlueprintUserMessages: X=-146.016 Y=-615.350 Z=-5.000
+[2015.07.11-11.23.36:375][386]LogBlueprintUserMessages: X=173.823 Y=232.738 Z=-5.000
+[2015.07.11-11.23.36:375][386]LogBlueprintUserMessages: X=-94.992 Y=-135.745 Z=-5.000
+[2015.07.11-11.23.36:376][386]LogBlueprintUserMessages: X=257.592 Y=323.998 Z=-5.000
+[2015.07.11-11.23.36:376][386]LogBlueprintUserMessages: X=290.299 Y=80.950 Z=-5.000
+[2015.07.11-11.23.36:377][386]LogBlueprintUserMessages: X=-20.894 Y=-118.245 Z=-5.000
+[2015.07.11-11.23.39:356][564]LogBlueprintUserMessages: X=35.085 Y=211.829 Z=-5.000
+[2015.07.11-11.23.39:356][564]LogBlueprintUserMessages: X=264.663 Y=230.180 Z=-5.000
+[2015.07.11-11.23.39:356][564]LogBlueprintUserMessages: X=227.215 Y=-243.556 Z=-5.000
+[2015.07.11-11.23.39:357][564]LogBlueprintUserMessages: X=105.649 Y=-388.410 Z=-5.000
+[2015.07.11-11.23.39:357][564]LogBlueprintUserMessages: X=176.773 Y=292.707 Z=-5.000
+[2015.07.11-11.23.39:357][564]LogBlueprintUserMessages: X=537.390 Y=185.393 Z=-5.000
+[2015.07.11-11.23.39:358][564]LogBlueprintUserMessages: X=-152.717 Y=-49.742 Z=-5.000
+[2015.07.11-11.23.39:358][564]LogBlueprintUserMessages: X=-300.699 Y=172.571 Z=-5.000
+[2015.07.11-11.23.39:359][564]LogBlueprintUserMessages: X=235.581 Y=280.374 Z=-5.000
+[2015.07.11-11.23.39:359][564]LogBlueprintUserMessages: X=253.353 Y=161.892 Z=-5.000
+[2015.07.11-11.23.39:359][564]LogBlueprintUserMessages: X=-225.025 Y=-61.802 Z=-5.000
+[2015.07.11-11.23.39:360][564]LogBlueprintUserMessages: X=-81.356 Y=69.615 Z=-5.000
+[2015.07.11-11.23.39:360][564]LogBlueprintUserMessages: X=118.537 Y=132.494 Z=-5.000
+[2015.07.11-11.23.39:360][564]LogBlueprintUserMessages: X=-86.695 Y=-106.741 Z=-5.000
+[2015.07.11-11.23.39:361][564]LogBlueprintUserMessages: X=16.438 Y=266.198 Z=-5.000
+[2015.07.11-11.23.39:361][564]LogBlueprintUserMessages: X=146.660 Y=-55.325 Z=-5.000
+[2015.07.11-11.23.39:361][564]LogBlueprintUserMessages: X=-113.303 Y=-762.444 Z=-5.000
+[2015.07.11-11.23.42:355][743]LogBlueprintUserMessages: X=-147.188 Y=109.040 Z=-5.000
+[2015.07.11-11.23.42:356][743]LogBlueprintUserMessages: X=155.351 Y=97.632 Z=-5.000
+[2015.07.11-11.23.42:356][743]LogBlueprintUserMessages: X=-38.372 Y=-437.957 Z=-5.000
+[2015.07.11-11.23.42:356][743]LogBlueprintUserMessages: X=84.084 Y=-185.227 Z=-5.000
+[2015.07.11-11.23.42:357][743]LogBlueprintUserMessages: X=175.949 Y=263.280 Z=-5.000
+[2015.07.11-11.23.42:357][743]LogBlueprintUserMessages: X=166.068 Y=346.298 Z=-5.000
+[2015.07.11-11.23.42:357][743]LogBlueprintUserMessages: X=-80.510 Y=-908.976 Z=-5.000
+[2015.07.11-11.23.42:357][743]LogBlueprintUserMessages: X=683.905 Y=151.797 Z=-5.000
+[2015.07.11-11.23.42:358][743]LogBlueprintUserMessages: X=20.998 Y=375.254 Z=-5.000
+[2015.07.11-11.23.42:358][743]LogBlueprintUserMessages: X=-132.764 Y=286.886 Z=-5.000
+[2015.07.11-11.23.42:358][743]LogBlueprintUserMessages: X=-232.721 Y=-69.094 Z=-5.000
+[2015.07.11-11.23.42:359][743]LogBlueprintUserMessages: X=163.528 Y=39.537 Z=-5.000
+[2015.07.11-11.23.42:359][743]LogBlueprintUserMessages: X=-136.437 Y=121.649 Z=-5.000
+[2015.07.11-11.23.42:359][743]LogBlueprintUserMessages: X=350.307 Y=182.751 Z=-5.000
+[2015.07.11-11.23.42:360][743]LogBlueprintUserMessages: X=224.691 Y=28.688 Z=-5.000
+[2015.07.11-11.23.42:360][743]LogBlueprintUserMessages: X=-202.597 Y=93.690 Z=-5.000
+[2015.07.11-11.23.42:360][743]LogBlueprintUserMessages: X=66.954 Y=126.861 Z=-5.000
+[2015.07.11-11.23.45:356][917]LogBlueprintUserMessages: X=-64.575 Y=-1005.714 Z=-5.000
+[2015.07.11-11.23.45:357][917]LogBlueprintUserMessages: X=-211.939 Y=241.313 Z=-5.000
+[2015.07.11-11.23.45:357][917]LogBlueprintUserMessages: X=-34.836 Y=-272.874 Z=-5.000
+[2015.07.11-11.23.45:358][917]LogBlueprintUserMessages: X=-185.978 Y=-392.390 Z=-5.000
+[2015.07.11-11.23.45:358][917]LogBlueprintUserMessages: X=-1.301 Y=166.354 Z=-5.000
+[2015.07.11-11.23.45:358][917]LogBlueprintUserMessages: X=12.782 Y=178.693 Z=-5.000
+[2015.07.11-11.23.45:358][917]LogBlueprintUserMessages: X=140.623 Y=237.176 Z=-5.000
+[2015.07.11-11.23.45:359][917]LogBlueprintUserMessages: X=13.682 Y=368.842 Z=-5.000
+[2015.07.11-11.23.45:359][917]LogBlueprintUserMessages: X=319.790 Y=306.562 Z=-5.000
+[2015.07.11-11.23.45:359][917]LogBlueprintUserMessages: X=128.417 Y=-117.918 Z=-5.000
+[2015.07.11-11.23.45:360][917]LogBlueprintUserMessages: X=238.277 Y=49.599 Z=-5.000
+[2015.07.11-11.23.45:360][917]LogBlueprintUserMessages: X=-254.435 Y=203.419 Z=-5.000
+[2015.07.11-11.23.45:360][917]LogBlueprintUserMessages: X=830.825 Y=120.076 Z=-5.000
+[2015.07.11-11.23.45:361][917]LogBlueprintUserMessages: X=-125.766 Y=409.290 Z=-5.000
+[2015.07.11-11.23.45:361][917]LogBlueprintUserMessages: X=10.608 Y=88.919 Z=-5.000
+[2015.07.11-11.23.45:361][917]LogBlueprintUserMessages: X=-279.004 Y=-173.472 Z=-5.000
+[2015.07.11-11.23.45:362][917]LogBlueprintUserMessages: X=27.267 Y=-29.083 Z=-5.000
+[2015.07.11-11.23.48:353][ 96]LogBlueprintUserMessages: X=-41.540 Y=268.156 Z=-5.000
+[2015.07.11-11.23.48:353][ 96]LogBlueprintUserMessages: X=-177.024 Y=-292.635 Z=-5.000
+[2015.07.11-11.23.48:353][ 96]LogBlueprintUserMessages: X=-258.776 Y=-253.674 Z=-5.000
+[2015.07.11-11.23.48:354][ 96]LogBlueprintUserMessages: X=-71.088 Y=-422.186 Z=-5.000
+[2015.07.11-11.23.48:354][ 96]LogBlueprintUserMessages: X=-64.575 Y=-1005.714 Z=-5.000
+[2015.07.11-11.23.48:355][ 96]LogBlueprintUserMessages: X=-335.291 Y=315.946 Z=-5.000
+[2015.07.11-11.23.48:355][ 96]LogBlueprintUserMessages: X=-112.070 Y=-87.040 Z=-5.000
+[2015.07.11-11.23.48:355][ 96]LogBlueprintUserMessages: X=-124.282 Y=240.766 Z=-5.000
+[2015.07.11-11.23.48:355][ 96]LogBlueprintUserMessages: X=149.570 Y=151.997 Z=-5.000
+[2015.07.11-11.23.48:356][ 96]LogBlueprintUserMessages: X=125.158 Y=-10.542 Z=-5.000
+[2015.07.11-11.23.48:356][ 96]LogBlueprintUserMessages: X=-171.784 Y=234.401 Z=-5.000
+[2015.07.11-11.23.48:356][ 96]LogBlueprintUserMessages: X=28.208 Y=-231.824 Z=-5.000
+[2015.07.11-11.23.48:356][ 96]LogBlueprintUserMessages: X=-124.885 Y=301.099 Z=-5.000
+[2015.07.11-11.23.48:357][ 96]LogBlueprintUserMessages: X=463.721 Y=348.523 Z=-5.000
+[2015.07.11-11.23.48:357][ 96]LogBlueprintUserMessages: X=850.117 Y=116.232 Z=-5.000
+[2015.07.11-11.23.48:357][ 96]LogBlueprintUserMessages: X=118.232 Y=-41.550 Z=-5.000
+[2015.07.11-11.23.48:357][ 96]LogBlueprintUserMessages: X=-182.670 Y=49.814 Z=-5.000
+[2015.07.11-11.23.51:351][274]LogBlueprintUserMessages: X=-245.984 Y=-154.955 Z=-5.000
+[2015.07.11-11.23.51:352][274]LogBlueprintUserMessages: X=-3.627 Y=-131.260 Z=-5.000
+[2015.07.11-11.23.51:352][274]LogBlueprintUserMessages: X=-233.725 Y=-448.827 Z=-5.000
+[2015.07.11-11.23.51:352][274]LogBlueprintUserMessages: X=-176.314 Y=-121.030 Z=-5.000
+[2015.07.11-11.23.51:353][274]LogBlueprintUserMessages: X=-187.195 Y=304.249 Z=-5.000
+[2015.07.11-11.23.51:353][274]LogBlueprintUserMessages: X=-121.826 Y=-432.445 Z=-5.000
+[2015.07.11-11.23.51:353][274]LogBlueprintUserMessages: X=-29.195 Y=6.846 Z=-5.000
+[2015.07.11-11.23.51:353][274]LogBlueprintUserMessages: X=-484.896 Y=267.581 Z=-5.000
+[2015.07.11-11.23.51:354][274]LogBlueprintUserMessages: X=-64.575 Y=-1005.714 Z=-5.000
+[2015.07.11-11.23.51:354][274]LogBlueprintUserMessages: X=850.117 Y=116.232 Z=-5.000
+[2015.07.11-11.23.51:354][274]LogBlueprintUserMessages: X=550.804 Y=376.466 Z=-5.000
+[2015.07.11-11.23.51:355][274]LogBlueprintUserMessages: X=88.296 Y=-172.007 Z=-5.000
+[2015.07.11-11.23.51:355][274]LogBlueprintUserMessages: X=-225.668 Y=134.579 Z=-5.000
+[2015.07.11-11.23.51:355][274]LogBlueprintUserMessages: X=245.743 Y=41.016 Z=-5.000
+[2015.07.11-11.23.51:355][274]LogBlueprintUserMessages: X=-199.013 Y=166.368 Z=-5.000
+[2015.07.11-11.23.51:356][274]LogBlueprintUserMessages: X=-191.703 Y=84.599 Z=-5.000
+[2015.07.11-11.23.51:356][274]LogBlueprintUserMessages: X=-113.509 Y=-169.327 Z=-5.000
+[2015.07.11-11.23.54:355][452]LogBlueprintUserMessages: X=120.300 Y=-14.893 Z=-5.000
+[2015.07.11-11.23.54:355][452]LogBlueprintUserMessages: X=-134.366 Y=-52.484 Z=-5.000
+[2015.07.11-11.23.54:355][452]LogBlueprintUserMessages: X=-193.359 Y=18.867 Z=-5.000
+[2015.07.11-11.23.54:355][452]LogBlueprintUserMessages: X=-324.230 Y=-333.387 Z=-5.000
+[2015.07.11-11.23.54:356][452]LogBlueprintUserMessages: X=-227.367 Y=-305.318 Z=-5.000
+[2015.07.11-11.23.54:356][452]LogBlueprintUserMessages: X=-121.169 Y=-226.386 Z=-5.000
+[2015.07.11-11.23.54:356][452]LogBlueprintUserMessages: X=-208.749 Y=-51.383 Z=-5.000
+[2015.07.11-11.23.54:356][452]LogBlueprintUserMessages: X=-120.005 Y=-583.802 Z=-5.000
+[2015.07.11-11.23.54:357][452]LogBlueprintUserMessages: X=-105.428 Y=453.917 Z=-5.000
+[2015.07.11-11.23.54:357][452]LogBlueprintUserMessages: X=-206.162 Y=13.687 Z=-5.000
+[2015.07.11-11.23.54:357][452]LogBlueprintUserMessages: X=212.080 Y=-115.008 Z=-5.000
+[2015.07.11-11.23.54:358][452]LogBlueprintUserMessages: X=850.117 Y=116.232 Z=-5.000
+[2015.07.11-11.23.54:358][452]LogBlueprintUserMessages: X=-628.439 Y=223.582 Z=-5.000
+[2015.07.11-11.23.54:358][452]LogBlueprintUserMessages: X=-64.575 Y=-1005.714 Z=-5.000
+[2015.07.11-11.23.54:359][452]LogBlueprintUserMessages: X=-340.625 Y=45.271 Z=-5.000
+[2015.07.11-11.23.54:359][452]LogBlueprintUserMessages: X=550.804 Y=376.466 Z=-5.000
+[2015.07.11-11.23.54:359][452]LogBlueprintUserMessages: X=30.903 Y=-311.780 Z=-5.000
+[2015.07.11-11.23.57:367][631]LogBlueprintUserMessages: X=-184.704 Y=96.114 Z=-5.000
+[2015.07.11-11.23.57:368][631]LogBlueprintUserMessages: X=550.804 Y=376.466 Z=-5.000
+[2015.07.11-11.23.57:369][631]LogBlueprintUserMessages: X=-327.326 Y=-180.326 Z=-5.000
+[2015.07.11-11.23.57:369][631]LogBlueprintUserMessages: X=-230.940 Y=156.865 Z=-5.000
+[2015.07.11-11.23.57:370][631]LogBlueprintUserMessages: X=255.679 Y=-79.289 Z=-5.000
+[2015.07.11-11.23.57:370][631]LogBlueprintUserMessages: X=13.877 Y=-108.185 Z=-5.000
+[2015.07.11-11.23.57:371][631]LogBlueprintUserMessages: X=-73.592 Y=-421.793 Z=-5.000
+[2015.07.11-11.23.57:371][631]LogBlueprintUserMessages: X=-220.082 Y=-340.023 Z=-5.000
+[2015.07.11-11.23.57:371][631]LogBlueprintUserMessages: X=-100.214 Y=-396.025 Z=-5.000
+[2015.07.11-11.23.57:372][631]LogBlueprintUserMessages: X=-488.683 Y=11.135 Z=-5.000
+[2015.07.11-11.23.57:372][631]LogBlueprintUserMessages: X=-64.575 Y=-1005.714 Z=-5.000
+[2015.07.11-11.23.57:372][631]LogBlueprintUserMessages: X=-163.946 Y=-130.585 Z=-5.000
+[2015.07.11-11.23.57:373][631]LogBlueprintUserMessages: X=-122.753 Y=-734.537 Z=-5.000
+[2015.07.11-11.23.57:373][631]LogBlueprintUserMessages: X=-85.453 Y=601.068 Z=-5.000
+[2015.07.11-11.23.57:373][631]LogBlueprintUserMessages: X=-773.339 Y=181.103 Z=-5.000
+[2015.07.11-11.23.57:374][631]LogBlueprintUserMessages: X=202.366 Y=-265.034 Z=-5.000
+[2015.07.11-11.23.57:374][631]LogBlueprintUserMessages: X=850.117 Y=116.232 Z=-5.000
+[2015.07.11-11.23.59:919][778]LogPackageName: SearchForPackageOnDisk took   0.046s to resolve MainMenu.umap
+[2015.07.11-11.23.59:977][778]LogPackageName: SearchForPackageOnDisk took   0.044s to resolve MainMenu.umap
+[2015.07.11-11.23.59:977][778]LogNet: Browse: /Game/Maps/MainMenu
+[2015.07.11-11.23.59:977][778]LogLoad: LoadMap: /Game/Maps/MainMenu
+[2015.07.11-11.23.59:996][778]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B37F0ABBA0
+[2015.07.11-11.24.00:013][778]Cmd: MEM
+[2015.07.11-11.24.00:041][778]LogMemory: Platform Memory Stats for Windows
+[2015.07.11-11.24.00:041][778]LogMemory: Process Physical Memory: 633.64 MB used, 633.95 MB peak
+[2015.07.11-11.24.00:041][778]LogMemory: Process Virtual Memory: 1074.45 MB used, 1155.49 MB peak
+[2015.07.11-11.24.00:041][778]LogMemory: Physical Memory: 4353.69 MB used, 8111.15 MB total
+[2015.07.11-11.24.00:041][778]LogMemory: Virtual Memory: 1690.23 MB used, 134217728.00 MB total
+[2015.07.11-11.24.00:041][778]LogMemory: 
+[2015.07.11-11.24.00:041][778]Allocator Stats for TBB: (not implemented)
+[2015.07.11-11.24.00:747][778]LogAIModule: Creating AISystem for world MainMenu
+[2015.07.11-11.24.00:748][778]LogWorld: Game class is 'BP_MainMenu_C'
+[2015.07.11-11.24.00:750][778]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2015.07.11-13.24.00
+[2015.07.11-11.24.00:750][778]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.11-11.24.00:751][778]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.11-11.24.00:751][778]LogWorld: Bringing up level for play took: 0.001124
+[2015.07.11-11.24.00:751][778]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.07.11-11.24.01:994][843]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B326C0FEC0
+[2015.07.11-11.24.02:030][843]LogReferenceChain: Searching referencers for Singleplayer. This may take several minutes.
+[2015.07.11-11.24.02:104][843]LogReferenceChain: Generating reference graph ...
+[2015.07.11-11.24.02:107][843]LogReferenceChain: Level 0 has 10 nodes ...
+[2015.07.11-11.24.02:113][843]LogReferenceChain: Level 1 added 49 nodes ...
+[2015.07.11-11.24.02:121][843]LogReferenceChain: Level 2 added 131 nodes ...
+[2015.07.11-11.24.02:127][843]LogReferenceChain: Level 3 added 260 nodes ...
+[2015.07.11-11.24.02:135][843]LogReferenceChain: Level 4 added 242 nodes ...
+[2015.07.11-11.24.02:141][843]LogReferenceChain: Level 5 added 238 nodes ...
+[2015.07.11-11.24.02:147][843]LogReferenceChain: Level 6 added 0 nodes ...
+[2015.07.11-11.24.02:147][843]LogReferenceChain: Generating reference chains ...
+[2015.07.11-11.24.02:147][843]LogReferenceChain:   
+[2015.07.11-11.24.02:147][843]LogReferenceChain: External Referencers:
+[2015.07.11-11.24.02:147][843]LogReferenceChain:   
+[2015.07.11-11.24.15:656][843]LogReferenceChain: (root) UnrealEdEngine /Engine/Transient.UnrealEdEngine_0->UE4Editor-UnrealEd.dll!UEditorEngine::AddReferencedObjects() {0x00007ffe58de04e0} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+[2015.07.11-11.24.15:656][843]LogReferenceChain:   (target) World /Game/Maps/Singleplayer.Singleplayer
+[2015.07.11-11.24.15:656][843]LogReferenceChain:   
+[2015.07.11-11.24.15:656][843]LogReferenceChain: Internal Referencers:
+[2015.07.11-11.24.15:656][843]LogReferenceChain:   
+[2015.07.11-11.24.15:656][843]LogReferenceChain: (root) CrowdManager /Game/Maps/Singleplayer.Singleplayer:NavigationSystem_3.CrowdManager_1->Outer
+[2015.07.11-11.24.15:656][843]LogReferenceChain:   NavigationSystem /Game/Maps/Singleplayer.Singleplayer:NavigationSystem_3->Outer
+[2015.07.11-11.24.15:656][843]LogReferenceChain:     (target) World /Game/Maps/Singleplayer.Singleplayer
+[2015.07.11-11.24.15:656][843]LogReferenceChain:   
+[2015.07.11-11.24.15:656][843]LogReferenceChain: (root) World /Game/Maps/Singleplayer.Singleplayer->CurrentLevel
+[2015.07.11-11.24.15:656][843]LogReferenceChain:   Level /Game/Maps/Singleplayer.Singleplayer:PersistentLevel->OwningWorld
+[2015.07.11-11.24.15:656][843]LogReferenceChain:     (target) World /Game/Maps/Singleplayer.Singleplayer
+[2015.07.11-11.24.15:656][843]LogReferenceChain:   
+[2015.07.11-11.24.15:656][843]LogReferenceChain: (root) World /Game/Maps/Singleplayer.Singleplayer->NavigationSystem
+[2015.07.11-11.24.15:656][843]LogReferenceChain:   NavigationSystem /Game/Maps/Singleplayer.Singleplayer:NavigationSystem_3->Outer
+[2015.07.11-11.24.15:656][843]LogReferenceChain:     (target) World /Game/Maps/Singleplayer.Singleplayer
+[2015.07.11-11.24.15:656][843]LogReferenceChain:   
+[2015.07.11-11.24.15:656][843]LogReferenceChain: (root) World /Game/Maps/Singleplayer.Singleplayer->AvoidanceManager
+[2015.07.11-11.24.15:656][843]LogReferenceChain:   AvoidanceManager /Game/Maps/Singleplayer.Singleplayer:AvoidanceManager_5->Outer
+[2015.07.11-11.24.15:656][843]LogReferenceChain:     (target) World /Game/Maps/Singleplayer.Singleplayer
+[2015.07.11-11.24.15:656][843]LogReferenceChain:   
+[2015.07.11-11.24.15:656][843]LogReferenceChain: (root) World /Game/Maps/Singleplayer.Singleplayer->ThumbnailInfo
+[2015.07.11-11.24.15:656][843]LogReferenceChain:   WorldThumbnailInfo /Game/Maps/Singleplayer.Singleplayer:WorldThumbnailInfo_0->Outer
+[2015.07.11-11.24.15:656][843]LogReferenceChain:     (target) World /Game/Maps/Singleplayer.Singleplayer
+[2015.07.11-11.24.15:656][843]LogReferenceChain:   
+[2015.07.11-11.24.15:656][843]LogReferenceChain: (root) World /Game/Maps/Singleplayer.Singleplayer->PhysicsCollisionHandler
+[2015.07.11-11.24.15:656][843]LogReferenceChain:   PhysicsCollisionHandler /Game/Maps/Singleplayer.Singleplayer:PhysicsCollisionHandler_2->Outer
+[2015.07.11-11.24.15:656][843]LogReferenceChain:     (target) World /Game/Maps/Singleplayer.Singleplayer
+[2015.07.11-11.24.15:656][843]LogReferenceChain:   
+[2015.07.11-11.24.15:656][843]LogReferenceChain: (root) World /Game/Maps/Singleplayer.Singleplayer->AISystem
+[2015.07.11-11.24.15:656][843]LogReferenceChain:   AISystem /Game/Maps/Singleplayer.Singleplayer:AISystem_3->Outer
+[2015.07.11-11.24.15:656][843]LogReferenceChain:     (target) World /Game/Maps/Singleplayer.Singleplayer
+[2015.07.11-11.24.15:656][843]LogReferenceChain:   
+[2015.07.11-11.24.15:656][843]LogReferenceChain: (root) World /Game/Maps/Singleplayer.Singleplayer->DefaultPhysicsVolume
+[2015.07.11-11.24.15:656][843]LogReferenceChain:   DefaultPhysicsVolume /Game/Maps/Singleplayer.Singleplayer:PersistentLevel.DefaultPhysicsVolume_5->Outer
+[2015.07.11-11.24.15:656][843]LogReferenceChain:     Level /Game/Maps/Singleplayer.Singleplayer:PersistentLevel->OwningWorld
+[2015.07.11-11.24.15:656][843]LogReferenceChain:       (target) World /Game/Maps/Singleplayer.Singleplayer
+[2015.07.11-11.24.15:780][843]LogWindows:Error: Windows GetLastError: Der Vorgang wurde erfolgreich beendet. (0)
+[2015.07.11-11.24.15:823][843]LogCrashTracker: 
+
+
+=======
 ﻿[2015.07.11-10.45.46:554][  0]Log file open, 07/11/15 12:45:46
 [2015.07.11-10.45.46:554][  0]LogInit:Display: Running engine for game: Unreal
 [2015.07.11-10.45.46:554][  0]LogInit:Display: RandInit(565591295) SRandInit(565591300).
@@ -245,6 +955,7 @@ Localization Resource: (D:/Matthias/unreal/4.8/Engine/Content/Localization/Edito
 [2015.07.11-10.52.08:689][863]LogBlueprintUserMessages: X=224.559 Y=28.074 Z=-5.000
 [2015.07.11-10.52.09:033][877]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003682CE87C0
 [2015.07.11-10.52.55:194][645]BlueprintLog: New page: Pre-PIE auto-recompile
+<<<<<<< HEAD
 [2015.07.11-10.52.55:207][645]LogPlayLevel: [PIE] Compiling Singleplayer before PIE...
 [2015.07.11-10.52.55:304][645]LogPlayLevel: PIE:  Blueprint regeneration took 109 ms (1 blueprints)
 [2015.07.11-10.52.55:304][645]PIE: New page: PIE session: Singleplayer (Jul 11, 2015, 2:52:55 PM)
@@ -1384,3 +2095,7 @@ Localization Resource: (D:/Matthias/unreal/4.8/Engine/Content/Localization/Edito
 [2015.07.11-11.54.26:809][221]LogModuleManager: Shutting down and abandoning module PakFile (1)
 [2015.07.11-11.54.26:810][221]LogExit: Exiting.
 [2015.07.11-11.54.26:825][221]Log file closed, 07/11/15 13:54:26
+=======
+[2015.07.11-10.52.55:207][645]LogPlayLevel: [PIE] Compiling Singl
+>>>>>>> origin/master
+>>>>>>> origin/master
