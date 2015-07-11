@@ -1,736 +1,1033 @@
-﻿[2015.07.11-08.42.21:984][  0]Log file open, 07/11/15 10:42:21
-[2015.07.11-08.42.21:984][  0]LogInit:Display: Running engine for game: Unreal
-[2015.07.11-08.42.21:984][  0]LogInit:Display: RandInit(-298089297) SRandInit(-298089296).
-[2015.07.11-08.42.21:984][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
-[2015.07.11-08.42.21:984][  0]LogStats: Stats thread started
-[2015.07.11-08.42.21:984][  0]LogInit: Version: 4.8.1-2591939+++depot+UE4-Releases+4.8
-[2015.07.11-08.42.21:984][  0]LogInit: API Version: 2579680
-[2015.07.11-08.42.21:984][  0]LogInit: Compiled (64-bit): Jun 18 2015 11:02:04
-[2015.07.11-08.42.21:984][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
-[2015.07.11-08.42.21:984][  0]LogInit: Build Configuration: Development
-[2015.07.11-08.42.21:984][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.8
-[2015.07.11-08.42.21:984][  0]LogInit: Command line: 
-[2015.07.11-08.42.21:984][  0]LogInit: Base directory: D:/Matthias/unreal/4.8/Engine/Binaries/Win64/
-[2015.07.11-08.42.21:984][  0]LogInit: Rocket: 1
-[2015.07.11-08.42.21:994][  0]LogInit: Using libcurl 7.41.0
-[2015.07.11-08.42.21:994][  0]LogInit:  - built for x86_64-pc-win32
-[2015.07.11-08.42.21:994][  0]LogInit:  - supports SSL with WinSSL
-[2015.07.11-08.42.21:994][  0]LogInit:  - other features:
-[2015.07.11-08.42.21:994][  0]LogInit:      CURL_VERSION_SSL
-[2015.07.11-08.42.21:994][  0]LogInit:      CURL_VERSION_IPV6
-[2015.07.11-08.42.21:994][  0]LogInit:      CURL_VERSION_ASYNCHDNS
-[2015.07.11-08.42.21:994][  0]LogInit:      CURL_VERSION_LARGEFILE
-[2015.07.11-08.42.21:994][  0]LogInit:      CURL_VERSION_IDN
-[2015.07.11-08.42.21:994][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
-[2015.07.11-08.42.21:994][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
-[2015.07.11-08.42.21:994][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
-[2015.07.11-08.42.21:994][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
-[2015.07.11-08.42.21:994][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
-[2015.07.11-08.42.22:003][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
-[2015.07.11-08.42.22:013][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
-[2015.07.11-08.42.22:020][  0]LogInit: Object subsystem initialized
-[2015.07.11-08.42.22:021][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
-[2015.07.11-08.42.22:021][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Martin/Documents/GitHub/Kraken/Unreal/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
-[2015.07.11-08.42.22:021][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
-[2015.07.11-08.42.22:021][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Martin/Documents/GitHub/Kraken/Unreal/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
-[2015.07.11-08.42.22:021][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
-[2015.07.11-08.42.22:021][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Martin/Documents/GitHub/Kraken/Unreal/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
-[2015.07.11-08.42.22:021][  0]LogInit: Selected Device Profile: [Windows]
-[2015.07.11-08.42.22:021][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2015.07.11-08.42.22:027][  0]LogInit: Computer: MARTIN
-[2015.07.11-08.42.22:027][  0]LogInit: User: Martin
-[2015.07.11-08.42.22:027][  0]LogInit: CPU Page size=4096, Cores=4
-[2015.07.11-08.42.22:027][  0]LogInit: High frequency timer resolution =2.435777 MHz
-[2015.07.11-08.42.22:027][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2015.07.11-08.42.22:027][  0]LogMemory: Platform Memory Stats for Windows
-[2015.07.11-08.42.22:027][  0]LogMemory: Process Physical Memory: 48.43 MB used, 48.43 MB peak
-[2015.07.11-08.42.22:027][  0]LogMemory: Process Virtual Memory: 24.39 MB used, 24.39 MB peak
-[2015.07.11-08.42.22:027][  0]LogMemory: Physical Memory: 3823.48 MB used, 16307.27 MB total
-[2015.07.11-08.42.22:027][  0]LogMemory: Virtual Memory: 306.75 MB used, 134217728.00 MB total
-[2015.07.11-08.42.22:059][  0]LogTextLocalizationManager: The requested culture ('de_AT') has no localization data; falling back to 'en' for localization and internationalization data.
-[2015.07.11-08.42.22:267][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+﻿[2015.07.11-09.24.52:729][  0]Log file open, 07/11/15 11:24:52
+[2015.07.11-09.24.52:729][  0]LogInit:Display: Running engine for game: Unreal
+[2015.07.11-09.24.52:729][  0]LogInit:Display: RandInit(1619981211) SRandInit(1619981212).
+[2015.07.11-09.24.52:729][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.07.11-09.24.52:729][  0]LogStats: Stats thread started
+[2015.07.11-09.24.52:729][  0]LogInit: Version: 4.8.1-2591939+++depot+UE4-Releases+4.8
+[2015.07.11-09.24.52:729][  0]LogInit: API Version: 2579680
+[2015.07.11-09.24.52:729][  0]LogInit: Compiled (64-bit): Jun 18 2015 11:02:04
+[2015.07.11-09.24.52:729][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.07.11-09.24.52:729][  0]LogInit: Build Configuration: Development
+[2015.07.11-09.24.52:729][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.8
+[2015.07.11-09.24.52:729][  0]LogInit: Command line: 
+[2015.07.11-09.24.52:729][  0]LogInit: Base directory: D:/Matthias/unreal/4.8/Engine/Binaries/Win64/
+[2015.07.11-09.24.52:729][  0]LogInit: Rocket: 1
+[2015.07.11-09.24.52:739][  0]LogInit: Using libcurl 7.41.0
+[2015.07.11-09.24.52:739][  0]LogInit:  - built for x86_64-pc-win32
+[2015.07.11-09.24.52:739][  0]LogInit:  - supports SSL with WinSSL
+[2015.07.11-09.24.52:739][  0]LogInit:  - other features:
+[2015.07.11-09.24.52:739][  0]LogInit:      CURL_VERSION_SSL
+[2015.07.11-09.24.52:739][  0]LogInit:      CURL_VERSION_IPV6
+[2015.07.11-09.24.52:739][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.07.11-09.24.52:739][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.07.11-09.24.52:739][  0]LogInit:      CURL_VERSION_IDN
+[2015.07.11-09.24.52:739][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.07.11-09.24.52:739][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.07.11-09.24.52:739][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.07.11-09.24.52:739][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.07.11-09.24.52:739][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.07.11-09.24.52:747][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.07.11-09.24.52:756][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.07.11-09.24.52:763][  0]LogInit: Object subsystem initialized
+[2015.07.11-09.24.52:764][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.07.11-09.24.52:764][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Martin/Documents/GitHub/Kraken/Unreal/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.07.11-09.24.52:764][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.07.11-09.24.52:764][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Martin/Documents/GitHub/Kraken/Unreal/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.07.11-09.24.52:764][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.07.11-09.24.52:764][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Martin/Documents/GitHub/Kraken/Unreal/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.07.11-09.24.52:764][  0]LogInit: Selected Device Profile: [Windows]
+[2015.07.11-09.24.52:764][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.07.11-09.24.52:771][  0]LogInit: Computer: MARTIN
+[2015.07.11-09.24.52:771][  0]LogInit: User: Martin
+[2015.07.11-09.24.52:771][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.07.11-09.24.52:771][  0]LogInit: High frequency timer resolution =2.435777 MHz
+[2015.07.11-09.24.52:771][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2015.07.11-09.24.52:771][  0]LogMemory: Platform Memory Stats for Windows
+[2015.07.11-09.24.52:771][  0]LogMemory: Process Physical Memory: 48.37 MB used, 48.37 MB peak
+[2015.07.11-09.24.52:771][  0]LogMemory: Process Virtual Memory: 22.44 MB used, 22.44 MB peak
+[2015.07.11-09.24.52:771][  0]LogMemory: Physical Memory: 3838.76 MB used, 16307.27 MB total
+[2015.07.11-09.24.52:771][  0]LogMemory: Virtual Memory: 304.81 MB used, 134217728.00 MB total
+[2015.07.11-09.24.52:802][  0]LogTextLocalizationManager: The requested culture ('de_AT') has no localization data; falling back to 'en' for localization and internationalization data.
+[2015.07.11-09.24.53:010][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
 Localization Resource: (D:/Matthias/unreal/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (-630476809) Localized String: (Import to {0}...)
 Localization Resource: (D:/Matthias/unreal/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (1271782899) Localized String: (Imports an asset from file to this folder.)
-[2015.07.11-08.42.22:685][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 860M   (Feature Level 11_0)
-[2015.07.11-08.42.22:685][  0]LogD3D11RHI: Adapter has 4006MB of dedicated video memory, 0MB of dedicated system memory, and 8153MB of shared system memory, 1 output[s]
-[2015.07.11-08.42.22:690][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 4600 (Feature Level 11_0)
-[2015.07.11-08.42.22:690][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 1792MB of shared system memory, 0 output[s]
-[2015.07.11-08.42.22:691][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
-[2015.07.11-08.42.22:691][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
-[2015.07.11-08.42.22:691][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
-[2015.07.11-08.42.22:696][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2015.07.11-08.42.22:707][  0]LogD3D11RHI: Async texture creation enabled
-[2015.07.11-08.42.22:724][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2015.07.11-08.42.23:442][  0]LogTemp:Display: Loaded TP DesktopTargetPlatform
-[2015.07.11-08.42.23:452][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2015.07.11-08.42.23:466][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2015.07.11-08.42.23:477][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2015.07.11-08.42.23:492][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2015.07.11-08.42.23:501][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2015.07.11-08.42.23:509][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2015.07.11-08.42.23:518][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2015.07.11-08.42.23:527][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2015.07.11-08.42.23:535][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2015.07.11-08.42.23:544][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2015.07.11-08.42.23:552][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2015.07.11-08.42.23:588][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2015.07.11-08.42.23:596][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2015.07.11-08.42.23:605][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2015.07.11-08.42.23:615][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2015.07.11-08.42.23:615][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2015.07.11-08.42.23:748][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2015.07.11-08.42.23:800][  0]LogDerivedDataCache: Loaded boot cache 0.05s 53MB C:/Users/Martin/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
-[2015.07.11-08.42.23:800][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Martin/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc
-[2015.07.11-08.42.23:800][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Martin/Documents/GitHub/Kraken/Unreal/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2015.07.11-08.42.23:800][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2015.07.11-08.42.23:800][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Martin/Documents/GitHub/Kraken/Unreal/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2015.07.11-08.42.23:800][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2015.07.11-08.42.23:938][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2015.07.11-08.42.23:950][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Martin/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2015.07.11-08.42.24:128][  0]LogInit: Selected Device Profile: [Windows]
-[2015.07.11-08.42.24:201][  0]ImportText (ComponentSweepMultiTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",ShapeType="TriggerCapsule",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
-[2015.07.11-08.42.24:201][  0]ImportText (LineTraceSingleByChannelTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
-[2015.07.11-08.42.24:220][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2015.07.11-08.42.24:220][  0]LogMeshUtilities: No automatic mesh merging module available
-[2015.07.11-08.42.24:467][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2015.07.11-08.42.25:205][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2015.07.11-08.42.25:472][  0]SourceControl: Info Source control is disabled
-[2015.07.11-08.42.25:480][  0]SourceControl: Info Source control is disabled
-[2015.07.11-08.42.25:486][  0]SourceControl: Info Source control is disabled
-[2015.07.11-08.42.25:492][  0]SourceControl: Info Source control is disabled
-[2015.07.11-08.42.25:639][  0]LogObj: 26273 objects as part of root set at end of initial load.
-[2015.07.11-08.42.25:639][  0]LogUObjectAllocator: 5409248 out of 0 bytes used by permanent object pool.
-[2015.07.11-08.42.25:697][  0]LogEngine: Initializing Engine...
-[2015.07.11-08.42.25:699][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
-[2015.07.11-08.42.25:700][  0]LogHMD:Warning: SteamVR failed to initialize.  Error: 110
-[2015.07.11-08.42.25:818][  0]LogAIModule: Creating AISystem for world NewWorld
-[2015.07.11-08.42.25:821][  0]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2015.07.11-08.42.25:837][  0]LogInit: FAudioDevice initialized.
-[2015.07.11-08.42.25:863][  0]LogDerivedDataCache: Saved boot cache 0.03s 53MB C:/Users/Martin/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
-[2015.07.11-08.42.25:866][  0]LogInit: Texture streaming: Disabled
-[2015.07.11-08.42.25:881][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
-[2015.07.11-08.42.25:881][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.8.1-2591939+++depot+UE4-Releases+4.8
-[2015.07.11-08.42.25:881][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 925a908343451c523c48599e71b24289|f43b151de9f74d0d8c305aac1aca527f|332e9ce0-51fb-4932-82e8-f3f1365e625d
-[2015.07.11-08.42.25:881][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
-[2015.07.11-08.42.25:903][  0]LogInit: Transaction tracking system initialized
-[2015.07.11-08.42.25:981][  0]BlueprintLog: New page: Editor Load
-[2015.07.11-08.42.26:006][  0]LogAssetRegistry: FAssetRegistry took 0.0104 seconds to start up
-[2015.07.11-08.42.26:006][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
-[2015.07.11-08.42.26:466][  0]LogConsoleManager:Warning: Console variable 'r.VSync' wasn't set ('GameSetting' has a lower priority than 'SystemSettingsIni')
-[2015.07.11-08.42.26:466][  0]LogConsoleResponse:Display: 
-[2015.07.11-08.42.26:551][  0]LogCook:Display: Done creating registry. It took  0.00s.
-[2015.07.11-08.42.26:663][  0]SourceControl: Info Source control is disabled
-[2015.07.11-08.42.26:663][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
-[2015.07.11-08.42.26:664][  0]LightingResults: New page: Lighting Build
-[2015.07.11-08.42.26:671][  0]MapCheck: New page: Map Check
-[2015.07.11-08.42.26:671][  0]LightingResults: New page: Lighting Build
-[2015.07.11-08.42.26:680][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B94E074F40
-[2015.07.11-08.42.26:993][  0]LogAIModule: Creating AISystem for world Untitled_1
-[2015.07.11-08.42.26:999][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2015.07.11-08.42.27:005][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2015.07.11-08.42.27:032][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 26.365ms to complete.
-[2015.07.11-08.42.27:032][  0]LogFileHelpers: Loading map 'Template_Default' took 0.369
-[2015.07.11-08.42.27:130][  0]LogCollectionManager: Loaded 0 collections in 0.001300 seconds
-[2015.07.11-08.42.27:137][  0]LogContentBrowser: Native class hierarchy populated in 0.0062 seconds. Added 1792 classes and 301 folders.
-[2015.07.11-08.42.27:163][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2015.07.11-08.42.27:182][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2015.07.11-08.42.27:192][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2015.07.11-08.42.27:235][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2015.07.11-08.42.27:239][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2015.07.11-08.42.27:261][  0]LogLoad: Full Startup: 6.41 seconds (BP compile: 0.09 seconds)
-[2015.07.11-08.42.27:349][  0]LogContentStreaming: Texture pool size is 0.000000MB
-[2015.07.11-08.42.27:379][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2015.07.11-08.42.27:559][  0]LogRenderer: Reallocating scene render targets to support 1000x496 (Frame:2).
-[2015.07.11-08.42.27:797][  5]LogAssetRegistry: Asset discovery search completed in 1.8022 seconds
-[2015.07.11-08.44.41:734][887]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2015.07.11-08.44.41:802][887]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2015.07.11-08.49.36:849][393]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Kraken" FILE="C:/Users/Martin/Documents/GitHub/Kraken/Unreal/Content/Blueprints/BP_Kraken.uasset" SILENT=true
-[2015.07.11-08.49.37:049][393]LogSavePackage: Save=186.714142ms
-[2015.07.11-08.49.37:049][393]LogSavePackage: Moving 'C:/Users/Martin/Documents/GitHub/Kraken/Unreal/Saved/BP_KrakenEC7AECC34C1D2A65939C28AC5C15FC9E.tmp' to 'C:/Users/Martin/Documents/GitHub/Kraken/Unreal/Content/Blueprints/BP_Kraken.uasset'
-[2015.07.11-08.49.39:723][541]LogRenderer: Reallocating scene render targets to support 1000x728 (Frame:245).
-[2015.07.11-08.50.26:453][216]BlueprintLog: New page: Compile BP_Kraken
-[2015.07.11-08.50.26:702][216]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B977C52F20
-[2015.07.11-08.50.26:878][216]BlueprintEditorCompileResults: Info [0486.03] Compile of BP_Kraken successful! [in 424 ms]
-[2015.07.11-08.50.27:428][243]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Kraken" FILE="C:/Users/Martin/Documents/GitHub/Kraken/Unreal/Content/Blueprints/BP_Kraken.uasset" SILENT=true
-[2015.07.11-08.50.27:617][243]LogSavePackage: Save=179.935608ms
-[2015.07.11-08.50.27:617][243]LogSavePackage: Moving 'C:/Users/Martin/Documents/GitHub/Kraken/Unreal/Saved/BP_Kraken6A0B3B684AF10E1C03624C98989B146A.tmp' to 'C:/Users/Martin/Documents/GitHub/Kraken/Unreal/Content/Blueprints/BP_Kraken.uasset'
-[2015.07.11-08.50.31:371][391]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_0) - call TermArticulated first.
-[2015.07.11-08.50.31:389][391]LogLinker:Warning: Asset '../../../Engine/Content/Tutorial/SubEditors/PersonaAnimEditorTutorial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2015.07.11-08.50.45:062][834]LogContentBrowser: Native class hierarchy updated for 'PhAT' in 0.0004 seconds. Added 1 classes and 2 folders.
-[2015.07.11-08.51.19:315][874]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Kraken/Tentacle_new1_PhysicsAsset" FILE="C:/Users/Martin/Documents/GitHub/Kraken/Unreal/Content/Kraken/Tentacle_new1_PhysicsAsset.uasset" SILENT=true
-[2015.07.11-08.51.19:330][874]LogSavePackage: Save=5.598214ms
-[2015.07.11-08.51.19:330][874]LogSavePackage: Moving 'C:/Users/Martin/Documents/GitHub/Kraken/Unreal/Saved/Tentacle_new1_PhysicsAssetAD94042640C322250202E99F813E5741.tmp' to 'C:/Users/Martin/Documents/GitHub/Kraken/Unreal/Content/Kraken/Tentacle_new1_PhysicsAsset.uasset'
-[2015.07.11-08.55.44:511][441]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Kraken/Tentacle_new1_PhysicsAsset" FILE="C:/Users/Martin/Documents/GitHub/Kraken/Unreal/Content/Kraken/Tentacle_new1_PhysicsAsset.uasset" SILENT=true
-[2015.07.11-08.55.44:525][441]LogSavePackage: Save=4.978699ms
-[2015.07.11-08.55.44:525][441]LogSavePackage: Moving 'C:/Users/Martin/Documents/GitHub/Kraken/Unreal/Saved/Tentacle_new1_PhysicsAssetFB3F648742EE88E6A2D3349FC956223A.tmp' to 'C:/Users/Martin/Documents/GitHub/Kraken/Unreal/Content/Kraken/Tentacle_new1_PhysicsAsset.uasset'
-[2015.07.11-08.56.00:052][316]LogPlayLevel: PIE:  No blueprints needed recompiling
-[2015.07.11-08.56.00:054][316]PIE: New page: PIE session: Untitled_1 (Jul 11, 2015, 12:56:00 PM)
-[2015.07.11-08.56.00:055][316]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
-[2015.07.11-08.56.00:056][316]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001660s)
-[2015.07.11-08.56.00:057][316]LogAIModule: Creating AISystem for world Untitled_1
-[2015.07.11-08.56.00:058][316]LogPlayLevel: PIE: World Init took: (0.001502s)
-[2015.07.11-08.56.00:058][316]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.003433s)
-[2015.07.11-08.56.00:080][316]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B94E273CE0
-[2015.07.11-08.56.00:080][316]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B949BCF740
-[2015.07.11-08.56.00:093][316]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B949BCF1A0
-[2015.07.11-08.56.00:093][316]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2015.07.11-08.56.00:100][316]LogInit: FAudioDevice initialized.
-[2015.07.11-08.56.00:150][316]LogWorld: Game class is 'GameMode'
-[2015.07.11-08.56.00:153][316]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2015.07.11-10.56.00
-[2015.07.11-08.56.00:153][316]LogActor:Warning: GameSession /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2015.07.11-08.56.00:154][316]LogActor:Warning: GameNetworkManager /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2015.07.11-08.56.00:154][316]LogWorld: Bringing up level for play took: 0.002092
-[2015.07.11-08.56.00:169][316]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.741
-[2015.07.11-08.56.00:221][316]LogRenderer: Reallocating scene render targets to support 1296x760 (Frame:22341).
-[2015.07.11-08.56.02:269][430]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B9026F1440
-[2015.07.11-08.57.10:442][434]BlueprintLog: New page: Compile BP_Kraken
-[2015.07.11-08.57.10:651][434]BlueprintEditorCompileResults: Info [0889.80] Compile of BP_Kraken successful! [in 207 ms]
-[2015.07.11-08.57.11:262][469]LogPlayLevel: PIE:  No blueprints needed recompiling
-[2015.07.11-08.57.11:262][469]PIE: New page: PIE session: Untitled_1 (Jul 11, 2015, 12:57:11 PM)
-[2015.07.11-08.57.11:262][469]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
-[2015.07.11-08.57.11:264][469]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001959s)
-[2015.07.11-08.57.11:265][469]LogAIModule: Creating AISystem for world Untitled_1
-[2015.07.11-08.57.11:266][469]LogPlayLevel: PIE: World Init took: (0.001639s)
-[2015.07.11-08.57.11:266][469]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.003854s)
-[2015.07.11-08.57.11:304][469]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2015.07.11-08.57.11:310][469]LogInit: FAudioDevice initialized.
-[2015.07.11-08.57.11:352][469]LogWorld: Game class is 'GameMode'
-[2015.07.11-08.57.11:356][469]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2015.07.11-10.57.11
-[2015.07.11-08.57.11:356][469]LogActor:Warning: GameSession /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2015.07.11-08.57.11:356][469]LogActor:Warning: GameNetworkManager /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2015.07.11-08.57.11:357][469]LogWorld: Bringing up level for play took: 0.001953
-[2015.07.11-08.57.11:403][469]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.493
-[2015.07.11-08.57.13:380][568]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B94E763D80
-[2015.07.11-08.57.20:801][992]LogAIModule: Creating AISystem for world Singleplayer
-[2015.07.11-08.57.23:069][992]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Kraken" FILE="C:/Users/Martin/Documents/GitHub/Kraken/Unreal/Content/Blueprints/BP_Kraken.uasset" SILENT=true
-[2015.07.11-08.57.23:270][992]LogSavePackage: Save=188.639191ms
-[2015.07.11-08.57.23:270][992]LogSavePackage: Moving 'C:/Users/Martin/Documents/GitHub/Kraken/Unreal/Saved/BP_Kraken96ABE6824C665C9327ECCF8E1E06C358.tmp' to 'C:/Users/Martin/Documents/GitHub/Kraken/Unreal/Content/Blueprints/BP_Kraken.uasset'
-[2015.07.11-08.57.23:274][992]Cmd: MAP LOAD FILE="C:/Users/Martin/Documents/GitHub/Kraken/Unreal/Content/Maps/Singleplayer.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2015.07.11-08.57.23:275][992]LightingResults: New page: Lighting Build
-[2015.07.11-08.57.23:293][992]LoadErrors: New page: Loading map: Singleplayer.umap
-[2015.07.11-08.57.23:293][992]MapCheck: New page: Map Check
-[2015.07.11-08.57.23:293][992]LightingResults: New page: Lighting Build
-[2015.07.11-08.57.23:313][992]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B961292840
-[2015.07.11-08.57.23:315][992]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B90244D1C0
-[2015.07.11-08.57.23:478][992]LogAIModule: Creating AISystem for world Singleplayer
-[2015.07.11-08.57.23:535][992]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2015.07.11-08.57.23:562][992]Cmd: MAP CHECKDEP NOCLEARLOG
-[2015.07.11-08.57.23:668][992]MapCheck:Warning: Warning BP_Ship4 PaperFlipbookComponent /Game/Maps/Singleplayer.Singleplayer:PersistentLevel.BP_Ship4.ship1 : Externally referenced 
-[2015.07.11-08.57.23:668][992]MapCheck:Warning: Warning BP_Ship3 PaperFlipbookComponent /Game/Maps/Singleplayer.Singleplayer:PersistentLevel.BP_Ship3.ship1 : Externally referenced 
-[2015.07.11-08.57.23:668][992]MapCheck:Warning: Warning BP_Ship2 PaperFlipbookComponent /Game/Maps/Singleplayer.Singleplayer:PersistentLevel.BP_Ship2.ship1 : Externally referenced 
-[2015.07.11-08.57.23:668][992]MapCheck:Warning: Warning BP_Ship_C_1 PaperFlipbookComponent /Game/Maps/Singleplayer.Singleplayer:PersistentLevel.BP_Ship_C_1.ship1 : Externally referenced 
-[2015.07.11-08.57.23:668][992]MapCheck:Warning: Warning BP_Ship4 PaperSpriteComponent /Game/Maps/Singleplayer.Singleplayer:PersistentLevel.BP_Ship4.Collision : Externally referenced 
-[2015.07.11-08.57.23:668][992]MapCheck:Warning: Warning BP_Ship3 PaperSpriteComponent /Game/Maps/Singleplayer.Singleplayer:PersistentLevel.BP_Ship3.Collision : Externally referenced 
-[2015.07.11-08.57.23:668][992]MapCheck:Warning: Warning BP_Ship2 PaperSpriteComponent /Game/Maps/Singleplayer.Singleplayer:PersistentLevel.BP_Ship2.Collision : Externally referenced 
-[2015.07.11-08.57.23:668][992]MapCheck:Warning: Warning BP_Ship_C_1 PaperSpriteComponent /Game/Maps/Singleplayer.Singleplayer:PersistentLevel.BP_Ship_C_1.Collision : Externally referenced 
-[2015.07.11-08.57.23:668][992]MapCheck:Warning: Warning BP_Banana_183 PaperSpriteComponent /Game/Maps/Singleplayer.Singleplayer:PersistentLevel.BP_Banana_183.banana_Sprite : Externally referenced 
-[2015.07.11-08.57.23:668][992]MapCheck:Warning: Warning water_deep_Sprite2 PaperSpriteComponent /Game/Maps/Singleplayer.Singleplayer:PersistentLevel.water_deep_Sprite2.RenderComponent : Externally referenced 
-[2015.07.11-08.57.23:668][992]MapCheck:Warning: Warning water_2 PaperFlipbookComponent /Game/Maps/Singleplayer.Singleplayer:PersistentLevel.water_2.RenderComponent : Externally referenced 
-[2015.07.11-08.57.23:668][992]MapCheck:Warning: Warning water_2 PaperFlipbookComponent /Game/Maps/Singleplayer.Singleplayer:PersistentLevel.water_2.RenderComponent : Externally referenced 
-[2015.07.11-08.57.23:668][992]MapCheck:Warning: Warning water_deep_Sprite2 PaperSpriteComponent /Game/Maps/Singleplayer.Singleplayer:PersistentLevel.water_deep_Sprite2.RenderComponent : Externally referenced 
-[2015.07.11-08.57.23:668][992]MapCheck: Info Map check complete: 0 Error(s), 13 Warning(s), took 106.252ms to complete.
-[2015.07.11-08.57.23:676][992]LogFileHelpers: Loading map 'Singleplayer' took 0.403
-[2015.07.11-08.57.25:762][ 99]BlueprintLog: New page: Pre-PIE auto-recompile
-[2015.07.11-08.57.25:770][ 99]LogPlayLevel: [PIE] Compiling Singleplayer before PIE...
-[2015.07.11-08.57.25:879][ 99]LogPlayLevel: PIE:  Blueprint regeneration took 115 ms (1 blueprints)
-[2015.07.11-08.57.25:879][ 99]PIE: New page: PIE session: Singleplayer (Jul 11, 2015, 12:57:25 PM)
-[2015.07.11-08.57.25:879][ 99]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Singleplayer
-[2015.07.11-08.57.25:886][ 99]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006279s)
-[2015.07.11-08.57.25:886][ 99]LogAIModule: Creating AISystem for world Singleplayer
-[2015.07.11-08.57.25:887][ 99]LogPlayLevel: PIE: World Init took: (0.001122s)
-[2015.07.11-08.57.25:887][ 99]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Singleplayer.Singleplayer to /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer (0.007594s)
-[2015.07.11-08.57.25:917][ 99]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2015.07.11-08.57.25:924][ 99]LogInit: FAudioDevice initialized.
-[2015.07.11-08.57.25:964][ 99]LogWorld: Game class is 'BP_Gamemode_C'
-[2015.07.11-08.57.25:970][ 99]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer up for play (max tick rate 60) at 2015.07.11-10.57.25
-[2015.07.11-08.57.25:970][ 99]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2015.07.11-08.57.25:971][ 99]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2015.07.11-08.57.25:972][ 99]LogWorld: Bringing up level for play took: 0.004787
-[2015.07.11-08.57.25:994][ 99]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Singleplayer 1.083
-[2015.07.11-08.57.28:765][261]LogBlueprintUserMessages: X=115.196 Y=339.559 Z=0.000
-[2015.07.11-08.57.28:766][261]LogBlueprintUserMessages: X=-671.116 Y=594.236 Z=0.000
-[2015.07.11-08.57.28:766][261]LogBlueprintUserMessages: X=-258.561 Y=309.716 Z=0.000
-[2015.07.11-08.57.28:766][261]LogBlueprintUserMessages: X=-269.930 Y=-299.949 Z=0.000
-[2015.07.11-08.57.28:767][261]LogBlueprintUserMessages: X=136.513 Y=-305.634 Z=0.000
-[2015.07.11-08.57.31:765][441]LogBlueprintUserMessages: X=136.513 Y=-305.634 Z=0.000
-[2015.07.11-08.57.31:766][441]LogBlueprintUserMessages: X=-269.930 Y=-299.949 Z=0.000
-[2015.07.11-08.57.31:766][441]LogBlueprintUserMessages: X=-258.561 Y=309.716 Z=0.000
-[2015.07.11-08.57.31:766][441]LogBlueprintUserMessages: X=115.196 Y=339.559 Z=0.000
-[2015.07.11-08.57.31:767][441]LogBlueprintUserMessages: X=-636.161 Y=448.095 Z=0.000
-[2015.07.11-08.57.34:766][621]LogBlueprintUserMessages: X=-269.930 Y=-299.949 Z=0.000
-[2015.07.11-08.57.34:766][621]LogBlueprintUserMessages: X=115.196 Y=339.559 Z=0.000
-[2015.07.11-08.57.34:766][621]LogBlueprintUserMessages: X=-258.561 Y=309.716 Z=0.000
-[2015.07.11-08.57.34:767][621]LogBlueprintUserMessages: X=136.513 Y=-305.634 Z=0.000
-[2015.07.11-08.57.34:767][621]LogBlueprintUserMessages: X=-582.432 Y=307.952 Z=-0.000
-[2015.07.11-08.57.36:236][703]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B94E7900E0
-[2015.07.11-08.57.53:907][758]BlueprintLog: New page: Pre-PIE auto-recompile
-[2015.07.11-08.57.53:941][758]LogPlayLevel: [PIE] Compiling BP_Kraken before PIE...
-[2015.07.11-08.57.54:113][758]LogPlayLevel: [PIE] Compiling Singleplayer before PIE...
-[2015.07.11-08.57.54:190][758]LogPlayLevel: [PIE] Compiling BP_Gamemode before PIE...
-[2015.07.11-08.57.54:323][758]LogPlayLevel: [PIE] Compiling BP_Ball before PIE...
-[2015.07.11-08.57.54:412][758]LogPlayLevel: [PIE] Compiling WBP_HUD before PIE...
-[2015.07.11-08.57.54:503][758]LogPlayLevel: [PIE] Compiling BP_Ship before PIE...
-[2015.07.11-08.57.54:646][758]LogPlayLevel: [PIE] Compiling BP_Playercontroller before PIE...
-[2015.07.11-08.57.54:714][758]LogPlayLevel: [PIE] Compiling BP_HUD before PIE...
-[2015.07.11-08.57.54:816][758]LogPlayLevel: [PIE] Compiling BP_Path before PIE...
-[2015.07.11-08.57.54:913][758]LogPlayLevel: [PIE] Compiling BP_Item before PIE...
-[2015.07.11-08.57.54:949][758]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Sphere' for 'banana_Sprite' in BlueprintGeneratedClass 'REINST_BP_Banana_C_254' (it may have been removed)
-[2015.07.11-08.57.55:161][758]LogPlayLevel: [PIE] Compiling BP_Banana before PIE...
-[2015.07.11-08.57.55:249][758]LogPlayLevel: PIE:  Blueprint regeneration took 1342 ms (11 blueprints)
-[2015.07.11-08.57.55:249][758]PIE: New page: PIE session: Singleplayer (Jul 11, 2015, 12:57:55 PM)
-[2015.07.11-08.57.55:250][758]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Singleplayer
-[2015.07.11-08.57.55:257][758]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006481s)
-[2015.07.11-08.57.55:257][758]LogAIModule: Creating AISystem for world Singleplayer
-[2015.07.11-08.57.55:258][758]LogPlayLevel: PIE: World Init took: (0.001118s)
-[2015.07.11-08.57.55:258][758]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Singleplayer.Singleplayer to /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer (0.007800s)
-[2015.07.11-08.57.55:289][758]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2015.07.11-08.57.55:295][758]LogInit: FAudioDevice initialized.
-[2015.07.11-08.57.55:334][758]LogWorld: Game class is 'BP_Gamemode_C'
-[2015.07.11-08.57.55:342][758]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer up for play (max tick rate 60) at 2015.07.11-10.57.55
-[2015.07.11-08.57.55:342][758]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2015.07.11-08.57.55:343][758]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2015.07.11-08.57.55:345][758]LogWorld: Bringing up level for play took: 0.006318
-[2015.07.11-08.57.55:363][758]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Singleplayer 2.452
-[2015.07.11-08.57.58:048][911]LogBlueprintUserMessages: X=136.513 Y=-305.634 Z=0.000
-[2015.07.11-08.57.58:048][911]LogBlueprintUserMessages: X=-671.214 Y=594.688 Z=0.000
-[2015.07.11-08.57.58:048][911]LogBlueprintUserMessages: X=115.196 Y=339.559 Z=0.000
-[2015.07.11-08.57.58:049][911]LogBlueprintUserMessages: X=-258.561 Y=309.716 Z=0.000
-[2015.07.11-08.57.58:049][911]LogBlueprintUserMessages: X=-269.930 Y=-299.949 Z=0.000
-[2015.07.11-08.58.01:049][ 91]LogBlueprintUserMessages: X=-269.930 Y=-299.949 Z=0.000
-[2015.07.11-08.58.01:049][ 91]LogBlueprintUserMessages: X=-258.561 Y=309.716 Z=0.000
-[2015.07.11-08.58.01:050][ 91]LogBlueprintUserMessages: X=115.196 Y=339.559 Z=0.000
-[2015.07.11-08.58.01:050][ 91]LogBlueprintUserMessages: X=136.513 Y=-305.634 Z=0.000
-[2015.07.11-08.58.01:050][ 91]LogBlueprintUserMessages: X=-636.281 Y=448.523 Z=0.000
-[2015.07.11-08.58.04:045][270]LogBlueprintUserMessages: X=-258.561 Y=309.716 Z=0.000
-[2015.07.11-08.58.04:045][270]LogBlueprintUserMessages: X=136.513 Y=-305.634 Z=0.000
-[2015.07.11-08.58.04:045][270]LogBlueprintUserMessages: X=115.196 Y=339.559 Z=0.000
-[2015.07.11-08.58.04:045][270]LogBlueprintUserMessages: X=-269.930 Y=-299.949 Z=0.000
-[2015.07.11-08.58.04:046][270]LogBlueprintUserMessages: X=-582.738 Y=308.518 Z=0.000
-[2015.07.11-08.58.07:045][450]LogBlueprintUserMessages: X=136.513 Y=-305.634 Z=0.000
-[2015.07.11-08.58.07:046][450]LogBlueprintUserMessages: X=-269.930 Y=-299.949 Z=0.000
-[2015.07.11-08.58.07:046][450]LogBlueprintUserMessages: X=-481.500 Y=196.872 Z=0.000
-[2015.07.11-08.58.07:046][450]LogBlueprintUserMessages: X=-258.561 Y=309.716 Z=0.000
-[2015.07.11-08.58.07:047][450]LogBlueprintUserMessages: X=115.196 Y=339.559 Z=0.000
-[2015.07.11-08.58.10:045][630]LogBlueprintUserMessages: X=115.196 Y=339.559 Z=0.000
-[2015.07.11-08.58.10:046][630]LogBlueprintUserMessages: X=-258.561 Y=309.716 Z=0.000
-[2015.07.11-08.58.10:046][630]LogBlueprintUserMessages: X=-332.464 Y=159.366 Z=0.000
-[2015.07.11-08.58.10:047][630]LogBlueprintUserMessages: X=136.513 Y=-305.634 Z=0.000
-[2015.07.11-08.58.10:047][630]LogBlueprintUserMessages: X=-269.930 Y=-299.949 Z=0.000
-[2015.07.11-08.58.13:045][810]LogBlueprintUserMessages: X=-269.930 Y=-299.949 Z=0.000
-[2015.07.11-08.58.13:046][810]LogBlueprintUserMessages: X=136.513 Y=-305.634 Z=0.000
-[2015.07.11-08.58.13:046][810]LogBlueprintUserMessages: X=-182.271 Y=148.292 Z=0.000
-[2015.07.11-08.58.13:046][810]LogBlueprintUserMessages: X=115.196 Y=339.559 Z=0.000
-[2015.07.11-08.58.13:047][810]LogBlueprintUserMessages: X=-258.561 Y=309.716 Z=0.000
-[2015.07.11-08.58.16:050][987]LogBlueprintUserMessages: X=-258.561 Y=309.716 Z=0.000
-[2015.07.11-08.58.16:050][987]LogBlueprintUserMessages: X=115.196 Y=339.559 Z=0.000
-[2015.07.11-08.58.16:051][987]LogBlueprintUserMessages: X=-32.109 Y=144.383 Z=0.000
-[2015.07.11-08.58.16:051][987]LogBlueprintUserMessages: X=-269.930 Y=-299.949 Z=0.000
-[2015.07.11-08.58.16:052][987]LogBlueprintUserMessages: X=136.513 Y=-305.634 Z=0.000
-[2015.07.11-08.58.19:061][164]LogBlueprintUserMessages: X=136.513 Y=-305.634 Z=0.000
-[2015.07.11-08.58.19:061][164]LogBlueprintUserMessages: X=-269.930 Y=-299.949 Z=0.000
-[2015.07.11-08.58.19:062][164]LogBlueprintUserMessages: X=119.109 Y=132.384 Z=0.000
-[2015.07.11-08.58.19:062][164]LogBlueprintUserMessages: X=-258.561 Y=309.716 Z=0.000
-[2015.07.11-08.58.19:062][164]LogBlueprintUserMessages: X=115.196 Y=339.559 Z=0.000
-[2015.07.11-08.58.22:074][343]LogBlueprintUserMessages: X=115.196 Y=339.559 Z=0.000
-[2015.07.11-08.58.22:075][343]LogBlueprintUserMessages: X=-258.561 Y=309.716 Z=0.000
-[2015.07.11-08.58.22:075][343]LogBlueprintUserMessages: X=224.507 Y=27.842 Z=-0.000
-[2015.07.11-08.58.22:075][343]LogBlueprintUserMessages: X=136.513 Y=-305.634 Z=0.000
-[2015.07.11-08.58.22:075][343]LogBlueprintUserMessages: X=-269.930 Y=-299.949 Z=0.000
-[2015.07.11-08.58.25:045][521]LogBlueprintUserMessages: X=-269.930 Y=-299.949 Z=0.000
-[2015.07.11-08.58.25:045][521]LogBlueprintUserMessages: X=136.513 Y=-305.634 Z=0.000
-[2015.07.11-08.58.25:045][521]LogBlueprintUserMessages: X=128.558 Y=-117.733 Z=-0.000
-[2015.07.11-08.58.25:046][521]LogBlueprintUserMessages: X=115.196 Y=339.559 Z=0.000
-[2015.07.11-08.58.25:046][521]LogBlueprintUserMessages: X=-258.561 Y=309.716 Z=0.000
-[2015.07.11-08.58.28:045][701]LogBlueprintUserMessages: X=-258.561 Y=309.716 Z=0.000
-[2015.07.11-08.58.28:045][701]LogBlueprintUserMessages: X=115.196 Y=339.559 Z=0.000
-[2015.07.11-08.58.28:045][701]LogBlueprintUserMessages: X=28.280 Y=-231.773 Z=0.000
-[2015.07.11-08.58.28:045][701]LogBlueprintUserMessages: X=-269.930 Y=-299.949 Z=0.000
-[2015.07.11-08.58.28:046][701]LogBlueprintUserMessages: X=136.513 Y=-305.634 Z=0.000
-[2015.07.11-08.58.31:046][881]LogBlueprintUserMessages: X=136.513 Y=-305.634 Z=0.000
-[2015.07.11-08.58.31:046][881]LogBlueprintUserMessages: X=-269.930 Y=-299.949 Z=0.000
-[2015.07.11-08.58.31:046][881]LogBlueprintUserMessages: X=-113.493 Y=-169.343 Z=0.000
-[2015.07.11-08.58.31:047][881]LogBlueprintUserMessages: X=-258.561 Y=309.716 Z=0.000
-[2015.07.11-08.58.31:047][881]LogBlueprintUserMessages: X=115.196 Y=339.559 Z=0.000
-[2015.07.11-08.58.34:052][ 60]LogBlueprintUserMessages: X=115.196 Y=339.559 Z=0.000
-[2015.07.11-08.58.34:052][ 60]LogBlueprintUserMessages: X=-258.561 Y=309.716 Z=0.000
-[2015.07.11-08.58.34:052][ 60]LogBlueprintUserMessages: X=-208.792 Y=-51.305 Z=0.000
-[2015.07.11-08.58.34:053][ 60]LogBlueprintUserMessages: X=136.513 Y=-305.634 Z=0.000
-[2015.07.11-08.58.34:053][ 60]LogBlueprintUserMessages: X=-269.930 Y=-299.949 Z=0.000
-[2015.07.11-08.58.37:052][240]LogBlueprintUserMessages: X=-269.930 Y=-299.949 Z=0.000
-[2015.07.11-08.58.37:052][240]LogBlueprintUserMessages: X=136.513 Y=-305.634 Z=0.000
-[2015.07.11-08.58.37:052][240]LogBlueprintUserMessages: X=-185.170 Y=95.732 Z=0.000
-[2015.07.11-08.58.37:053][240]LogBlueprintUserMessages: X=115.196 Y=339.559 Z=0.000
-[2015.07.11-08.58.37:053][240]LogBlueprintUserMessages: X=-258.561 Y=309.716 Z=0.000
-[2015.07.11-08.58.40:051][420]LogBlueprintUserMessages: X=-258.561 Y=309.716 Z=0.000
-[2015.07.11-08.58.40:051][420]LogBlueprintUserMessages: X=115.196 Y=339.559 Z=0.000
-[2015.07.11-08.58.40:052][420]LogBlueprintUserMessages: X=-58.278 Y=186.199 Z=-0.000
-[2015.07.11-08.58.40:052][420]LogBlueprintUserMessages: X=-269.930 Y=-299.949 Z=0.000
-[2015.07.11-08.58.40:053][420]LogBlueprintUserMessages: X=136.513 Y=-305.634 Z=0.000
-[2015.07.11-08.58.43:053][598]LogBlueprintUserMessages: X=136.513 Y=-305.634 Z=0.000
-[2015.07.11-08.58.43:054][598]LogBlueprintUserMessages: X=-269.930 Y=-299.949 Z=0.000
-[2015.07.11-08.58.43:054][598]LogBlueprintUserMessages: X=69.641 Y=265.249 Z=-0.000
-[2015.07.11-08.58.43:055][598]LogBlueprintUserMessages: X=-258.561 Y=309.716 Z=0.000
-[2015.07.11-08.58.43:055][598]LogBlueprintUserMessages: X=115.196 Y=339.559 Z=0.000
-[2015.07.11-08.58.46:053][778]LogBlueprintUserMessages: X=115.196 Y=339.559 Z=0.000
-[2015.07.11-08.58.46:053][778]LogBlueprintUserMessages: X=-258.561 Y=309.716 Z=0.000
-[2015.07.11-08.58.46:054][778]LogBlueprintUserMessages: X=201.381 Y=336.335 Z=0.000
-[2015.07.11-08.58.46:054][778]LogBlueprintUserMessages: X=136.513 Y=-305.634 Z=0.000
-[2015.07.11-08.58.46:055][778]LogBlueprintUserMessages: X=-269.930 Y=-299.949 Z=0.000
-[2015.07.11-08.58.49:053][958]LogBlueprintUserMessages: X=-269.930 Y=-299.949 Z=0.000
-[2015.07.11-08.58.49:053][958]LogBlueprintUserMessages: X=136.513 Y=-305.634 Z=0.000
-[2015.07.11-08.58.49:055][958]LogBlueprintUserMessages: X=337.947 Y=399.156 Z=0.000
-[2015.07.11-08.58.49:055][958]LogBlueprintUserMessages: X=115.196 Y=339.559 Z=0.000
-[2015.07.11-08.58.49:056][958]LogBlueprintUserMessages: X=-258.561 Y=309.716 Z=0.000
-[2015.07.11-08.58.50:991][ 68]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B95C28E0C0
-[2015.07.11-08.59.18:448][710]LogEditorTransaction: Undo Modify Component(s)
-[2015.07.11-09.00.05:996][525]BlueprintLog: New page: Compile BP_Kraken
-[2015.07.11-09.00.06:325][525]BlueprintEditorCompileResults: Info [1065.48] Compile of BP_Kraken successful! [in 329 ms]
-[2015.07.11-09.00.06:714][547]BlueprintLog: New page: Pre-PIE auto-recompile
-[2015.07.11-09.00.06:721][547]LogPlayLevel: [PIE] Compiling Singleplayer before PIE...
-[2015.07.11-09.00.06:817][547]LogPlayLevel: PIE:  Blueprint regeneration took 103 ms (1 blueprints)
-[2015.07.11-09.00.06:817][547]PIE: New page: PIE session: Singleplayer (Jul 11, 2015, 1:00:06 PM)
-[2015.07.11-09.00.06:817][547]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Singleplayer
-[2015.07.11-09.00.06:824][547]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006695s)
-[2015.07.11-09.00.06:825][547]LogAIModule: Creating AISystem for world Singleplayer
-[2015.07.11-09.00.06:826][547]LogPlayLevel: PIE: World Init took: (0.001871s)
-[2015.07.11-09.00.06:826][547]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Singleplayer.Singleplayer to /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer (0.008750s)
-[2015.07.11-09.00.06:861][547]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2015.07.11-09.00.06:868][547]LogInit: FAudioDevice initialized.
-[2015.07.11-09.00.06:907][547]LogWorld: Game class is 'BP_Gamemode_C'
-[2015.07.11-09.00.06:913][547]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer up for play (max tick rate 60) at 2015.07.11-11.00.06
-[2015.07.11-09.00.06:913][547]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2015.07.11-09.00.06:915][547]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2015.07.11-09.00.06:917][547]LogWorld: Bringing up level for play took: 0.007137
-[2015.07.11-09.00.06:967][547]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Singleplayer 0.057
-[2015.07.11-09.00.09:719][707]LogBlueprintUserMessages: X=136.513 Y=-305.634 Z=0.000
-[2015.07.11-09.00.09:719][707]LogBlueprintUserMessages: X=-671.072 Y=594.033 Z=0.000
-[2015.07.11-09.00.09:719][707]LogBlueprintUserMessages: X=115.196 Y=339.559 Z=0.000
-[2015.07.11-09.00.09:720][707]LogBlueprintUserMessages: X=-258.561 Y=309.716 Z=0.000
-[2015.07.11-09.00.09:720][707]LogBlueprintUserMessages: X=-269.930 Y=-299.949 Z=0.000
-[2015.07.11-09.00.12:314][857]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B9025B6B60
-[2015.07.11-09.00.41:256][584]BlueprintLog: New page: Compile BP_Kraken
-[2015.07.11-09.00.41:461][584]BlueprintEditorCompileResults: Info [1100.61] Compile of BP_Kraken successful! [in 204 ms]
-[2015.07.11-09.00.41:834][605]BlueprintLog: New page: Pre-PIE auto-recompile
-[2015.07.11-09.00.41:842][605]LogPlayLevel: [PIE] Compiling Singleplayer before PIE...
-[2015.07.11-09.00.41:937][605]LogPlayLevel: PIE:  Blueprint regeneration took 102 ms (1 blueprints)
-[2015.07.11-09.00.41:937][605]PIE: New page: PIE session: Singleplayer (Jul 11, 2015, 1:00:41 PM)
-[2015.07.11-09.00.41:937][605]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Singleplayer
-[2015.07.11-09.00.41:944][605]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006384s)
-[2015.07.11-09.00.41:944][605]LogAIModule: Creating AISystem for world Singleplayer
-[2015.07.11-09.00.41:945][605]LogPlayLevel: PIE: World Init took: (0.001100s)
-[2015.07.11-09.00.41:945][605]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Singleplayer.Singleplayer to /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer (0.007678s)
-[2015.07.11-09.00.41:976][605]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2015.07.11-09.00.41:982][605]LogInit: FAudioDevice initialized.
-[2015.07.11-09.00.42:028][605]LogWorld: Game class is 'BP_Gamemode_C'
-[2015.07.11-09.00.42:032][605]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer up for play (max tick rate 60) at 2015.07.11-11.00.42
-[2015.07.11-09.00.42:032][605]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2015.07.11-09.00.42:033][605]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2015.07.11-09.00.42:034][605]LogWorld: Bringing up level for play took: 0.004017
-[2015.07.11-09.00.42:090][605]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Singleplayer 1.179
-[2015.07.11-09.00.44:838][759]LogBlueprintUserMessages: X=136.513 Y=-305.634 Z=0.000
-[2015.07.11-09.00.44:838][759]LogBlueprintUserMessages: X=-671.081 Y=594.074 Z=0.000
-[2015.07.11-09.00.44:838][759]LogBlueprintUserMessages: X=115.196 Y=339.559 Z=0.000
-[2015.07.11-09.00.44:839][759]LogBlueprintUserMessages: X=-258.561 Y=309.716 Z=0.000
-[2015.07.11-09.00.44:839][759]LogBlueprintUserMessages: X=-269.930 Y=-299.949 Z=0.000
-[2015.07.11-09.00.47:836][937]LogBlueprintUserMessages: X=-269.930 Y=-299.949 Z=0.000
-[2015.07.11-09.00.47:836][937]LogBlueprintUserMessages: X=-258.561 Y=309.716 Z=0.000
-[2015.07.11-09.00.47:837][937]LogBlueprintUserMessages: X=115.196 Y=339.559 Z=0.000
-[2015.07.11-09.00.47:837][937]LogBlueprintUserMessages: X=136.513 Y=-305.634 Z=0.000
-[2015.07.11-09.00.47:837][937]LogBlueprintUserMessages: X=-636.132 Y=447.994 Z=-0.000
-[2015.07.11-09.00.50:836][116]LogBlueprintUserMessages: X=-258.561 Y=309.716 Z=0.000
-[2015.07.11-09.00.50:837][116]LogBlueprintUserMessages: X=136.513 Y=-305.634 Z=0.000
-[2015.07.11-09.00.50:837][116]LogBlueprintUserMessages: X=115.196 Y=339.559 Z=0.000
-[2015.07.11-09.00.50:837][116]LogBlueprintUserMessages: X=-269.930 Y=-299.949 Z=0.000
-[2015.07.11-09.00.50:838][116]LogBlueprintUserMessages: X=-582.400 Y=307.892 Z=-0.000
-[2015.07.11-09.00.52:966][237]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B94EA193A0
-[2015.07.11-09.01.07:962][135]BlueprintLog: New page: Compile BP_Kraken
-[2015.07.11-09.01.08:156][135]BlueprintEditorCompileResults: Info [1127.31] Compile of BP_Kraken successful! [in 194 ms]
-[2015.07.11-09.01.08:549][157]BlueprintLog: New page: Pre-PIE auto-recompile
-[2015.07.11-09.01.08:557][157]LogPlayLevel: [PIE] Compiling Singleplayer before PIE...
-[2015.07.11-09.01.08:653][157]LogPlayLevel: PIE:  Blueprint regeneration took 104 ms (1 blueprints)
-[2015.07.11-09.01.08:653][157]PIE: New page: PIE session: Singleplayer (Jul 11, 2015, 1:01:08 PM)
-[2015.07.11-09.01.08:653][157]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Singleplayer
-[2015.07.11-09.01.08:660][157]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006685s)
-[2015.07.11-09.01.08:661][157]LogAIModule: Creating AISystem for world Singleplayer
-[2015.07.11-09.01.08:661][157]LogPlayLevel: PIE: World Init took: (0.001090s)
-[2015.07.11-09.01.08:661][157]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Singleplayer.Singleplayer to /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer (0.007953s)
-[2015.07.11-09.01.08:691][157]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2015.07.11-09.01.08:697][157]LogInit: FAudioDevice initialized.
-[2015.07.11-09.01.08:741][157]LogWorld: Game class is 'BP_Gamemode_C'
-[2015.07.11-09.01.08:744][157]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer up for play (max tick rate 60) at 2015.07.11-11.01.08
-[2015.07.11-09.01.08:745][157]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2015.07.11-09.01.08:745][157]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2015.07.11-09.01.08:746][157]LogWorld: Bringing up level for play took: 0.003671
-[2015.07.11-09.01.08:798][157]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Singleplayer -0.113
-[2015.07.11-09.01.11:540][317]LogBlueprintUserMessages: X=136.513 Y=-305.634 Z=0.000
-[2015.07.11-09.01.11:541][317]LogBlueprintUserMessages: X=-671.189 Y=594.573 Z=0.000
-[2015.07.11-09.01.11:541][317]LogBlueprintUserMessages: X=115.196 Y=339.559 Z=0.000
-[2015.07.11-09.01.11:541][317]LogBlueprintUserMessages: X=-258.561 Y=309.716 Z=0.000
-[2015.07.11-09.01.11:542][317]LogBlueprintUserMessages: X=-269.930 Y=-299.949 Z=0.000
-[2015.07.11-09.01.14:542][497]LogBlueprintUserMessages: X=-269.930 Y=-299.949 Z=0.000
-[2015.07.11-09.01.14:542][497]LogBlueprintUserMessages: X=-258.561 Y=309.716 Z=0.000
-[2015.07.11-09.01.14:543][497]LogBlueprintUserMessages: X=115.196 Y=339.559 Z=0.000
-[2015.07.11-09.01.14:543][497]LogBlueprintUserMessages: X=136.513 Y=-305.634 Z=0.000
-[2015.07.11-09.01.14:543][497]LogBlueprintUserMessages: X=-636.240 Y=448.378 Z=0.000
-[2015.07.11-09.01.15:636][556]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B94E9D0360
-[2015.07.11-09.01.29:493][382]BlueprintLog: New page: Compile BP_Kraken
-[2015.07.11-09.01.29:699][382]BlueprintEditorCompileResults: Info [1148.85] Compile of BP_Kraken successful! [in 206 ms]
-[2015.07.11-09.01.30:122][406]BlueprintLog: New page: Pre-PIE auto-recompile
-[2015.07.11-09.01.30:131][406]LogPlayLevel: [PIE] Compiling Singleplayer before PIE...
-[2015.07.11-09.01.30:230][406]LogPlayLevel: PIE:  Blueprint regeneration took 108 ms (1 blueprints)
-[2015.07.11-09.01.30:231][406]PIE: New page: PIE session: Singleplayer (Jul 11, 2015, 1:01:30 PM)
-[2015.07.11-09.01.30:231][406]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Singleplayer
-[2015.07.11-09.01.30:238][406]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006670s)
-[2015.07.11-09.01.30:238][406]LogAIModule: Creating AISystem for world Singleplayer
-[2015.07.11-09.01.30:239][406]LogPlayLevel: PIE: World Init took: (0.001101s)
-[2015.07.11-09.01.30:239][406]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Singleplayer.Singleplayer to /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer (0.007945s)
-[2015.07.11-09.01.30:269][406]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2015.07.11-09.01.30:276][406]LogInit: FAudioDevice initialized.
-[2015.07.11-09.01.30:317][406]LogWorld: Game class is 'BP_Gamemode_C'
-[2015.07.11-09.01.30:323][406]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer up for play (max tick rate 60) at 2015.07.11-11.01.30
-[2015.07.11-09.01.30:323][406]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer:PersistentLevel.GameSession_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2015.07.11-09.01.30:323][406]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer:PersistentLevel.GameNetworkManager_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2015.07.11-09.01.30:324][406]LogWorld: Bringing up level for play took: 0.004067
-[2015.07.11-09.01.30:373][406]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Singleplayer -0.537
-[2015.07.11-09.01.33:127][560]LogBlueprintUserMessages: X=136.513 Y=-305.634 Z=0.000
-[2015.07.11-09.01.33:127][560]LogBlueprintUserMessages: X=-671.079 Y=594.066 Z=0.000
-[2015.07.11-09.01.33:127][560]LogBlueprintUserMessages: X=115.196 Y=339.559 Z=0.000
-[2015.07.11-09.01.33:128][560]LogBlueprintUserMessages: X=-258.561 Y=309.716 Z=0.000
-[2015.07.11-09.01.33:128][560]LogBlueprintUserMessages: X=-269.930 Y=-299.949 Z=0.000
-[2015.07.11-09.01.36:125][737]LogBlueprintUserMessages: X=-269.930 Y=-299.949 Z=0.000
-[2015.07.11-09.01.36:126][737]LogBlueprintUserMessages: X=-258.561 Y=309.716 Z=0.000
-[2015.07.11-09.01.36:126][737]LogBlueprintUserMessages: X=115.196 Y=339.559 Z=0.000
-[2015.07.11-09.01.36:127][737]LogBlueprintUserMessages: X=136.513 Y=-305.634 Z=0.000
-[2015.07.11-09.01.36:127][737]LogBlueprintUserMessages: X=-636.142 Y=448.027 Z=0.000
-[2015.07.11-09.01.39:128][916]LogBlueprintUserMessages: X=-258.561 Y=309.716 Z=0.000
-[2015.07.11-09.01.39:129][916]LogBlueprintUserMessages: X=136.513 Y=-305.634 Z=0.000
-[2015.07.11-09.01.39:129][916]LogBlueprintUserMessages: X=115.196 Y=339.559 Z=0.000
-[2015.07.11-09.01.39:130][916]LogBlueprintUserMessages: X=-269.930 Y=-299.949 Z=0.000
-[2015.07.11-09.01.39:131][916]LogBlueprintUserMessages: X=-582.369 Y=307.834 Z=0.000
-[2015.07.11-09.01.42:128][ 94]LogBlueprintUserMessages: X=136.513 Y=-305.634 Z=0.000
-[2015.07.11-09.01.42:128][ 94]LogBlueprintUserMessages: X=-269.930 Y=-299.949 Z=0.000
-[2015.07.11-09.01.42:128][ 94]LogBlueprintUserMessages: X=-480.789 Y=196.458 Z=-0.000
-[2015.07.11-09.01.42:129][ 94]LogBlueprintUserMessages: X=-258.561 Y=309.716 Z=0.000
-[2015.07.11-09.01.42:129][ 94]LogBlueprintUserMessages: X=115.196 Y=339.559 Z=0.000
-[2015.07.11-09.01.45:123][273]LogBlueprintUserMessages: X=115.196 Y=339.559 Z=0.000
-[2015.07.11-09.01.45:124][273]LogBlueprintUserMessages: X=-258.561 Y=309.716 Z=0.000
-[2015.07.11-09.01.45:124][273]LogBlueprintUserMessages: X=-331.811 Y=159.286 Z=0.000
-[2015.07.11-09.01.45:125][273]LogBlueprintUserMessages: X=136.513 Y=-305.634 Z=0.000
-[2015.07.11-09.01.45:125][273]LogBlueprintUserMessages: X=-269.930 Y=-299.949 Z=0.000
-[2015.07.11-09.01.48:116][452]LogBlueprintUserMessages: X=-269.930 Y=-299.949 Z=0.000
-[2015.07.11-09.01.48:117][452]LogBlueprintUserMessages: X=136.513 Y=-305.634 Z=0.000
-[2015.07.11-09.01.48:117][452]LogBlueprintUserMessages: X=-182.139 Y=148.287 Z=0.000
-[2015.07.11-09.01.48:118][452]LogBlueprintUserMessages: X=115.196 Y=339.559 Z=0.000
-[2015.07.11-09.01.48:118][452]LogBlueprintUserMessages: X=-258.561 Y=309.716 Z=0.000
-[2015.07.11-09.01.49:152][508]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B95C167100
-[2015.07.11-09.02.07:155][516]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Kraken" FILE="C:/Users/Martin/Documents/GitHub/Kraken/Unreal/Content/Blueprints/BP_Kraken.uasset" SILENT=true
-[2015.07.11-09.02.07:345][516]LogSavePackage: Save=180.575226ms
-[2015.07.11-09.02.07:345][516]LogSavePackage: Moving 'C:/Users/Martin/Documents/GitHub/Kraken/Unreal/Saved/BP_Kraken41C17A6244CDDB715C0CD39B5B8FAFBD.tmp' to 'C:/Users/Martin/Documents/GitHub/Kraken/Unreal/Content/Blueprints/BP_Kraken.uasset'
-[2015.07.11-09.02.11:766][516]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Singleplayer" FILE="C:/Users/Martin/Documents/GitHub/Kraken/Unreal/Content/Maps/Singleplayer.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2015.07.11-09.02.11:912][516]LogSavePackage: Save=102.449036ms
-[2015.07.11-09.02.11:912][516]LogSavePackage: Moving 'C:/Users/Martin/Documents/GitHub/Kraken/Unreal/Saved/Singleplayer04E876A74E7120870D8786BB6510FDB2.tmp' to 'C:/Users/Martin/Documents/GitHub/Kraken/Unreal/Content/Maps/Singleplayer.umap'
-[2015.07.11-09.02.11:939][516]LogFileHelpers: Saving map 'Singleplayer' took 4.590
-[2015.07.11-09.02.12:057][516]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2015.07.11-09.02.12:325][517]Cmd: QUIT_EDITOR
-[2015.07.11-09.02.13:195][517]LogExit: Preparing to exit.
-[2015.07.11-09.02.13:978][517]LogExit: Editor shut down
-[2015.07.11-09.02.13:978][517]LogExit: Transaction tracking system shut down
-[2015.07.11-09.02.13:979][517]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B9557B39C0
-[2015.07.11-09.02.13:979][517]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B9446E8A40
-[2015.07.11-09.02.13:984][517]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B94A585D00
-[2015.07.11-09.02.13:984][517]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B90BC8EB60
-[2015.07.11-09.02.13:984][517]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B901A65F80
-[2015.07.11-09.02.13:985][517]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B90A26C220
-[2015.07.11-09.02.13:985][517]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B94E271760
-[2015.07.11-09.02.13:985][517]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B94E270F40
-[2015.07.11-09.02.14:139][517]LogExit: Object subsystem successfully closed.
-[2015.07.11-09.02.14:231][517]LogModuleManager: Shutting down and abandoning module PhAT (189)
-[2015.07.11-09.02.14:231][517]LogModuleManager: Shutting down and abandoning module CrashTracker (188)
-[2015.07.11-09.02.14:231][517]LogModuleManager: Shutting down and abandoning module SceneOutliner (187)
-[2015.07.11-09.02.14:231][517]LogModuleManager: Shutting down and abandoning module SuperSearch (186)
-[2015.07.11-09.02.14:231][517]LogModuleManager: Shutting down and abandoning module WidgetCarousel (185)
-[2015.07.11-09.02.14:231][517]LogModuleManager: Shutting down and abandoning module AddContentDialog (184)
-[2015.07.11-09.02.14:232][517]LogModuleManager: Shutting down and abandoning module EditorWidgets (183)
-[2015.07.11-09.02.14:232][517]LogModuleManager: Shutting down and abandoning module CollectionManager (182)
-[2015.07.11-09.02.14:232][517]LogModuleManager: Shutting down and abandoning module StatsViewer (181)
-[2015.07.11-09.02.14:232][517]LogModuleManager: Shutting down and abandoning module FoliageEdit (180)
-[2015.07.11-09.02.14:232][517]LogModuleManager: Shutting down and abandoning module LandscapeEditor (179)
-[2015.07.11-09.02.14:232][517]LogModuleManager: Shutting down and abandoning module ActorPickerMode (178)
-[2015.07.11-09.02.14:232][517]LogModuleManager: Shutting down and abandoning module GeometryMode (177)
-[2015.07.11-09.02.14:232][517]LogModuleManager: Shutting down and abandoning module TextureAlignMode (176)
-[2015.07.11-09.02.14:232][517]LogModuleManager: Shutting down and abandoning module BspMode (175)
-[2015.07.11-09.02.14:232][517]LogModuleManager: Shutting down and abandoning module PlacementMode (174)
-[2015.07.11-09.02.14:232][517]LogModuleManager: Shutting down and abandoning module AutomationWorker (173)
-[2015.07.11-09.02.14:232][517]LogModuleManager: Shutting down and abandoning module CharacterAI (172)
-[2015.07.11-09.02.14:232][517]LogModuleManager: Shutting down and abandoning module SmartSnapping (171)
-[2015.07.11-09.02.14:232][517]LogModuleManager: Shutting down and abandoning module ViewportSnapping (170)
-[2015.07.11-09.02.14:232][517]LogModuleManager: Shutting down and abandoning module LogVisualizer (169)
-[2015.07.11-09.02.14:232][517]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (168)
-[2015.07.11-09.02.14:232][517]LogModuleManager: Shutting down and abandoning module IntroTutorials (167)
-[2015.07.11-09.02.14:233][517]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (166)
-[2015.07.11-09.02.14:233][517]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (165)
-[2015.07.11-09.02.14:233][517]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (164)
-[2015.07.11-09.02.14:233][517]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (163)
-[2015.07.11-09.02.15:020][517]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (162)
-[2015.07.11-09.02.15:020][517]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (161)
-[2015.07.11-09.02.15:020][517]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (160)
-[2015.07.11-09.02.15:020][517]LogModuleManager: Shutting down and abandoning module MergeActors (159)
-[2015.07.11-09.02.15:020][517]LogModuleManager: Shutting down and abandoning module SizeMap (158)
-[2015.07.11-09.02.15:020][517]LogModuleManager: Shutting down and abandoning module TreeMap (157)
-[2015.07.11-09.02.15:020][517]LogModuleManager: Shutting down and abandoning module ReferenceViewer (156)
-[2015.07.11-09.02.15:020][517]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (155)
-[2015.07.11-09.02.15:020][517]LogModuleManager: Shutting down and abandoning module HardwareTargeting (154)
-[2015.07.11-09.02.15:020][517]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (153)
-[2015.07.11-09.02.15:020][517]LogModuleManager: Shutting down and abandoning module UndoHistory (152)
-[2015.07.11-09.02.15:020][517]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (151)
-[2015.07.11-09.02.15:020][517]LogModuleManager: Shutting down and abandoning module UserFeedback (150)
-[2015.07.11-09.02.15:020][517]LogModuleManager: Shutting down and abandoning module XmlParser (149)
-[2015.07.11-09.02.15:020][517]LogModuleManager: Shutting down and abandoning module Blutility (148)
-[2015.07.11-09.02.15:020][517]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (147)
-[2015.07.11-09.02.15:020][517]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (146)
-[2015.07.11-09.02.15:020][517]LogModuleManager: Shutting down and abandoning module InputBindingEditor (145)
-[2015.07.11-09.02.15:020][517]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (144)
-[2015.07.11-09.02.15:020][517]LogModuleManager: Shutting down and abandoning module SettingsEditor (143)
-[2015.07.11-09.02.15:020][517]LogModuleManager: Shutting down and abandoning module ProjectLauncher (142)
-[2015.07.11-09.02.15:020][517]LogModuleManager: Shutting down and abandoning module SessionFrontend (141)
-[2015.07.11-09.02.15:020][517]LogModuleManager: Shutting down and abandoning module ProfilerClient (140)
-[2015.07.11-09.02.15:020][517]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (139)
-[2015.07.11-09.02.15:020][517]LogModuleManager: Shutting down and abandoning module DeviceManager (138)
-[2015.07.11-09.02.15:020][517]LogModuleManager: Shutting down and abandoning module AutomationController (137)
-[2015.07.11-09.02.15:021][517]LogModuleManager: Shutting down and abandoning module AutomationWindow (136)
-[2015.07.11-09.02.15:021][517]LogModuleManager: Shutting down and abandoning module Layers (135)
-[2015.07.11-09.02.15:021][517]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (134)
-[2015.07.11-09.02.15:021][517]LogModuleManager: Shutting down and abandoning module DetailCustomizations (133)
-[2015.07.11-09.02.15:021][517]LogModuleManager: Shutting down and abandoning module PackagesDialog (132)
-[2015.07.11-09.02.15:021][517]LogModuleManager: Shutting down and abandoning module AssetRegistry (131)
-[2015.07.11-09.02.15:099][517]LogModuleManager: Shutting down and abandoning module Persona (130)
-[2015.07.11-09.02.15:099][517]LogModuleManager: Shutting down and abandoning module Kismet (129)
-[2015.07.11-09.02.15:099][517]LogModuleManager: Shutting down and abandoning module GraphEditor (128)
-[2015.07.11-09.02.15:099][517]LogModuleManager: Shutting down and abandoning module ClassViewer (127)
-[2015.07.11-09.02.15:099][517]LogModuleManager: Shutting down and abandoning module Toolbox (126)
-[2015.07.11-09.02.15:099][517]LogModuleManager: Shutting down and abandoning module ModuleUI (125)
-[2015.07.11-09.02.15:099][517]LogModuleManager: Shutting down and abandoning module MovieSceneTools (124)
-[2015.07.11-09.02.15:099][517]LogModuleManager: Shutting down and abandoning module OutputLog (123)
-[2015.07.11-09.02.15:099][517]LogModuleManager: Shutting down and abandoning module GammaUI (122)
-[2015.07.11-09.02.15:099][517]LogModuleManager: Shutting down and abandoning module Documentation (121)
-[2015.07.11-09.02.15:099][517]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (120)
-[2015.07.11-09.02.15:099][517]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (119)
-[2015.07.11-09.02.15:099][517]LogModuleManager: Shutting down and abandoning module AnalyticsET (118)
-[2015.07.11-09.02.15:099][517]LogModuleManager: Shutting down and abandoning module Analytics (117)
-[2015.07.11-09.02.15:099][517]LogModuleManager: Shutting down and abandoning module AITestSuite (116)
-[2015.07.11-09.02.15:099][517]LogModuleManager: Shutting down and abandoning module GameplayDebugger (115)
-[2015.07.11-09.02.15:099][517]LogModuleManager: Shutting down and abandoning module AIModule (114)
-[2015.07.11-09.02.15:099][517]LogModuleManager: Shutting down and abandoning module ProfilerService (113)
-[2015.07.11-09.02.15:213][517]LogModuleManager: Shutting down and abandoning module TaskGraph (112)
-[2015.07.11-09.02.15:213][517]LogModuleManager: Shutting down and abandoning module SlateRemote (111)
-[2015.07.11-09.02.15:213][517]LogModuleManager: Shutting down and abandoning module SteamVRController (110)
-[2015.07.11-09.02.15:213][517]LogModuleManager: Shutting down and abandoning module SteamVR (109)
-[2015.07.11-09.02.15:213][517]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (108)
-[2015.07.11-09.02.15:213][517]LogModuleManager: Shutting down and abandoning module OculusRift (107)
-[2015.07.11-09.02.15:213][517]LogModuleManager: Shutting down and abandoning module LeapMotionController (106)
-[2015.07.11-09.02.15:227][517]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (105)
-[2015.07.11-09.02.15:227][517]LogModuleManager: Shutting down and abandoning module CableComponent (104)
-[2015.07.11-09.02.15:227][517]LogModuleManager: Shutting down and abandoning module MessagingDebugger (103)
-[2015.07.11-09.02.15:227][517]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (102)
-[2015.07.11-09.02.15:227][517]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (101)
-[2015.07.11-09.02.15:227][517]LogModuleManager: Shutting down and abandoning module PluginBrowser (100)
-[2015.07.11-09.02.15:227][517]LogModuleManager: Shutting down and abandoning module EpicSurvey (99)
-[2015.07.11-09.02.15:227][517]LogModuleManager: Shutting down and abandoning module DesktopPlatform (98)
-[2015.07.11-09.02.15:227][517]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (97)
-[2015.07.11-09.02.15:227][517]LogModuleManager: Shutting down and abandoning module UObjectPlugin (96)
-[2015.07.11-09.02.15:227][517]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (95)
-[2015.07.11-09.02.15:227][517]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (94)
-[2015.07.11-09.02.15:227][517]LogModuleManager: Shutting down and abandoning module SourceControl (93)
-[2015.07.11-09.02.15:227][517]LogModuleManager: Shutting down and abandoning module GitSourceControl (92)
-[2015.07.11-09.02.15:227][517]LogModuleManager: Shutting down and abandoning module BlankPlugin (91)
-[2015.07.11-09.02.15:227][517]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (90)
-[2015.07.11-09.02.15:227][517]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (89)
-[2015.07.11-09.02.15:227][517]LogModuleManager: Shutting down and abandoning module MeshPaint (88)
-[2015.07.11-09.02.15:227][517]LogModuleManager: Shutting down and abandoning module SlateReflector (87)
-[2015.07.11-09.02.15:227][517]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (86)
-[2015.07.11-09.02.15:228][517]LogModuleManager: Shutting down and abandoning module HotReload (85)
-[2015.07.11-09.02.15:228][517]LogModuleManager: Shutting down and abandoning module MainFrame (84)
-[2015.07.11-09.02.15:228][517]LogModuleManager: Shutting down and abandoning module LevelEditor (83)
-[2015.07.11-09.02.15:229][517]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
-[2015.07.11-09.02.15:229][517]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
-[2015.07.11-09.02.15:229][517]LogModuleManager: Shutting down and abandoning module UdpMessaging (80)
-[2015.07.11-09.02.15:330][517]LogModuleManager: Shutting down and abandoning module Paper2D (79)
-[2015.07.11-09.02.15:330][517]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (78)
-[2015.07.11-09.02.15:332][517]LogModuleManager: Shutting down and abandoning module Media (77)
-[2015.07.11-09.02.15:333][517]LogModuleManager: Shutting down and abandoning module WmfMedia (76)
-[2015.07.11-09.02.15:333][517]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (75)
-[2015.07.11-09.02.15:333][517]LogModuleManager: Shutting down and abandoning module PropertyEditor (74)
-[2015.07.11-09.02.15:333][517]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (73)
-[2015.07.11-09.02.15:333][517]LogModuleManager: Shutting down and abandoning module FunctionalTesting (72)
-[2015.07.11-09.02.15:333][517]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (71)
-[2015.07.11-09.02.15:333][517]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (70)
-[2015.07.11-09.02.15:333][517]LogModuleManager: Shutting down and abandoning module MessageLog (69)
-[2015.07.11-09.02.15:333][517]LogModuleManager: Shutting down and abandoning module Sequencer (68)
-[2015.07.11-09.02.15:333][517]LogModuleManager: Shutting down and abandoning module AssetTools (67)
-[2015.07.11-09.02.15:333][517]LogModuleManager: Shutting down and abandoning module UMGEditor (66)
-[2015.07.11-09.02.15:333][517]LogModuleManager: Shutting down and abandoning module UMG (65)
-[2015.07.11-09.02.15:333][517]LogModuleManager: Shutting down and abandoning module Slate (64)
-[2015.07.11-09.02.15:333][517]LogModuleManager: Shutting down and abandoning module EditorStyle (63)
-[2015.07.11-09.02.15:335][517]LogModuleManager: Shutting down and abandoning module SessionServices (62)
-[2015.07.11-09.02.15:335][517]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (61)
-[2015.07.11-09.02.15:335][517]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (60)
-[2015.07.11-09.02.15:335][517]LogModuleManager: Shutting down and abandoning module XAudio2 (59)
-[2015.07.11-09.02.15:335][517]LogModuleManager: Shutting down and abandoning module Networking (57)
-[2015.07.11-09.02.15:335][517]LogModuleManager: Shutting down and abandoning module Core (56)
-[2015.07.11-09.02.15:335][517]LogModuleManager: Shutting down and abandoning module KismetCompiler (55)
-[2015.07.11-09.02.15:335][517]LogModuleManager: Shutting down and abandoning module PhysXFormats (54)
-[2015.07.11-09.02.15:335][517]LogModuleManager: Shutting down and abandoning module MeshUtilities (53)
-[2015.07.11-09.02.15:335][517]LogModuleManager: Shutting down and abandoning module DerivedDataCache (52)
-[2015.07.11-09.02.15:399][517]LogDerivedDataCache: Shutdown
-[2015.07.11-09.02.15:399][517]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (51)
-[2015.07.11-09.02.15:399][517]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (50)
-[2015.07.11-09.02.15:399][517]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (49)
-[2015.07.11-09.02.15:399][517]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (48)
-[2015.07.11-09.02.15:399][517]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (47)
-[2015.07.11-09.02.15:399][517]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (46)
-[2015.07.11-09.02.15:399][517]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (45)
-[2015.07.11-09.02.15:399][517]LogModuleManager: Shutting down and abandoning module ImageWrapper (44)
-[2015.07.11-09.02.15:399][517]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (43)
-[2015.07.11-09.02.15:399][517]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (42)
-[2015.07.11-09.02.15:399][517]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (41)
-[2015.07.11-09.02.15:399][517]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (40)
-[2015.07.11-09.02.15:399][517]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (39)
-[2015.07.11-09.02.15:399][517]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (38)
-[2015.07.11-09.02.15:399][517]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (37)
-[2015.07.11-09.02.15:399][517]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (36)
-[2015.07.11-09.02.15:399][517]LogModuleManager: Shutting down and abandoning module Messaging (35)
-[2015.07.11-09.02.15:399][517]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (34)
-[2015.07.11-09.02.15:399][517]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (33)
-[2015.07.11-09.02.15:399][517]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (32)
-[2015.07.11-09.02.15:399][517]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (31)
-[2015.07.11-09.02.15:399][517]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (30)
-[2015.07.11-09.02.15:399][517]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (29)
-[2015.07.11-09.02.15:399][517]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (28)
-[2015.07.11-09.02.15:399][517]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (27)
-[2015.07.11-09.02.15:399][517]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (26)
-[2015.07.11-09.02.15:399][517]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (25)
-[2015.07.11-09.02.15:399][517]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (24)
-[2015.07.11-09.02.15:399][517]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (23)
-[2015.07.11-09.02.15:399][517]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (22)
-[2015.07.11-09.02.15:399][517]LogModuleManager: Shutting down and abandoning module DesktopTargetPlatform (21)
-[2015.07.11-09.02.15:399][517]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
-[2015.07.11-09.02.15:399][517]LogModuleManager: Shutting down and abandoning module InputCore (19)
-[2015.07.11-09.02.15:399][517]LogModuleManager: Shutting down and abandoning module Settings (18)
-[2015.07.11-09.02.15:399][517]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
-[2015.07.11-09.02.15:399][517]LogModuleManager: Shutting down and abandoning module HTTP (15)
-[2015.07.11-09.02.15:400][517]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
-[2015.07.11-09.02.15:400][517]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
-[2015.07.11-09.02.15:400][517]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
-[2015.07.11-09.02.15:400][517]LogModuleManager: Shutting down and abandoning module Landscape (11)
-[2015.07.11-09.02.15:400][517]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
-[2015.07.11-09.02.15:402][517]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
-[2015.07.11-09.02.15:402][517]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
-[2015.07.11-09.02.15:402][517]LogModuleManager: Shutting down and abandoning module Renderer (7)
-[2015.07.11-09.02.15:402][517]LogModuleManager: Shutting down and abandoning module Engine (6)
-[2015.07.11-09.02.15:402][517]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
-[2015.07.11-09.02.15:402][517]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
-[2015.07.11-09.02.15:402][517]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
-[2015.07.11-09.02.15:402][517]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
-[2015.07.11-09.02.15:402][517]LogModuleManager: Shutting down and abandoning module PakFile (1)
-[2015.07.11-09.02.15:403][517]LogExit: Exiting.
-[2015.07.11-09.02.15:404][517]Log file closed, 07/11/15 11:02:15
+[2015.07.11-09.24.53:421][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 860M   (Feature Level 11_0)
+[2015.07.11-09.24.53:421][  0]LogD3D11RHI: Adapter has 4006MB of dedicated video memory, 0MB of dedicated system memory, and 8153MB of shared system memory, 1 output[s]
+[2015.07.11-09.24.53:427][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 4600 (Feature Level 11_0)
+[2015.07.11-09.24.53:427][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 1792MB of shared system memory, 0 output[s]
+[2015.07.11-09.24.53:428][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.07.11-09.24.53:428][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.07.11-09.24.53:428][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.07.11-09.24.53:432][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.07.11-09.24.53:442][  0]LogD3D11RHI: Async texture creation enabled
+[2015.07.11-09.24.53:459][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.07.11-09.24.54:181][  0]LogTemp:Display: Loaded TP DesktopTargetPlatform
+[2015.07.11-09.24.54:190][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.07.11-09.24.54:200][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.07.11-09.24.54:210][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.07.11-09.24.54:221][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.07.11-09.24.54:229][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.07.11-09.24.54:237][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.07.11-09.24.54:245][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.07.11-09.24.54:254][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.07.11-09.24.54:262][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.07.11-09.24.54:270][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.07.11-09.24.54:278][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.07.11-09.24.54:314][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.07.11-09.24.54:322][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.07.11-09.24.54:331][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.07.11-09.24.54:340][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.07.11-09.24.54:340][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.07.11-09.24.54:472][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.07.11-09.24.54:519][  0]LogDerivedDataCache: Loaded boot cache 0.05s 53MB C:/Users/Martin/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.07.11-09.24.54:519][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Martin/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc
+[2015.07.11-09.24.54:519][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Martin/Documents/GitHub/Kraken/Unreal/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.07.11-09.24.54:519][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.07.11-09.24.54:520][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Martin/Documents/GitHub/Kraken/Unreal/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.07.11-09.24.54:520][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.07.11-09.24.54:657][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.07.11-09.24.54:669][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Martin/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.07.11-09.24.54:853][  0]LogInit: Selected Device Profile: [Windows]
+[2015.07.11-09.24.54:925][  0]ImportText (ComponentSweepMultiTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",ShapeType="TriggerCapsule",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.07.11-09.24.54:925][  0]ImportText (LineTraceSingleByChannelTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.07.11-09.24.54:943][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.07.11-09.24.54:943][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.07.11-09.24.55:188][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.07.11-09.24.55:921][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.07.11-09.24.56:189][  0]SourceControl: Info Source control is disabled
+[2015.07.11-09.24.56:196][  0]SourceControl: Info Source control is disabled
+[2015.07.11-09.24.56:203][  0]SourceControl: Info Source control is disabled
+[2015.07.11-09.24.56:209][  0]SourceControl: Info Source control is disabled
+[2015.07.11-09.24.56:355][  0]LogObj: 26273 objects as part of root set at end of initial load.
+[2015.07.11-09.24.56:355][  0]LogUObjectAllocator: 5409248 out of 0 bytes used by permanent object pool.
+[2015.07.11-09.24.56:414][  0]LogEngine: Initializing Engine...
+[2015.07.11-09.24.56:415][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
+[2015.07.11-09.24.56:416][  0]LogHMD:Warning: SteamVR failed to initialize.  Error: 110
+[2015.07.11-09.24.56:533][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.07.11-09.24.56:537][  0]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.07.11-09.24.56:552][  0]LogInit: FAudioDevice initialized.
+[2015.07.11-09.24.56:577][  0]LogDerivedDataCache: Saved boot cache 0.02s 53MB C:/Users/Martin/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.07.11-09.24.56:580][  0]LogInit: Texture streaming: Disabled
+[2015.07.11-09.24.56:595][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.07.11-09.24.56:595][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.8.1-2591939+++depot+UE4-Releases+4.8
+[2015.07.11-09.24.56:595][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 925a908343451c523c48599e71b24289|f43b151de9f74d0d8c305aac1aca527f|332e9ce0-51fb-4932-82e8-f3f1365e625d
+[2015.07.11-09.24.56:595][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.07.11-09.24.56:615][  0]LogInit: Transaction tracking system initialized
+[2015.07.11-09.24.56:699][  0]BlueprintLog: New page: Editor Load
+[2015.07.11-09.24.56:725][  0]LogAssetRegistry: FAssetRegistry took 0.0110 seconds to start up
+[2015.07.11-09.24.56:725][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.07.11-09.24.57:151][  0]LogConsoleManager:Warning: Console variable 'r.VSync' wasn't set ('GameSetting' has a lower priority than 'SystemSettingsIni')
+[2015.07.11-09.24.57:151][  0]LogConsoleResponse:Display: 
+[2015.07.11-09.24.57:233][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.07.11-09.24.57:346][  0]SourceControl: Info Source control is disabled
+[2015.07.11-09.24.57:346][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.07.11-09.24.57:346][  0]LightingResults: New page: Lighting Build
+[2015.07.11-09.24.57:354][  0]MapCheck: New page: Map Check
+[2015.07.11-09.24.57:354][  0]LightingResults: New page: Lighting Build
+[2015.07.11-09.24.57:362][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001C6A610F40
+[2015.07.11-09.24.57:681][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2015.07.11-09.24.57:686][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.07.11-09.24.57:693][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.07.11-09.24.57:720][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 26.579ms to complete.
+[2015.07.11-09.24.57:720][  0]LogFileHelpers: Loading map 'Template_Default' took 0.374
+[2015.07.11-09.24.57:814][  0]LogCollectionManager: Loaded 0 collections in 0.001085 seconds
+[2015.07.11-09.24.57:821][  0]LogContentBrowser: Native class hierarchy populated in 0.0067 seconds. Added 1792 classes and 301 folders.
+[2015.07.11-09.24.57:847][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2015.07.11-09.24.57:867][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2015.07.11-09.24.57:877][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2015.07.11-09.24.57:923][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.07.11-09.24.57:928][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.07.11-09.24.57:950][  0]LogLoad: Full Startup: 6.37 seconds (BP compile: 0.09 seconds)
+[2015.07.11-09.24.58:041][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.07.11-09.24.58:072][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.07.11-09.24.58:257][  0]LogRenderer: Reallocating scene render targets to support 1000x368 (Frame:2).
+[2015.07.11-09.24.58:501][  6]LogAssetRegistry: Asset discovery search completed in 1.7873 seconds
+[2015.07.11-09.25.11:279][666]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.07.11-09.25.11:358][666]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.07.11-09.25.40:780][339]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3325.EdGraphPin_33137''
+[2015.07.11-09.25.40:780][339]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3325.EdGraphPin_33141''
+[2015.07.11-09.25.40:780][339]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3325.EdGraphPin_33139''
+[2015.07.11-09.25.43:358][482]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3325.EdGraphPin_33137''
+[2015.07.11-09.25.43:358][482]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3325.EdGraphPin_33141''
+[2015.07.11-09.25.43:358][482]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3325.EdGraphPin_33139''
+[2015.07.11-09.25.46:517][660]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3325.EdGraphPin_33137''
+[2015.07.11-09.25.46:517][660]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3325.EdGraphPin_33141''
+[2015.07.11-09.25.46:517][660]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3325.EdGraphPin_33139''
+[2015.07.11-09.26.06:537][823]BlueprintLog: New page: Compile BP_Kraken
+[2015.07.11-09.26.07:088][823]BlueprintEditorCompileResults: Info [0075.51] Compile of BP_Kraken successful! [in 551 ms]
+[2015.07.11-09.26.08:108][873]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Kraken" FILE="C:/Users/Martin/Documents/GitHub/Kraken/Unreal/Content/Blueprints/BP_Kraken.uasset" SILENT=true
+[2015.07.11-09.26.08:379][873]LogSavePackage: Save=260.262756ms
+[2015.07.11-09.26.08:379][873]LogSavePackage: Moving 'C:/Users/Martin/Documents/GitHub/Kraken/Unreal/Saved/BP_KrakenA4E617B147D82B7CA2893D8FC5C95ED3.tmp' to 'C:/Users/Martin/Documents/GitHub/Kraken/Unreal/Content/Blueprints/BP_Kraken.uasset'
+[2015.07.11-09.26.15:196][258]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.07.11-09.26.15:198][258]PIE: New page: PIE session: Untitled_1 (Jul 11, 2015, 1:26:15 PM)
+[2015.07.11-09.26.15:199][258]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2015.07.11-09.26.15:200][258]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001467s)
+[2015.07.11-09.26.15:201][258]LogAIModule: Creating AISystem for world Untitled_1
+[2015.07.11-09.26.15:202][258]LogPlayLevel: PIE: World Init took: (0.001517s)
+[2015.07.11-09.26.15:202][258]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.003350s)
+[2015.07.11-09.26.15:241][258]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.07.11-09.26.15:248][258]LogInit: FAudioDevice initialized.
+[2015.07.11-09.26.15:295][258]LogWorld: Game class is 'GameMode'
+[2015.07.11-09.26.15:300][258]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2015.07.11-11.26.15
+[2015.07.11-09.26.15:300][258]LogActor:Warning: GameSession /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.11-09.26.15:301][258]LogActor:Warning: GameNetworkManager /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.11-09.26.15:301][258]LogWorld: Bringing up level for play took: 0.002429
+[2015.07.11-09.26.15:310][258]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.399
+[2015.07.11-09.26.15:348][258]LogRenderer: Reallocating scene render targets to support 1296x760 (Frame:116).
+[2015.07.11-09.26.17:099][356]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001C16FB3C40
+[2015.07.11-09.26.27:927][983]LogAIModule: Creating AISystem for world Singleplayer
+[2015.07.11-09.26.28:081][983]Cmd: MAP LOAD FILE="C:/Users/Martin/Documents/GitHub/Kraken/Unreal/Content/Maps/Singleplayer.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.07.11-09.26.28:081][983]LightingResults: New page: Lighting Build
+[2015.07.11-09.26.28:099][983]LoadErrors: New page: Loading map: Singleplayer.umap
+[2015.07.11-09.26.28:100][983]MapCheck: New page: Map Check
+[2015.07.11-09.26.28:100][983]LightingResults: New page: Lighting Build
+[2015.07.11-09.26.28:124][983]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001C5C632700
+[2015.07.11-09.26.28:125][983]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001C0E6C3420
+[2015.07.11-09.26.28:291][983]LogAIModule: Creating AISystem for world Singleplayer
+[2015.07.11-09.26.28:350][983]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.07.11-09.26.28:378][983]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.07.11-09.26.28:479][983]MapCheck:Warning: Warning BP_Ship_C_4 PaperFlipbookComponent /Game/Maps/Singleplayer.Singleplayer:PersistentLevel.BP_Ship_C_4.ship1 : Externally referenced 
+[2015.07.11-09.26.28:479][983]MapCheck:Warning: Warning BP_Ship_C_3 PaperFlipbookComponent /Game/Maps/Singleplayer.Singleplayer:PersistentLevel.BP_Ship_C_3.ship1 : Externally referenced 
+[2015.07.11-09.26.28:479][983]MapCheck:Warning: Warning BP_Ship_C_2 PaperFlipbookComponent /Game/Maps/Singleplayer.Singleplayer:PersistentLevel.BP_Ship_C_2.ship1 : Externally referenced 
+[2015.07.11-09.26.28:479][983]MapCheck:Warning: Warning BP_Ship_C_0 PaperFlipbookComponent /Game/Maps/Singleplayer.Singleplayer:PersistentLevel.BP_Ship_C_0.ship1 : Externally referenced 
+[2015.07.11-09.26.28:479][983]MapCheck:Warning: Warning BP_Ship_C_4 PaperSpriteComponent /Game/Maps/Singleplayer.Singleplayer:PersistentLevel.BP_Ship_C_4.Collision : Externally referenced 
+[2015.07.11-09.26.28:479][983]MapCheck:Warning: Warning BP_Ship_C_3 PaperSpriteComponent /Game/Maps/Singleplayer.Singleplayer:PersistentLevel.BP_Ship_C_3.Collision : Externally referenced 
+[2015.07.11-09.26.28:480][983]MapCheck:Warning: Warning BP_Ship_C_2 PaperSpriteComponent /Game/Maps/Singleplayer.Singleplayer:PersistentLevel.BP_Ship_C_2.Collision : Externally referenced 
+[2015.07.11-09.26.28:480][983]MapCheck:Warning: Warning BP_Ship_C_0 PaperSpriteComponent /Game/Maps/Singleplayer.Singleplayer:PersistentLevel.BP_Ship_C_0.Collision : Externally referenced 
+[2015.07.11-09.26.28:480][983]MapCheck:Warning: Warning water_deep_Sprite2 PaperSpriteComponent /Game/Maps/Singleplayer.Singleplayer:PersistentLevel.water_deep_Sprite2.RenderComponent : Externally referenced 
+[2015.07.11-09.26.28:480][983]MapCheck:Warning: Warning water_2 PaperFlipbookComponent /Game/Maps/Singleplayer.Singleplayer:PersistentLevel.water_2.RenderComponent : Externally referenced 
+[2015.07.11-09.26.28:480][983]MapCheck:Warning: Warning water_2 PaperFlipbookComponent /Game/Maps/Singleplayer.Singleplayer:PersistentLevel.water_2.RenderComponent : Externally referenced 
+[2015.07.11-09.26.28:480][983]MapCheck:Warning: Warning water_deep_Sprite2 PaperSpriteComponent /Game/Maps/Singleplayer.Singleplayer:PersistentLevel.water_deep_Sprite2.RenderComponent : Externally referenced 
+[2015.07.11-09.26.28:480][983]MapCheck:Warning: Warning BP_Banana_C_0 PaperSpriteComponent /Game/Maps/Singleplayer.Singleplayer:PersistentLevel.BP_Banana_C_0.banana_Sprite : Externally referenced 
+[2015.07.11-09.26.28:480][983]MapCheck: Info Map check complete: 0 Error(s), 13 Warning(s), took 102.263ms to complete.
+[2015.07.11-09.26.28:487][983]LogFileHelpers: Loading map 'Singleplayer' took 0.408
+[2015.07.11-09.26.33:974][294]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.07.11-09.26.33:983][294]LogPlayLevel: [PIE] Compiling Singleplayer before PIE...
+[2015.07.11-09.26.34:089][294]LogPlayLevel: PIE:  Blueprint regeneration took 115 ms (1 blueprints)
+[2015.07.11-09.26.34:089][294]PIE: New page: PIE session: Singleplayer (Jul 11, 2015, 1:26:34 PM)
+[2015.07.11-09.26.34:089][294]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Singleplayer
+[2015.07.11-09.26.34:096][294]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006379s)
+[2015.07.11-09.26.34:096][294]LogAIModule: Creating AISystem for world Singleplayer
+[2015.07.11-09.26.34:096][294]LogPlayLevel: PIE: World Init took: (0.000863s)
+[2015.07.11-09.26.34:097][294]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Singleplayer.Singleplayer to /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer (0.007433s)
+[2015.07.11-09.26.34:126][294]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.07.11-09.26.34:133][294]LogInit: FAudioDevice initialized.
+[2015.07.11-09.26.34:169][294]LogWorld: Game class is 'BP_Gamemode_C'
+[2015.07.11-09.26.34:174][294]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer up for play (max tick rate 60) at 2015.07.11-11.26.34
+[2015.07.11-09.26.34:174][294]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.11-09.26.34:175][294]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.11-09.26.34:176][294]LogWorld: Bringing up level for play took: 0.003979
+[2015.07.11-09.26.34:191][294]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Singleplayer -0.719
+[2015.07.11-09.26.37:389][433]LogBlueprintUserMessages: X=136.513 Y=-305.634 Z=0.000
+[2015.07.11-09.26.37:389][433]LogBlueprintUserMessages: X=-671.223 Y=594.727 Z=-0.000
+[2015.07.11-09.26.37:389][433]LogBlueprintUserMessages: X=115.196 Y=339.559 Z=0.000
+[2015.07.11-09.26.37:390][433]LogBlueprintUserMessages: X=-258.561 Y=309.716 Z=0.000
+[2015.07.11-09.26.37:390][433]LogBlueprintUserMessages: X=-269.930 Y=-299.949 Z=0.000
+[2015.07.11-09.26.40:389][613]LogBlueprintUserMessages: X=-269.930 Y=-299.949 Z=0.000
+[2015.07.11-09.26.40:390][613]LogBlueprintUserMessages: X=-258.561 Y=309.716 Z=0.000
+[2015.07.11-09.26.40:390][613]LogBlueprintUserMessages: X=115.196 Y=339.559 Z=0.000
+[2015.07.11-09.26.40:391][613]LogBlueprintUserMessages: X=136.513 Y=-305.634 Z=0.000
+[2015.07.11-09.26.40:391][613]LogBlueprintUserMessages: X=-636.297 Y=448.579 Z=-0.000
+[2015.07.11-09.26.43:388][793]LogBlueprintUserMessages: X=-258.561 Y=309.716 Z=0.000
+[2015.07.11-09.26.43:389][793]LogBlueprintUserMessages: X=136.513 Y=-305.634 Z=0.000
+[2015.07.11-09.26.43:389][793]LogBlueprintUserMessages: X=115.196 Y=339.559 Z=0.000
+[2015.07.11-09.26.43:390][793]LogBlueprintUserMessages: X=-269.930 Y=-299.949 Z=0.000
+[2015.07.11-09.26.43:390][793]LogBlueprintUserMessages: X=-582.683 Y=308.416 Z=0.000
+[2015.07.11-09.26.44:215][837]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001C7DA03380
+[2015.07.11-09.26.54:926][477]LogMaterial: Missing cached shader map for material Tentacle_Mat, compiling. 
+[2015.07.11-09.26.54:997][477]LogMaterial: Missing cached shader map for material Tentacle_Mat, compiling. 
+[2015.07.11-09.26.55:002][477]LogMaterial: 0.000022 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.11-09.26.55:025][477]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.07.11-09.26.55:029][477]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2015.07.11-09.26.56:748][550]MaterialEditorStats: Info Base pass shader without light map: 23 instructions
+[2015.07.11-09.26.56:748][550]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.07.11-09.26.56:748][550]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.07.11-09.27.02:750][901]LogMaterialEditor: Saving and Compiling material Tentacle_Mat
+[2015.07.11-09.27.02:818][901]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Kraken/Tentacle_Mat" FILE="C:/Users/Martin/Documents/GitHub/Kraken/Unreal/Content/Kraken/Tentacle_Mat.uasset" SILENT=true
+[2015.07.11-09.27.02:836][901]LogSavePackage: Save=7.044980ms
+[2015.07.11-09.27.02:836][901]LogSavePackage: Moving 'C:/Users/Martin/Documents/GitHub/Kraken/Unreal/Saved/Tentacle_Mat9E7B31684FF34FDB4CC33CA5188FD303.tmp' to 'C:/Users/Martin/Documents/GitHub/Kraken/Unreal/Content/Kraken/Tentacle_Mat.uasset'
+[2015.07.11-09.27.12:673][488]BlueprintLog: New page: Compile BP_Kraken
+[2015.07.11-09.27.12:907][488]BlueprintEditorCompileResults: Info [0141.33] Compile of BP_Kraken successful! [in 233 ms]
+[2015.07.11-09.27.13:363][509]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Kraken" FILE="C:/Users/Martin/Documents/GitHub/Kraken/Unreal/Content/Blueprints/BP_Kraken.uasset" SILENT=true
+[2015.07.11-09.27.13:635][509]LogSavePackage: Save=264.801758ms
+[2015.07.11-09.27.13:635][509]LogSavePackage: Moving 'C:/Users/Martin/Documents/GitHub/Kraken/Unreal/Saved/BP_Kraken045CEBD94FB612461FC5F993D610E8BC.tmp' to 'C:/Users/Martin/Documents/GitHub/Kraken/Unreal/Content/Blueprints/BP_Kraken.uasset'
+[2015.07.11-09.27.20:666][928]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.07.11-09.27.20:676][928]LogPlayLevel: [PIE] Compiling Singleplayer before PIE...
+[2015.07.11-09.27.20:771][928]LogPlayLevel: PIE:  Blueprint regeneration took 104 ms (1 blueprints)
+[2015.07.11-09.27.20:771][928]PIE: New page: PIE session: Singleplayer (Jul 11, 2015, 1:27:20 PM)
+[2015.07.11-09.27.20:771][928]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Singleplayer
+[2015.07.11-09.27.20:778][928]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006249s)
+[2015.07.11-09.27.20:778][928]LogAIModule: Creating AISystem for world Singleplayer
+[2015.07.11-09.27.20:779][928]LogPlayLevel: PIE: World Init took: (0.000901s)
+[2015.07.11-09.27.20:779][928]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Singleplayer.Singleplayer to /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer (0.007314s)
+[2015.07.11-09.27.20:808][928]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.07.11-09.27.20:814][928]LogInit: FAudioDevice initialized.
+[2015.07.11-09.27.20:848][928]LogWorld: Game class is 'BP_Gamemode_C'
+[2015.07.11-09.27.20:853][928]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer up for play (max tick rate 60) at 2015.07.11-11.27.20
+[2015.07.11-09.27.20:853][928]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.11-09.27.20:854][928]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.11-09.27.20:856][928]LogWorld: Bringing up level for play took: 0.006036
+[2015.07.11-09.27.20:873][928]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Singleplayer -0.038
+[2015.07.11-09.27.23:656][ 91]LogBlueprintUserMessages: X=136.513 Y=-305.634 Z=0.000
+[2015.07.11-09.27.23:656][ 91]LogBlueprintUserMessages: X=-671.225 Y=594.735 Z=0.000
+[2015.07.11-09.27.23:656][ 91]LogBlueprintUserMessages: X=115.196 Y=339.559 Z=0.000
+[2015.07.11-09.27.23:656][ 91]LogBlueprintUserMessages: X=-258.561 Y=309.716 Z=0.000
+[2015.07.11-09.27.23:657][ 91]LogBlueprintUserMessages: X=-269.930 Y=-299.949 Z=0.000
+[2015.07.11-09.27.26:655][271]LogBlueprintUserMessages: X=-269.930 Y=-299.949 Z=0.000
+[2015.07.11-09.27.26:656][271]LogBlueprintUserMessages: X=-258.561 Y=309.716 Z=0.000
+[2015.07.11-09.27.26:656][271]LogBlueprintUserMessages: X=115.196 Y=339.559 Z=0.000
+[2015.07.11-09.27.26:656][271]LogBlueprintUserMessages: X=136.513 Y=-305.634 Z=0.000
+[2015.07.11-09.27.26:656][271]LogBlueprintUserMessages: X=-636.299 Y=448.586 Z=-0.000
+[2015.07.11-09.27.29:656][451]LogBlueprintUserMessages: X=-258.561 Y=309.716 Z=0.000
+[2015.07.11-09.27.29:657][451]LogBlueprintUserMessages: X=136.513 Y=-305.634 Z=0.000
+[2015.07.11-09.27.29:657][451]LogBlueprintUserMessages: X=115.196 Y=339.559 Z=0.000
+[2015.07.11-09.27.29:657][451]LogBlueprintUserMessages: X=-269.930 Y=-299.949 Z=0.000
+[2015.07.11-09.27.29:658][451]LogBlueprintUserMessages: X=-582.687 Y=308.423 Z=-0.000
+[2015.07.11-09.27.32:656][631]LogBlueprintUserMessages: X=136.513 Y=-305.634 Z=0.000
+[2015.07.11-09.27.32:657][631]LogBlueprintUserMessages: X=-269.930 Y=-299.949 Z=0.000
+[2015.07.11-09.27.32:657][631]LogBlueprintUserMessages: X=-481.422 Y=196.827 Z=0.000
+[2015.07.11-09.27.32:658][631]LogBlueprintUserMessages: X=-258.561 Y=309.716 Z=0.000
+[2015.07.11-09.27.32:658][631]LogBlueprintUserMessages: X=115.196 Y=339.559 Z=0.000
+[2015.07.11-09.27.32:973][644]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001C1B2D3240
+[2015.07.11-09.28.35:920][338]BlueprintLog: New page: Compile BP_Kraken
+[2015.07.11-09.28.36:146][338]BlueprintEditorCompileResults: Info [0224.57] Compile of BP_Kraken successful! [in 226 ms]
+[2015.07.11-09.28.37:088][393]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.07.11-09.28.37:099][393]LogPlayLevel: [PIE] Compiling Singleplayer before PIE...
+[2015.07.11-09.28.37:201][393]LogPlayLevel: PIE:  Blueprint regeneration took 112 ms (1 blueprints)
+[2015.07.11-09.28.37:201][393]PIE: New page: PIE session: Singleplayer (Jul 11, 2015, 1:28:37 PM)
+[2015.07.11-09.28.37:202][393]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Singleplayer
+[2015.07.11-09.28.37:208][393]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006241s)
+[2015.07.11-09.28.37:208][393]LogAIModule: Creating AISystem for world Singleplayer
+[2015.07.11-09.28.37:209][393]LogPlayLevel: PIE: World Init took: (0.001057s)
+[2015.07.11-09.28.37:209][393]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Singleplayer.Singleplayer to /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer (0.007470s)
+[2015.07.11-09.28.37:240][393]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.07.11-09.28.37:246][393]LogInit: FAudioDevice initialized.
+[2015.07.11-09.28.37:288][393]LogWorld: Game class is 'BP_Gamemode_C'
+[2015.07.11-09.28.37:294][393]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer up for play (max tick rate 60) at 2015.07.11-11.28.37
+[2015.07.11-09.28.37:294][393]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.11-09.28.37:294][393]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.11-09.28.37:295][393]LogWorld: Bringing up level for play took: 0.004726
+[2015.07.11-09.28.37:368][393]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Singleplayer 0.458
+[2015.07.11-09.28.40:091][550]LogBlueprintUserMessages: X=136.513 Y=-305.634 Z=0.000
+[2015.07.11-09.28.40:092][550]LogBlueprintUserMessages: X=-671.073 Y=594.040 Z=-0.000
+[2015.07.11-09.28.40:092][550]LogBlueprintUserMessages: X=115.196 Y=339.559 Z=0.000
+[2015.07.11-09.28.40:092][550]LogBlueprintUserMessages: X=-258.561 Y=309.716 Z=0.000
+[2015.07.11-09.28.40:092][550]LogBlueprintUserMessages: X=-269.930 Y=-299.949 Z=0.000
+[2015.07.11-09.28.42:590][694]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001C1D057380
+[2015.07.11-09.28.47:650][996]BlueprintLog: New page: Compile BP_Kraken
+[2015.07.11-09.28.47:880][996]BlueprintEditorCompileResults: Info [0236.30] Compile of BP_Kraken successful! [in 228 ms]
+[2015.07.11-09.28.48:334][ 22]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.07.11-09.28.48:342][ 22]LogPlayLevel: [PIE] Compiling Singleplayer before PIE...
+[2015.07.11-09.28.48:438][ 22]LogPlayLevel: PIE:  Blueprint regeneration took 104 ms (1 blueprints)
+[2015.07.11-09.28.48:438][ 22]PIE: New page: PIE session: Singleplayer (Jul 11, 2015, 1:28:48 PM)
+[2015.07.11-09.28.48:438][ 22]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Singleplayer
+[2015.07.11-09.28.48:445][ 22]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006324s)
+[2015.07.11-09.28.48:445][ 22]LogAIModule: Creating AISystem for world Singleplayer
+[2015.07.11-09.28.48:446][ 22]LogPlayLevel: PIE: World Init took: (0.001122s)
+[2015.07.11-09.28.48:446][ 22]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Singleplayer.Singleplayer to /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer (0.007635s)
+[2015.07.11-09.28.48:476][ 22]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.07.11-09.28.48:482][ 22]LogInit: FAudioDevice initialized.
+[2015.07.11-09.28.48:526][ 22]LogWorld: Game class is 'BP_Gamemode_C'
+[2015.07.11-09.28.48:531][ 22]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer up for play (max tick rate 60) at 2015.07.11-11.28.48
+[2015.07.11-09.28.48:532][ 22]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.11-09.28.48:532][ 22]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.11-09.28.48:533][ 22]LogWorld: Bringing up level for play took: 0.005888
+[2015.07.11-09.28.48:597][ 22]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Singleplayer -0.314
+[2015.07.11-09.28.51:328][181]LogBlueprintUserMessages: X=136.513 Y=-305.634 Z=0.000
+[2015.07.11-09.28.51:329][181]LogBlueprintUserMessages: X=-671.188 Y=594.567 Z=0.000
+[2015.07.11-09.28.51:329][181]LogBlueprintUserMessages: X=115.196 Y=339.559 Z=0.000
+[2015.07.11-09.28.51:329][181]LogBlueprintUserMessages: X=-258.561 Y=309.716 Z=0.000
+[2015.07.11-09.28.51:329][181]LogBlueprintUserMessages: X=-269.930 Y=-299.949 Z=0.000
+[2015.07.11-09.28.54:329][361]LogBlueprintUserMessages: X=-269.930 Y=-299.949 Z=0.000
+[2015.07.11-09.28.54:329][361]LogBlueprintUserMessages: X=-258.561 Y=309.716 Z=0.000
+[2015.07.11-09.28.54:329][361]LogBlueprintUserMessages: X=115.196 Y=339.559 Z=0.000
+[2015.07.11-09.28.54:329][361]LogBlueprintUserMessages: X=136.513 Y=-305.634 Z=0.000
+[2015.07.11-09.28.54:330][361]LogBlueprintUserMessages: X=-636.252 Y=448.421 Z=0.000
+[2015.07.11-09.28.57:334][541]LogBlueprintUserMessages: X=-258.561 Y=309.716 Z=0.000
+[2015.07.11-09.28.57:335][541]LogBlueprintUserMessages: X=136.513 Y=-305.634 Z=0.000
+[2015.07.11-09.28.57:337][541]LogBlueprintUserMessages: X=115.196 Y=339.559 Z=0.000
+[2015.07.11-09.28.57:338][541]LogBlueprintUserMessages: X=-269.930 Y=-299.949 Z=0.000
+[2015.07.11-09.28.57:338][541]LogBlueprintUserMessages: X=-582.486 Y=308.051 Z=0.000
+[2015.07.11-09.28.59:753][680]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001C40A06660
+[2015.07.11-09.29.08:362][190]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.07.11-09.29.08:400][190]LogPlayLevel: [PIE] Compiling BP_Kraken before PIE...
+[2015.07.11-09.29.08:596][190]LogPlayLevel: [PIE] Compiling Singleplayer before PIE...
+[2015.07.11-09.29.08:669][190]LogPlayLevel: [PIE] Compiling BP_Gamemode before PIE...
+[2015.07.11-09.29.08:795][190]LogPlayLevel: [PIE] Compiling BP_Ball before PIE...
+[2015.07.11-09.29.08:882][190]LogPlayLevel: [PIE] Compiling WBP_HUD before PIE...
+[2015.07.11-09.29.08:969][190]LogPlayLevel: [PIE] Compiling BP_Ship before PIE...
+[2015.07.11-09.29.09:109][190]LogPlayLevel: [PIE] Compiling BP_Playercontroller before PIE...
+[2015.07.11-09.29.09:172][190]LogPlayLevel: [PIE] Compiling BP_HUD before PIE...
+[2015.07.11-09.29.09:269][190]LogPlayLevel: [PIE] Compiling BP_Path before PIE...
+[2015.07.11-09.29.09:357][190]LogPlayLevel: [PIE] Compiling BP_Item before PIE...
+[2015.07.11-09.29.09:391][190]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Sphere' for 'banana_Sprite' in BlueprintGeneratedClass 'REINST_BP_Banana_C_296' (it may have been removed)
+[2015.07.11-09.29.09:579][190]LogPlayLevel: [PIE] Compiling BP_Banana before PIE...
+[2015.07.11-09.29.09:666][190]LogPlayLevel: PIE:  Blueprint regeneration took 1304 ms (11 blueprints)
+[2015.07.11-09.29.09:667][190]PIE: New page: PIE session: Singleplayer (Jul 11, 2015, 1:29:09 PM)
+[2015.07.11-09.29.09:667][190]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Singleplayer
+[2015.07.11-09.29.09:674][190]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006487s)
+[2015.07.11-09.29.09:674][190]LogAIModule: Creating AISystem for world Singleplayer
+[2015.07.11-09.29.09:675][190]LogPlayLevel: PIE: World Init took: (0.000966s)
+[2015.07.11-09.29.09:675][190]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Singleplayer.Singleplayer to /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer (0.007657s)
+[2015.07.11-09.29.09:706][190]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.07.11-09.29.09:712][190]LogInit: FAudioDevice initialized.
+[2015.07.11-09.29.09:746][190]LogWorld: Game class is 'BP_Gamemode_C'
+[2015.07.11-09.29.09:753][190]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer up for play (max tick rate 60) at 2015.07.11-11.29.09
+[2015.07.11-09.29.09:753][190]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.11-09.29.09:754][190]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.11-09.29.09:756][190]LogWorld: Bringing up level for play took: 0.007333
+[2015.07.11-09.29.09:772][190]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Singleplayer 0.862
+[2015.07.11-09.29.12:542][345]LogBlueprintUserMessages: X=136.513 Y=-305.634 Z=0.000
+[2015.07.11-09.29.12:543][345]LogBlueprintUserMessages: X=-671.181 Y=594.537 Z=-0.000
+[2015.07.11-09.29.12:543][345]LogBlueprintUserMessages: X=115.196 Y=339.559 Z=0.000
+[2015.07.11-09.29.12:543][345]LogBlueprintUserMessages: X=-258.561 Y=309.716 Z=0.000
+[2015.07.11-09.29.12:544][345]LogBlueprintUserMessages: X=-269.930 Y=-299.949 Z=0.000
+[2015.07.11-09.29.15:542][525]LogBlueprintUserMessages: X=-269.930 Y=-299.949 Z=0.000
+[2015.07.11-09.29.15:543][525]LogBlueprintUserMessages: X=-258.561 Y=309.716 Z=0.000
+[2015.07.11-09.29.15:543][525]LogBlueprintUserMessages: X=115.196 Y=339.559 Z=0.000
+[2015.07.11-09.29.15:543][525]LogBlueprintUserMessages: X=136.513 Y=-305.634 Z=0.000
+[2015.07.11-09.29.15:544][525]LogBlueprintUserMessages: X=-636.244 Y=448.392 Z=0.000
+[2015.07.11-09.29.18:542][705]LogBlueprintUserMessages: X=-258.561 Y=309.716 Z=0.000
+[2015.07.11-09.29.18:543][705]LogBlueprintUserMessages: X=136.513 Y=-305.634 Z=0.000
+[2015.07.11-09.29.18:543][705]LogBlueprintUserMessages: X=115.196 Y=339.559 Z=0.000
+[2015.07.11-09.29.18:543][705]LogBlueprintUserMessages: X=-269.930 Y=-299.949 Z=0.000
+[2015.07.11-09.29.18:544][705]LogBlueprintUserMessages: X=-582.592 Y=308.247 Z=0.000
+[2015.07.11-09.29.21:542][885]LogBlueprintUserMessages: X=136.513 Y=-305.634 Z=0.000
+[2015.07.11-09.29.21:543][885]LogBlueprintUserMessages: X=-269.930 Y=-299.949 Z=0.000
+[2015.07.11-09.29.21:543][885]LogBlueprintUserMessages: X=-481.242 Y=196.721 Z=0.000
+[2015.07.11-09.29.21:543][885]LogBlueprintUserMessages: X=-258.561 Y=309.716 Z=0.000
+[2015.07.11-09.29.21:544][885]LogBlueprintUserMessages: X=115.196 Y=339.559 Z=0.000
+[2015.07.11-09.29.24:543][ 65]LogBlueprintUserMessages: X=115.196 Y=339.559 Z=0.000
+[2015.07.11-09.29.24:543][ 65]LogBlueprintUserMessages: X=-258.561 Y=309.716 Z=0.000
+[2015.07.11-09.29.24:544][ 65]LogBlueprintUserMessages: X=-332.161 Y=159.329 Z=0.000
+[2015.07.11-09.29.24:544][ 65]LogBlueprintUserMessages: X=136.513 Y=-305.634 Z=0.000
+[2015.07.11-09.29.24:544][ 65]LogBlueprintUserMessages: X=-269.930 Y=-299.949 Z=0.000
+[2015.07.11-09.29.27:543][245]LogBlueprintUserMessages: X=-269.930 Y=-299.949 Z=0.000
+[2015.07.11-09.29.27:543][245]LogBlueprintUserMessages: X=136.513 Y=-305.634 Z=0.000
+[2015.07.11-09.29.27:544][245]LogBlueprintUserMessages: X=-181.985 Y=148.282 Z=0.000
+[2015.07.11-09.29.27:544][245]LogBlueprintUserMessages: X=115.196 Y=339.559 Z=0.000
+[2015.07.11-09.29.27:544][245]LogBlueprintUserMessages: X=-258.561 Y=309.716 Z=0.000
+[2015.07.11-09.29.30:543][425]LogBlueprintUserMessages: X=-258.561 Y=309.716 Z=0.000
+[2015.07.11-09.29.30:543][425]LogBlueprintUserMessages: X=115.196 Y=339.559 Z=0.000
+[2015.07.11-09.29.30:544][425]LogBlueprintUserMessages: X=-31.945 Y=144.378 Z=0.000
+[2015.07.11-09.29.30:544][425]LogBlueprintUserMessages: X=-269.930 Y=-299.949 Z=0.000
+[2015.07.11-09.29.30:544][425]LogBlueprintUserMessages: X=136.513 Y=-305.634 Z=0.000
+[2015.07.11-09.29.33:544][605]LogBlueprintUserMessages: X=136.513 Y=-305.634 Z=0.000
+[2015.07.11-09.29.33:545][605]LogBlueprintUserMessages: X=-269.930 Y=-299.949 Z=0.000
+[2015.07.11-09.29.33:545][605]LogBlueprintUserMessages: X=118.665 Y=132.469 Z=0.000
+[2015.07.11-09.29.33:545][605]LogBlueprintUserMessages: X=-258.561 Y=309.716 Z=0.000
+[2015.07.11-09.29.33:546][605]LogBlueprintUserMessages: X=115.196 Y=339.559 Z=0.000
+[2015.07.11-09.29.36:544][785]LogBlueprintUserMessages: X=115.196 Y=339.559 Z=0.000
+[2015.07.11-09.29.36:544][785]LogBlueprintUserMessages: X=-258.561 Y=309.716 Z=0.000
+[2015.07.11-09.29.36:545][785]LogBlueprintUserMessages: X=224.639 Y=28.444 Z=-0.000
+[2015.07.11-09.29.36:545][785]LogBlueprintUserMessages: X=136.513 Y=-305.634 Z=0.000
+[2015.07.11-09.29.36:545][785]LogBlueprintUserMessages: X=-269.930 Y=-299.949 Z=0.000
+[2015.07.11-09.29.39:546][965]LogBlueprintUserMessages: X=-269.930 Y=-299.949 Z=0.000
+[2015.07.11-09.29.39:546][965]LogBlueprintUserMessages: X=136.513 Y=-305.634 Z=0.000
+[2015.07.11-09.29.39:546][965]LogBlueprintUserMessages: X=128.259 Y=-118.128 Z=-0.000
+[2015.07.11-09.29.39:547][965]LogBlueprintUserMessages: X=115.196 Y=339.559 Z=0.000
+[2015.07.11-09.29.39:547][965]LogBlueprintUserMessages: X=-258.561 Y=309.716 Z=0.000
+[2015.07.11-09.29.41:809][ 95]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001C0E6AC5E0
+[2015.07.11-09.29.53:321][738]BlueprintLog: New page: Compile BP_Kraken
+[2015.07.11-09.29.53:551][738]BlueprintEditorCompileResults: Info [0301.97] Compile of BP_Kraken successful! [in 230 ms]
+[2015.07.11-09.29.56:057][882]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Kraken" FILE="C:/Users/Martin/Documents/GitHub/Kraken/Unreal/Content/Blueprints/BP_Kraken.uasset" SILENT=true
+[2015.07.11-09.29.56:326][882]LogSavePackage: Save=259.043823ms
+[2015.07.11-09.29.56:326][882]LogSavePackage: Moving 'C:/Users/Martin/Documents/GitHub/Kraken/Unreal/Saved/BP_KrakenFCF870A44B7A76119213EEB2B8313A97.tmp' to 'C:/Users/Martin/Documents/GitHub/Kraken/Unreal/Content/Blueprints/BP_Kraken.uasset'
+[2015.07.11-09.30.05:768][448]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.07.11-09.30.05:779][448]LogPlayLevel: [PIE] Compiling Singleplayer before PIE...
+[2015.07.11-09.30.05:876][448]LogPlayLevel: PIE:  Blueprint regeneration took 108 ms (1 blueprints)
+[2015.07.11-09.30.05:876][448]PIE: New page: PIE session: Singleplayer (Jul 11, 2015, 1:30:05 PM)
+[2015.07.11-09.30.05:876][448]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Singleplayer
+[2015.07.11-09.30.05:882][448]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006132s)
+[2015.07.11-09.30.05:883][448]LogAIModule: Creating AISystem for world Singleplayer
+[2015.07.11-09.30.05:884][448]LogPlayLevel: PIE: World Init took: (0.001731s)
+[2015.07.11-09.30.05:884][448]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Singleplayer.Singleplayer to /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer (0.008168s)
+[2015.07.11-09.30.05:916][448]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.07.11-09.30.05:923][448]LogInit: FAudioDevice initialized.
+[2015.07.11-09.30.05:959][448]LogWorld: Game class is 'BP_Gamemode_C'
+[2015.07.11-09.30.05:965][448]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer up for play (max tick rate 60) at 2015.07.11-11.30.05
+[2015.07.11-09.30.05:965][448]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.11-09.30.05:965][448]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.11-09.30.05:966][448]LogWorld: Bringing up level for play took: 0.004693
+[2015.07.11-09.30.05:976][448]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Singleplayer 1.066
+[2015.07.11-09.30.08:769][607]LogBlueprintUserMessages: X=136.513 Y=-305.634 Z=0.000
+[2015.07.11-09.30.08:770][607]LogBlueprintUserMessages: X=-671.127 Y=594.286 Z=-0.000
+[2015.07.11-09.30.08:771][607]LogBlueprintUserMessages: X=115.196 Y=339.559 Z=0.000
+[2015.07.11-09.30.08:772][607]LogBlueprintUserMessages: X=-258.561 Y=309.716 Z=0.000
+[2015.07.11-09.30.08:772][607]LogBlueprintUserMessages: X=-269.930 Y=-299.949 Z=0.000
+[2015.07.11-09.30.11:769][787]LogBlueprintUserMessages: X=-269.930 Y=-299.949 Z=0.000
+[2015.07.11-09.30.11:769][787]LogBlueprintUserMessages: X=-258.561 Y=309.716 Z=0.000
+[2015.07.11-09.30.11:770][787]LogBlueprintUserMessages: X=115.196 Y=339.559 Z=0.000
+[2015.07.11-09.30.11:771][787]LogBlueprintUserMessages: X=136.513 Y=-305.634 Z=0.000
+[2015.07.11-09.30.11:771][787]LogBlueprintUserMessages: X=-636.174 Y=448.144 Z=0.000
+[2015.07.11-09.30.14:769][967]LogBlueprintUserMessages: X=-258.561 Y=309.716 Z=0.000
+[2015.07.11-09.30.14:770][967]LogBlueprintUserMessages: X=136.513 Y=-305.634 Z=0.000
+[2015.07.11-09.30.14:771][967]LogBlueprintUserMessages: X=115.196 Y=339.559 Z=0.000
+[2015.07.11-09.30.14:771][967]LogBlueprintUserMessages: X=-269.930 Y=-299.949 Z=0.000
+[2015.07.11-09.30.14:772][967]LogBlueprintUserMessages: X=-582.471 Y=308.023 Z=0.000
+[2015.07.11-09.30.15:591][ 11]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001C7300DEE0
+[2015.07.11-09.30.25:941][576]LogMaterial: Missing cached shader map for material Tentacle_Mat, compiling. 
+[2015.07.11-09.30.25:947][576]LogMaterial: 0.000079 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.11-09.30.27:310][658]LogMaterialEditor: Saving and Compiling material Tentacle_Mat
+[2015.07.11-09.30.27:686][658]LogMaterial: Missing cached shader map for material Tentacle_Mat, compiling. 
+[2015.07.11-09.30.27:700][658]LogMaterial: 0.000023 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.11-09.30.27:749][658]LogMaterial: Missing cached shader map for material Tentacle_Mat, compiling. 
+[2015.07.11-09.30.27:780][658]LogMaterial: Missing cached shader map for material Tentacle_Mat, compiling. 
+[2015.07.11-09.30.27:795][658]LogMaterial: 0.000859 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.11-09.30.30:101][658]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Kraken/Tentacle_Mat" FILE="C:/Users/Martin/Documents/GitHub/Kraken/Unreal/Content/Kraken/Tentacle_Mat.uasset" SILENT=true
+[2015.07.11-09.30.30:117][658]LogSavePackage: Save=6.261657ms
+[2015.07.11-09.30.30:117][658]LogSavePackage: Moving 'C:/Users/Martin/Documents/GitHub/Kraken/Unreal/Saved/Tentacle_MatDDA755D6417C778F291102811E21E615.tmp' to 'C:/Users/Martin/Documents/GitHub/Kraken/Unreal/Content/Kraken/Tentacle_Mat.uasset'
+[2015.07.11-09.30.30:123][658]MaterialEditorStats: Info Base pass shader without light map: 49 instructions
+[2015.07.11-09.30.30:123][658]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.07.11-09.30.30:123][658]MaterialEditorStats: Info Texture samplers: 2/16
+[2015.07.11-09.30.32:479][741]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Kraken" FILE="C:/Users/Martin/Documents/GitHub/Kraken/Unreal/Content/Blueprints/BP_Kraken.uasset" SILENT=true
+[2015.07.11-09.30.32:782][741]LogSavePackage: Save=294.125458ms
+[2015.07.11-09.30.32:782][741]LogSavePackage: Moving 'C:/Users/Martin/Documents/GitHub/Kraken/Unreal/Saved/BP_KrakenC288BE254DCBAFD22F509D89040C23A9.tmp' to 'C:/Users/Martin/Documents/GitHub/Kraken/Unreal/Content/Blueprints/BP_Kraken.uasset'
+[2015.07.11-09.30.37:057][741]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Singleplayer" FILE="C:/Users/Martin/Documents/GitHub/Kraken/Unreal/Content/Maps/Singleplayer.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.07.11-09.30.37:202][741]LogSavePackage: Save=102.285637ms
+[2015.07.11-09.30.37:202][741]LogSavePackage: Moving 'C:/Users/Martin/Documents/GitHub/Kraken/Unreal/Saved/SingleplayerB6EEA61C4502CCE61CAFBD907BFBE5DB.tmp' to 'C:/Users/Martin/Documents/GitHub/Kraken/Unreal/Content/Maps/Singleplayer.umap'
+[2015.07.11-09.30.37:230][741]LogFileHelpers: Saving map 'Singleplayer' took 4.443
+[2015.07.11-09.30.38:287][804]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.07.11-09.30.38:295][804]LogPlayLevel: [PIE] Compiling Singleplayer before PIE...
+[2015.07.11-09.30.38:400][804]LogPlayLevel: PIE:  Blueprint regeneration took 113 ms (1 blueprints)
+[2015.07.11-09.30.38:400][804]PIE: New page: PIE session: Singleplayer (Jul 11, 2015, 1:30:38 PM)
+[2015.07.11-09.30.38:401][804]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Singleplayer
+[2015.07.11-09.30.38:407][804]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006443s)
+[2015.07.11-09.30.38:408][804]LogAIModule: Creating AISystem for world Singleplayer
+[2015.07.11-09.30.38:408][804]LogPlayLevel: PIE: World Init took: (0.000951s)
+[2015.07.11-09.30.38:408][804]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Singleplayer.Singleplayer to /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer (0.007561s)
+[2015.07.11-09.30.38:438][804]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.07.11-09.30.38:445][804]LogInit: FAudioDevice initialized.
+[2015.07.11-09.30.38:484][804]LogWorld: Game class is 'BP_Gamemode_C'
+[2015.07.11-09.30.38:490][804]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer up for play (max tick rate 60) at 2015.07.11-11.30.38
+[2015.07.11-09.30.38:490][804]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer:PersistentLevel.GameSession_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.11-09.30.38:491][804]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer:PersistentLevel.GameNetworkManager_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.11-09.30.38:492][804]LogWorld: Bringing up level for play took: 0.006253
+[2015.07.11-09.30.38:514][804]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Singleplayer -0.396
+[2015.07.11-09.30.41:281][966]LogBlueprintUserMessages: X=136.513 Y=-305.634 Z=0.000
+[2015.07.11-09.30.41:281][966]LogBlueprintUserMessages: X=-671.200 Y=594.624 Z=-0.000
+[2015.07.11-09.30.41:281][966]LogBlueprintUserMessages: X=115.196 Y=339.559 Z=0.000
+[2015.07.11-09.30.41:282][966]LogBlueprintUserMessages: X=-258.561 Y=309.716 Z=0.000
+[2015.07.11-09.30.41:282][966]LogBlueprintUserMessages: X=-269.930 Y=-299.949 Z=0.000
+[2015.07.11-09.30.44:280][146]LogBlueprintUserMessages: X=-269.930 Y=-299.949 Z=0.000
+[2015.07.11-09.30.44:281][146]LogBlueprintUserMessages: X=-258.561 Y=309.716 Z=0.000
+[2015.07.11-09.30.44:281][146]LogBlueprintUserMessages: X=115.196 Y=339.559 Z=0.000
+[2015.07.11-09.30.44:281][146]LogBlueprintUserMessages: X=136.513 Y=-305.634 Z=0.000
+[2015.07.11-09.30.44:281][146]LogBlueprintUserMessages: X=-636.268 Y=448.477 Z=0.000
+[2015.07.11-09.30.47:280][326]LogBlueprintUserMessages: X=-258.561 Y=309.716 Z=0.000
+[2015.07.11-09.30.47:281][326]LogBlueprintUserMessages: X=136.513 Y=-305.634 Z=0.000
+[2015.07.11-09.30.47:281][326]LogBlueprintUserMessages: X=115.196 Y=339.559 Z=0.000
+[2015.07.11-09.30.47:281][326]LogBlueprintUserMessages: X=-269.930 Y=-299.949 Z=0.000
+[2015.07.11-09.30.47:282][326]LogBlueprintUserMessages: X=-582.633 Y=308.324 Z=0.000
+[2015.07.11-09.30.49:601][459]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001C65E38400
+[2015.07.11-09.31.19:108][163]BlueprintLog: New page: Compile BP_Kraken
+[2015.07.11-09.31.19:310][163]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001C6604D3A0
+[2015.07.11-09.31.19:345][163]BlueprintEditorCompileResults: Info [0387.76] Compile of BP_Kraken successful! [in 236 ms]
+[2015.07.11-09.37.47:584][861]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Kraken" FILE="C:/Users/Martin/Documents/GitHub/Kraken/Unreal/Content/Blueprints/BP_Kraken.uasset" SILENT=true
+[2015.07.11-09.37.47:866][861]LogSavePackage: Save=270.489044ms
+[2015.07.11-09.37.47:866][861]LogSavePackage: Moving 'C:/Users/Martin/Documents/GitHub/Kraken/Unreal/Saved/BP_Kraken2E18467E4EA33C7325BD79908B51C680.tmp' to 'C:/Users/Martin/Documents/GitHub/Kraken/Unreal/Content/Blueprints/BP_Kraken.uasset'
+[2015.07.11-09.38.25:543][969]BlueprintLog: New page: Compile BP_Kraken
+[2015.07.11-09.38.25:786][969]BlueprintEditorCompileResults: Info [0814.21] Compile of BP_Kraken successful! [in 242 ms]
+[2015.07.11-09.38.26:264][992]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Kraken" FILE="C:/Users/Martin/Documents/GitHub/Kraken/Unreal/Content/Blueprints/BP_Kraken.uasset" SILENT=true
+[2015.07.11-09.38.26:537][992]LogSavePackage: Save=264.006927ms
+[2015.07.11-09.38.26:537][992]LogSavePackage: Moving 'C:/Users/Martin/Documents/GitHub/Kraken/Unreal/Saved/BP_KrakenCF0685414D6CF2DCCD7084AD942318E1.tmp' to 'C:/Users/Martin/Documents/GitHub/Kraken/Unreal/Content/Blueprints/BP_Kraken.uasset'
+[2015.07.11-09.41.01:423][377]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Hit" FILE="C:/Users/Martin/Documents/GitHub/Kraken/Unreal/Content/Blueprints/Hit.uasset" SILENT=true
+[2015.07.11-09.41.01:426][377]LogSavePackage: Save=0.973817ms
+[2015.07.11-09.41.01:426][377]LogSavePackage: Moving 'C:/Users/Martin/Documents/GitHub/Kraken/Unreal/Saved/Hit93DC303E48382EC84DB8D99341F04093.tmp' to 'C:/Users/Martin/Documents/GitHub/Kraken/Unreal/Content/Blueprints/Hit.uasset'
+[2015.07.11-09.42.35:728][648]BlueprintLog: New page: Compile Shake
+[2015.07.11-09.42.35:823][648]BlueprintEditorCompileResults: Info [1064.24] Compile of Shake successful! [in 95 ms]
+[2015.07.11-09.42.37:676][759]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2015.07.11-09.42.48:974][425]BlueprintLog: New page: Compile BP_Kraken
+[2015.07.11-09.42.49:218][425]BlueprintEditorCompileResults: Info [1077.64] Compile of BP_Kraken successful! [in 242 ms]
+[2015.07.11-09.42.49:684][450]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.07.11-09.42.49:695][450]LogPlayLevel: [PIE] Compiling Singleplayer before PIE...
+[2015.07.11-09.42.49:798][450]LogPlayLevel: PIE:  Blueprint regeneration took 114 ms (1 blueprints)
+[2015.07.11-09.42.49:799][450]PIE: New page: PIE session: Singleplayer (Jul 11, 2015, 1:42:49 PM)
+[2015.07.11-09.42.49:799][450]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Singleplayer
+[2015.07.11-09.42.49:805][450]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006066s)
+[2015.07.11-09.42.49:806][450]LogAIModule: Creating AISystem for world Singleplayer
+[2015.07.11-09.42.49:806][450]LogPlayLevel: PIE: World Init took: (0.000941s)
+[2015.07.11-09.42.49:806][450]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Singleplayer.Singleplayer to /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer (0.007233s)
+[2015.07.11-09.42.49:838][450]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.07.11-09.42.49:846][450]LogInit: FAudioDevice initialized.
+[2015.07.11-09.42.49:896][450]LogWorld: Game class is 'BP_Gamemode_C'
+[2015.07.11-09.42.49:902][450]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer up for play (max tick rate 60) at 2015.07.11-11.42.49
+[2015.07.11-09.42.49:902][450]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer:PersistentLevel.GameSession_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.11-09.42.49:902][450]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer:PersistentLevel.GameNetworkManager_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.11-09.42.49:904][450]LogWorld: Bringing up level for play took: 0.005692
+[2015.07.11-09.42.49:972][450]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Singleplayer 1.062
+[2015.07.11-09.42.52:678][606]LogBlueprintUserMessages: X=136.513 Y=-305.634 Z=0.000
+[2015.07.11-09.42.52:678][606]LogBlueprintUserMessages: X=-671.135 Y=594.324 Z=0.000
+[2015.07.11-09.42.52:679][606]LogBlueprintUserMessages: X=115.196 Y=339.559 Z=0.000
+[2015.07.11-09.42.52:680][606]LogBlueprintUserMessages: X=-258.561 Y=309.716 Z=0.000
+[2015.07.11-09.42.52:680][606]LogBlueprintUserMessages: X=-269.930 Y=-299.949 Z=0.000
+[2015.07.11-09.42.55:678][786]LogBlueprintUserMessages: X=-269.930 Y=-299.949 Z=0.000
+[2015.07.11-09.42.55:678][786]LogBlueprintUserMessages: X=-258.561 Y=309.716 Z=0.000
+[2015.07.11-09.42.55:679][786]LogBlueprintUserMessages: X=115.196 Y=339.559 Z=0.000
+[2015.07.11-09.42.55:680][786]LogBlueprintUserMessages: X=136.513 Y=-305.634 Z=0.000
+[2015.07.11-09.42.55:680][786]LogBlueprintUserMessages: X=-636.185 Y=448.181 Z=-0.000
+[2015.07.11-09.42.58:678][966]LogBlueprintUserMessages: X=-258.561 Y=309.716 Z=0.000
+[2015.07.11-09.42.58:679][966]LogBlueprintUserMessages: X=136.513 Y=-305.634 Z=0.000
+[2015.07.11-09.42.58:679][966]LogBlueprintUserMessages: X=115.196 Y=339.559 Z=0.000
+[2015.07.11-09.42.58:680][966]LogBlueprintUserMessages: X=-269.930 Y=-299.949 Z=0.000
+[2015.07.11-09.42.58:681][966]LogBlueprintUserMessages: X=-582.489 Y=308.057 Z=-0.000
+[2015.07.11-09.43.01:678][146]LogBlueprintUserMessages: X=136.513 Y=-305.634 Z=0.000
+[2015.07.11-09.43.01:678][146]LogBlueprintUserMessages: X=-269.930 Y=-299.949 Z=0.000
+[2015.07.11-09.43.01:679][146]LogBlueprintUserMessages: X=-481.042 Y=196.605 Z=0.000
+[2015.07.11-09.43.01:679][146]LogBlueprintUserMessages: X=-258.561 Y=309.716 Z=0.000
+[2015.07.11-09.43.01:679][146]LogBlueprintUserMessages: X=115.196 Y=339.559 Z=0.000
+[2015.07.11-09.43.04:678][326]LogBlueprintUserMessages: X=115.196 Y=339.559 Z=0.000
+[2015.07.11-09.43.04:679][326]LogBlueprintUserMessages: X=-258.561 Y=309.716 Z=0.000
+[2015.07.11-09.43.04:680][326]LogBlueprintUserMessages: X=-331.927 Y=159.300 Z=0.000
+[2015.07.11-09.43.04:680][326]LogBlueprintUserMessages: X=136.513 Y=-305.634 Z=0.000
+[2015.07.11-09.43.04:682][326]LogBlueprintUserMessages: X=-269.930 Y=-299.949 Z=0.000
+[2015.07.11-09.43.07:679][506]LogBlueprintUserMessages: X=-269.930 Y=-299.949 Z=0.000
+[2015.07.11-09.43.07:679][506]LogBlueprintUserMessages: X=136.513 Y=-305.634 Z=0.000
+[2015.07.11-09.43.07:680][506]LogBlueprintUserMessages: X=-181.763 Y=148.273 Z=0.000
+[2015.07.11-09.43.07:680][506]LogBlueprintUserMessages: X=115.196 Y=339.559 Z=0.000
+[2015.07.11-09.43.07:680][506]LogBlueprintUserMessages: X=-258.561 Y=309.716 Z=0.000
+[2015.07.11-09.43.11:425][728]LogPackageName: SearchForPackageOnDisk took   0.049s to resolve MainMenu.umap
+[2015.07.11-09.43.11:466][728]LogPackageName: SearchForPackageOnDisk took   0.040s to resolve MainMenu.umap
+[2015.07.11-09.43.11:466][728]LogNet: Browse: /Game/Maps/MainMenu
+[2015.07.11-09.43.11:466][728]LogLoad: LoadMap: /Game/Maps/MainMenu
+[2015.07.11-09.43.11:513][728]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001C2E968540
+[2015.07.11-09.43.11:514][728]Cmd: MEM
+[2015.07.11-09.43.11:544][728]LogMemory: Platform Memory Stats for Windows
+[2015.07.11-09.43.11:544][728]LogMemory: Process Physical Memory: 781.47 MB used, 782.98 MB peak
+[2015.07.11-09.43.11:544][728]LogMemory: Process Virtual Memory: 1515.60 MB used, 1520.61 MB peak
+[2015.07.11-09.43.11:544][728]LogMemory: Physical Memory: 4715.80 MB used, 16307.27 MB total
+[2015.07.11-09.43.11:544][728]LogMemory: Virtual Memory: 2194.98 MB used, 134217728.00 MB total
+[2015.07.11-09.43.11:544][728]LogMemory: 
+[2015.07.11-09.43.11:544][728]Allocator Stats for TBB: (not implemented)
+[2015.07.11-09.43.11:784][728]LogAIModule: Creating AISystem for world MainMenu
+[2015.07.11-09.43.11:785][728]LogWorld: Game class is 'BP_MainMenu_C'
+[2015.07.11-09.43.11:787][728]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2015.07.11-11.43.11
+[2015.07.11-09.43.11:787][728]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.GameSession_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.11-09.43.11:788][728]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.GameNetworkManager_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.11-09.43.11:788][728]LogWorld: Bringing up level for play took: 0.000983
+[2015.07.11-09.43.11:788][728]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.07.11-09.43.12:492][768]LogPackageName: SearchForPackageOnDisk took   0.042s to resolve Singleplayer.umap
+[2015.07.11-09.43.12:533][768]LogPackageName: SearchForPackageOnDisk took   0.041s to resolve Singleplayer.umap
+[2015.07.11-09.43.12:533][768]LogNet: Browse: /Game/Maps/Singleplayer
+[2015.07.11-09.43.12:534][768]LogLoad: LoadMap: /Game/Maps/Singleplayer
+[2015.07.11-09.43.12:561][768]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001C170253A0
+[2015.07.11-09.43.12:588][768]Cmd: MEM
+[2015.07.11-09.43.12:619][768]LogMemory: Platform Memory Stats for Windows
+[2015.07.11-09.43.12:619][768]LogMemory: Process Physical Memory: 812.50 MB used, 826.19 MB peak
+[2015.07.11-09.43.12:619][768]LogMemory: Process Virtual Memory: 1547.56 MB used, 1607.41 MB peak
+[2015.07.11-09.43.12:619][768]LogMemory: Physical Memory: 4744.30 MB used, 16307.27 MB total
+[2015.07.11-09.43.12:619][768]LogMemory: Virtual Memory: 2232.67 MB used, 134217728.00 MB total
+[2015.07.11-09.43.12:619][768]LogMemory: 
+[2015.07.11-09.43.12:619][768]Allocator Stats for TBB: (not implemented)
+[2015.07.11-09.43.12:619][768]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Singleplayer
+[2015.07.11-09.43.12:625][768]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006559s)
+[2015.07.11-09.43.12:626][768]LogAIModule: Creating AISystem for world Singleplayer
+[2015.07.11-09.43.12:627][768]LogPlayLevel: PIE: World Init took: (0.001959s)
+[2015.07.11-09.43.12:628][768]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Singleplayer.Singleplayer to /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer (0.008710s)
+[2015.07.11-09.43.12:628][768]LogWorld: Game class is 'BP_Gamemode_C'
+[2015.07.11-09.43.12:631][768]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer up for play (max tick rate 60) at 2015.07.11-11.43.12
+[2015.07.11-09.43.12:631][768]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer:PersistentLevel.GameSession_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.11-09.43.12:632][768]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer:PersistentLevel.GameNetworkManager_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.11-09.43.12:633][768]LogWorld: Bringing up level for play took: 0.003692
+[2015.07.11-09.43.15:454][937]LogBlueprintUserMessages: X=-269.930 Y=-299.949 Z=0.000
+[2015.07.11-09.43.15:454][937]LogBlueprintUserMessages: X=115.196 Y=339.559 Z=0.000
+[2015.07.11-09.43.15:454][937]LogBlueprintUserMessages: X=-671.228 Y=594.748 Z=0.000
+[2015.07.11-09.43.15:455][937]LogBlueprintUserMessages: X=136.513 Y=-305.634 Z=0.000
+[2015.07.11-09.43.15:455][937]LogBlueprintUserMessages: X=-258.561 Y=309.716 Z=0.000
+[2015.07.11-09.43.18:454][117]LogBlueprintUserMessages: X=115.196 Y=339.559 Z=0.000
+[2015.07.11-09.43.18:454][117]LogBlueprintUserMessages: X=136.513 Y=-305.634 Z=0.000
+[2015.07.11-09.43.18:454][117]LogBlueprintUserMessages: X=-269.930 Y=-299.949 Z=0.000
+[2015.07.11-09.43.18:455][117]LogBlueprintUserMessages: X=-636.303 Y=448.600 Z=0.000
+[2015.07.11-09.43.18:455][117]LogBlueprintUserMessages: X=-258.561 Y=309.716 Z=0.000
+[2015.07.11-09.43.21:453][297]LogBlueprintUserMessages: X=136.513 Y=-305.634 Z=0.000
+[2015.07.11-09.43.21:454][297]LogBlueprintUserMessages: X=115.196 Y=339.559 Z=0.000
+[2015.07.11-09.43.21:454][297]LogBlueprintUserMessages: X=-582.693 Y=308.435 Z=0.000
+[2015.07.11-09.43.21:454][297]LogBlueprintUserMessages: X=-258.561 Y=309.716 Z=0.000
+[2015.07.11-09.43.21:454][297]LogBlueprintUserMessages: X=-269.930 Y=-299.949 Z=0.000
+[2015.07.11-09.43.24:311][463]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001C0B609B20
+[2015.07.11-09.43.35:940][160]BlueprintLog: New page: Compile Shake
+[2015.07.11-09.43.36:022][160]BlueprintEditorCompileResults: Info [1124.44] Compile of Shake successful! [in 82 ms]
+[2015.07.11-09.43.36:631][196]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.07.11-09.43.36:642][196]LogPlayLevel: [PIE] Compiling Singleplayer before PIE...
+[2015.07.11-09.43.36:742][196]LogPlayLevel: PIE:  Blueprint regeneration took 110 ms (1 blueprints)
+[2015.07.11-09.43.36:742][196]PIE: New page: PIE session: Singleplayer (Jul 11, 2015, 1:43:36 PM)
+[2015.07.11-09.43.36:743][196]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Singleplayer
+[2015.07.11-09.43.36:749][196]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006366s)
+[2015.07.11-09.43.36:749][196]LogAIModule: Creating AISystem for world Singleplayer
+[2015.07.11-09.43.36:750][196]LogPlayLevel: PIE: World Init took: (0.001131s)
+[2015.07.11-09.43.36:750][196]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Singleplayer.Singleplayer to /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer (0.007686s)
+[2015.07.11-09.43.36:784][196]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.07.11-09.43.36:790][196]LogInit: FAudioDevice initialized.
+[2015.07.11-09.43.36:823][196]LogWorld: Game class is 'BP_Gamemode_C'
+[2015.07.11-09.43.36:828][196]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer up for play (max tick rate 60) at 2015.07.11-11.43.36
+[2015.07.11-09.43.36:828][196]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer:PersistentLevel.GameSession_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.11-09.43.36:829][196]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer:PersistentLevel.GameNetworkManager_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.11-09.43.36:831][196]LogWorld: Bringing up level for play took: 0.005810
+[2015.07.11-09.43.36:847][196]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Singleplayer -0.063
+[2015.07.11-09.43.39:625][359]LogBlueprintUserMessages: X=136.513 Y=-305.634 Z=0.000
+[2015.07.11-09.43.39:625][359]LogBlueprintUserMessages: X=-671.171 Y=594.488 Z=0.000
+[2015.07.11-09.43.39:625][359]LogBlueprintUserMessages: X=115.196 Y=339.559 Z=0.000
+[2015.07.11-09.43.39:626][359]LogBlueprintUserMessages: X=-258.561 Y=309.716 Z=0.000
+[2015.07.11-09.43.39:626][359]LogBlueprintUserMessages: X=-269.930 Y=-299.949 Z=0.000
+[2015.07.11-09.43.42:625][539]LogBlueprintUserMessages: X=-269.930 Y=-299.949 Z=0.000
+[2015.07.11-09.43.42:626][539]LogBlueprintUserMessages: X=-258.561 Y=309.716 Z=0.000
+[2015.07.11-09.43.42:626][539]LogBlueprintUserMessages: X=115.196 Y=339.559 Z=0.000
+[2015.07.11-09.43.42:627][539]LogBlueprintUserMessages: X=136.513 Y=-305.634 Z=0.000
+[2015.07.11-09.43.42:627][539]LogBlueprintUserMessages: X=-636.230 Y=448.343 Z=-0.000
+[2015.07.11-09.43.45:625][719]LogBlueprintUserMessages: X=-258.561 Y=309.716 Z=0.000
+[2015.07.11-09.43.45:625][719]LogBlueprintUserMessages: X=136.513 Y=-305.634 Z=0.000
+[2015.07.11-09.43.45:626][719]LogBlueprintUserMessages: X=115.196 Y=339.559 Z=0.000
+[2015.07.11-09.43.45:626][719]LogBlueprintUserMessages: X=-269.930 Y=-299.949 Z=0.000
+[2015.07.11-09.43.45:627][719]LogBlueprintUserMessages: X=-582.568 Y=308.203 Z=0.000
+[2015.07.11-09.43.48:625][899]LogBlueprintUserMessages: X=136.513 Y=-305.634 Z=0.000
+[2015.07.11-09.43.48:626][899]LogBlueprintUserMessages: X=-269.930 Y=-299.949 Z=0.000
+[2015.07.11-09.43.48:626][899]LogBlueprintUserMessages: X=-481.196 Y=196.695 Z=0.000
+[2015.07.11-09.43.48:627][899]LogBlueprintUserMessages: X=-258.561 Y=309.716 Z=0.000
+[2015.07.11-09.43.48:627][899]LogBlueprintUserMessages: X=115.196 Y=339.559 Z=0.000
+[2015.07.11-09.43.51:625][ 79]LogBlueprintUserMessages: X=115.196 Y=339.559 Z=0.000
+[2015.07.11-09.43.51:625][ 79]LogBlueprintUserMessages: X=-258.561 Y=309.716 Z=0.000
+[2015.07.11-09.43.51:626][ 79]LogBlueprintUserMessages: X=-332.108 Y=159.322 Z=0.000
+[2015.07.11-09.43.51:627][ 79]LogBlueprintUserMessages: X=136.513 Y=-305.634 Z=0.000
+[2015.07.11-09.43.51:627][ 79]LogBlueprintUserMessages: X=-269.930 Y=-299.949 Z=0.000
+[2015.07.11-09.43.54:625][259]LogBlueprintUserMessages: X=-269.930 Y=-299.949 Z=0.000
+[2015.07.11-09.43.54:625][259]LogBlueprintUserMessages: X=136.513 Y=-305.634 Z=0.000
+[2015.07.11-09.43.54:626][259]LogBlueprintUserMessages: X=-181.937 Y=148.280 Z=0.000
+[2015.07.11-09.43.54:626][259]LogBlueprintUserMessages: X=115.196 Y=339.559 Z=0.000
+[2015.07.11-09.43.54:627][259]LogBlueprintUserMessages: X=-258.561 Y=309.716 Z=0.000
+[2015.07.11-09.43.57:625][439]LogBlueprintUserMessages: X=-258.561 Y=309.716 Z=0.000
+[2015.07.11-09.43.57:626][439]LogBlueprintUserMessages: X=115.196 Y=339.559 Z=0.000
+[2015.07.11-09.43.57:626][439]LogBlueprintUserMessages: X=-31.897 Y=144.377 Z=0.000
+[2015.07.11-09.43.57:626][439]LogBlueprintUserMessages: X=-269.930 Y=-299.949 Z=0.000
+[2015.07.11-09.43.57:627][439]LogBlueprintUserMessages: X=136.513 Y=-305.634 Z=0.000
+[2015.07.11-09.44.00:625][619]LogBlueprintUserMessages: X=136.513 Y=-305.634 Z=0.000
+[2015.07.11-09.44.00:625][619]LogBlueprintUserMessages: X=-269.930 Y=-299.949 Z=0.000
+[2015.07.11-09.44.00:626][619]LogBlueprintUserMessages: X=118.661 Y=132.470 Z=0.000
+[2015.07.11-09.44.00:626][619]LogBlueprintUserMessages: X=-258.561 Y=309.716 Z=0.000
+[2015.07.11-09.44.00:627][619]LogBlueprintUserMessages: X=115.196 Y=339.559 Z=0.000
+[2015.07.11-09.44.03:625][799]LogBlueprintUserMessages: X=115.196 Y=339.559 Z=0.000
+[2015.07.11-09.44.03:625][799]LogBlueprintUserMessages: X=-258.561 Y=309.716 Z=0.000
+[2015.07.11-09.44.03:626][799]LogBlueprintUserMessages: X=224.641 Y=28.455 Z=-0.000
+[2015.07.11-09.44.03:626][799]LogBlueprintUserMessages: X=136.513 Y=-305.634 Z=0.000
+[2015.07.11-09.44.03:626][799]LogBlueprintUserMessages: X=-269.930 Y=-299.949 Z=0.000
+[2015.07.11-09.44.05:201][891]LogPackageName: SearchForPackageOnDisk took   0.043s to resolve MainMenu.umap
+[2015.07.11-09.44.05:241][891]LogPackageName: SearchForPackageOnDisk took   0.040s to resolve MainMenu.umap
+[2015.07.11-09.44.05:241][891]LogNet: Browse: /Game/Maps/MainMenu
+[2015.07.11-09.44.05:241][891]LogLoad: LoadMap: /Game/Maps/MainMenu
+[2015.07.11-09.44.05:281][891]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001C60A48E00
+[2015.07.11-09.44.05:281][891]Cmd: MEM
+[2015.07.11-09.44.05:311][891]LogMemory: Platform Memory Stats for Windows
+[2015.07.11-09.44.05:311][891]LogMemory: Process Physical Memory: 810.96 MB used, 826.19 MB peak
+[2015.07.11-09.44.05:311][891]LogMemory: Process Virtual Memory: 1545.04 MB used, 1609.43 MB peak
+[2015.07.11-09.44.05:311][891]LogMemory: Physical Memory: 4749.23 MB used, 16307.27 MB total
+[2015.07.11-09.44.05:311][891]LogMemory: Virtual Memory: 2237.49 MB used, 134217728.00 MB total
+[2015.07.11-09.44.05:311][891]LogMemory: 
+[2015.07.11-09.44.05:311][891]Allocator Stats for TBB: (not implemented)
+[2015.07.11-09.44.05:327][891]LogAIModule: Creating AISystem for world MainMenu
+[2015.07.11-09.44.05:328][891]LogWorld: Game class is 'BP_MainMenu_C'
+[2015.07.11-09.44.05:330][891]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2015.07.11-11.44.05
+[2015.07.11-09.44.05:330][891]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.GameSession_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.11-09.44.05:330][891]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.GameNetworkManager_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.11-09.44.05:330][891]LogWorld: Bringing up level for play took: 0.000999
+[2015.07.11-09.44.05:331][891]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.07.11-09.44.07:336][959]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001C60F0F560
+[2015.07.11-09.44.09:170][ 69]BlueprintLog: New page: Compile Shake
+[2015.07.11-09.44.09:251][ 69]BlueprintEditorCompileResults: Info [1157.67] Compile of Shake successful! [in 80 ms]
+[2015.07.11-09.44.09:565][ 86]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Shake" FILE="C:/Users/Martin/Documents/GitHub/Kraken/Unreal/Content/Blueprints/Shake.uasset" SILENT=true
+[2015.07.11-09.44.09:569][ 86]LogSavePackage: Save=2.061765ms
+[2015.07.11-09.44.09:569][ 86]LogSavePackage: Moving 'C:/Users/Martin/Documents/GitHub/Kraken/Unreal/Saved/Shake219FB751435F1E84A984F98E061DD517.tmp' to 'C:/Users/Martin/Documents/GitHub/Kraken/Unreal/Content/Blueprints/Shake.uasset'
+[2015.07.11-09.44.22:031][834]BlueprintLog: New page: Compile Shake
+[2015.07.11-09.44.22:113][834]BlueprintEditorCompileResults: Info [1170.53] Compile of Shake successful! [in 81 ms]
+[2015.07.11-09.44.23:559][920]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.07.11-09.44.23:567][920]LogPlayLevel: [PIE] Compiling Singleplayer before PIE...
+[2015.07.11-09.44.23:665][920]LogPlayLevel: PIE:  Blueprint regeneration took 106 ms (1 blueprints)
+[2015.07.11-09.44.23:666][920]PIE: New page: PIE session: Singleplayer (Jul 11, 2015, 1:44:23 PM)
+[2015.07.11-09.44.23:666][920]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Singleplayer
+[2015.07.11-09.44.23:672][920]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006127s)
+[2015.07.11-09.44.23:673][920]LogAIModule: Creating AISystem for world Singleplayer
+[2015.07.11-09.44.23:673][920]LogPlayLevel: PIE: World Init took: (0.000875s)
+[2015.07.11-09.44.23:673][920]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Singleplayer.Singleplayer to /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer (0.007209s)
+[2015.07.11-09.44.23:704][920]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.07.11-09.44.23:711][920]LogInit: FAudioDevice initialized.
+[2015.07.11-09.44.23:745][920]LogWorld: Game class is 'BP_Gamemode_C'
+[2015.07.11-09.44.23:751][920]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer up for play (max tick rate 60) at 2015.07.11-11.44.23
+[2015.07.11-09.44.23:751][920]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer:PersistentLevel.GameSession_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.11-09.44.23:751][920]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer:PersistentLevel.GameNetworkManager_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.11-09.44.23:753][920]LogWorld: Bringing up level for play took: 0.005776
+[2015.07.11-09.44.23:775][920]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Singleplayer 0.865
+[2015.07.11-09.44.26:557][ 84]LogBlueprintUserMessages: X=136.513 Y=-305.634 Z=0.000
+[2015.07.11-09.44.26:557][ 84]LogBlueprintUserMessages: X=-671.087 Y=594.103 Z=0.000
+[2015.07.11-09.44.26:557][ 84]LogBlueprintUserMessages: X=115.196 Y=339.559 Z=0.000
+[2015.07.11-09.44.26:558][ 84]LogBlueprintUserMessages: X=-258.561 Y=309.716 Z=0.000
+[2015.07.11-09.44.26:558][ 84]LogBlueprintUserMessages: X=-269.930 Y=-299.949 Z=0.000
+[2015.07.11-09.44.29:557][264]LogBlueprintUserMessages: X=-269.930 Y=-299.949 Z=0.000
+[2015.07.11-09.44.29:557][264]LogBlueprintUserMessages: X=-258.561 Y=309.716 Z=0.000
+[2015.07.11-09.44.29:557][264]LogBlueprintUserMessages: X=115.196 Y=339.559 Z=0.000
+[2015.07.11-09.44.29:557][264]LogBlueprintUserMessages: X=136.513 Y=-305.634 Z=0.000
+[2015.07.11-09.44.29:558][264]LogBlueprintUserMessages: X=-636.124 Y=447.963 Z=0.000
+[2015.07.11-09.44.31:544][378]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001C209BB560
+[2015.07.11-09.44.33:334][483]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Shake" FILE="C:/Users/Martin/Documents/GitHub/Kraken/Unreal/Content/Blueprints/Shake.uasset" SILENT=true
+[2015.07.11-09.44.33:350][483]LogSavePackage: Save=3.630874ms
+[2015.07.11-09.44.33:350][483]LogSavePackage: Moving 'C:/Users/Martin/Documents/GitHub/Kraken/Unreal/Saved/Shake83FF9B154A32ADE3EB0E67819D229503.tmp' to 'C:/Users/Martin/Documents/GitHub/Kraken/Unreal/Content/Blueprints/Shake.uasset'
+[2015.07.11-09.44.39:311][841]LogUnrealMath: Expression Error : Unrecognized Operator
+[2015.07.11-09.44.42:395][ 26]LogUnrealMath: Expression Error : Unrecognized Operator
+[2015.07.11-09.44.46:830][290]BlueprintLog: New page: Compile Shake
+[2015.07.11-09.44.46:914][290]BlueprintEditorCompileResults: Info [1195.33] Compile of Shake successful! [in 83 ms]
+[2015.07.11-09.44.48:765][399]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.07.11-09.44.48:772][399]LogPlayLevel: [PIE] Compiling Singleplayer before PIE...
+[2015.07.11-09.44.48:871][399]LogPlayLevel: PIE:  Blueprint regeneration took 106 ms (1 blueprints)
+[2015.07.11-09.44.48:871][399]PIE: New page: PIE session: Singleplayer (Jul 11, 2015, 1:44:48 PM)
+[2015.07.11-09.44.48:872][399]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Singleplayer
+[2015.07.11-09.44.48:878][399]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006281s)
+[2015.07.11-09.44.48:879][399]LogAIModule: Creating AISystem for world Singleplayer
+[2015.07.11-09.44.48:879][399]LogPlayLevel: PIE: World Init took: (0.001139s)
+[2015.07.11-09.44.48:879][399]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Singleplayer.Singleplayer to /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer (0.007605s)
+[2015.07.11-09.44.48:911][399]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.07.11-09.44.48:918][399]LogInit: FAudioDevice initialized.
+[2015.07.11-09.44.48:953][399]LogWorld: Game class is 'BP_Gamemode_C'
+[2015.07.11-09.44.48:959][399]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer up for play (max tick rate 60) at 2015.07.11-11.44.48
+[2015.07.11-09.44.48:959][399]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer:PersistentLevel.GameSession_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.11-09.44.48:960][399]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer:PersistentLevel.GameNetworkManager_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.11-09.44.48:962][399]LogWorld: Bringing up level for play took: 0.006096
+[2015.07.11-09.44.48:994][399]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Singleplayer 0.084
+[2015.07.11-09.44.51:762][560]LogBlueprintUserMessages: X=136.513 Y=-305.634 Z=0.000
+[2015.07.11-09.44.51:763][560]LogBlueprintUserMessages: X=-671.117 Y=594.243 Z=0.000
+[2015.07.11-09.44.51:763][560]LogBlueprintUserMessages: X=115.196 Y=339.559 Z=0.000
+[2015.07.11-09.44.51:763][560]LogBlueprintUserMessages: X=-258.561 Y=309.716 Z=0.000
+[2015.07.11-09.44.51:764][560]LogBlueprintUserMessages: X=-269.930 Y=-299.949 Z=0.000
+[2015.07.11-09.44.54:762][740]LogBlueprintUserMessages: X=-269.930 Y=-299.949 Z=0.000
+[2015.07.11-09.44.54:763][740]LogBlueprintUserMessages: X=-258.561 Y=309.716 Z=0.000
+[2015.07.11-09.44.54:763][740]LogBlueprintUserMessages: X=115.196 Y=339.559 Z=0.000
+[2015.07.11-09.44.54:764][740]LogBlueprintUserMessages: X=136.513 Y=-305.634 Z=0.000
+[2015.07.11-09.44.54:764][740]LogBlueprintUserMessages: X=-636.163 Y=448.102 Z=0.000
+[2015.07.11-09.44.57:762][920]LogBlueprintUserMessages: X=-258.561 Y=309.716 Z=0.000
+[2015.07.11-09.44.57:762][920]LogBlueprintUserMessages: X=136.513 Y=-305.634 Z=0.000
+[2015.07.11-09.44.57:763][920]LogBlueprintUserMessages: X=115.196 Y=339.559 Z=0.000
+[2015.07.11-09.44.57:763][920]LogBlueprintUserMessages: X=-269.930 Y=-299.949 Z=0.000
+[2015.07.11-09.44.57:764][920]LogBlueprintUserMessages: X=-582.450 Y=307.985 Z=0.000
+[2015.07.11-09.45.00:763][100]LogBlueprintUserMessages: X=136.513 Y=-305.634 Z=0.000
+[2015.07.11-09.45.00:763][100]LogBlueprintUserMessages: X=-269.930 Y=-299.949 Z=0.000
+[2015.07.11-09.45.00:763][100]LogBlueprintUserMessages: X=-480.972 Y=196.565 Z=0.000
+[2015.07.11-09.45.00:764][100]LogBlueprintUserMessages: X=-258.561 Y=309.716 Z=0.000
+[2015.07.11-09.45.00:764][100]LogBlueprintUserMessages: X=115.196 Y=339.559 Z=0.000
+[2015.07.11-09.45.03:762][280]LogBlueprintUserMessages: X=115.196 Y=339.559 Z=0.000
+[2015.07.11-09.45.03:762][280]LogBlueprintUserMessages: X=-258.561 Y=309.716 Z=0.000
+[2015.07.11-09.45.03:763][280]LogBlueprintUserMessages: X=-331.845 Y=159.290 Z=0.000
+[2015.07.11-09.45.03:763][280]LogBlueprintUserMessages: X=136.513 Y=-305.634 Z=0.000
+[2015.07.11-09.45.03:764][280]LogBlueprintUserMessages: X=-269.930 Y=-299.949 Z=0.000
+[2015.07.11-09.45.06:762][460]LogBlueprintUserMessages: X=-269.930 Y=-299.949 Z=0.000
+[2015.07.11-09.45.06:762][460]LogBlueprintUserMessages: X=136.513 Y=-305.634 Z=0.000
+[2015.07.11-09.45.06:763][460]LogBlueprintUserMessages: X=-181.689 Y=148.271 Z=0.000
+[2015.07.11-09.45.06:763][460]LogBlueprintUserMessages: X=115.196 Y=339.559 Z=0.000
+[2015.07.11-09.45.06:763][460]LogBlueprintUserMessages: X=-258.561 Y=309.716 Z=0.000
+[2015.07.11-09.45.08:914][583]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001C2E968220
+[2015.07.11-09.45.11:577][677]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Kraken" FILE="C:/Users/Martin/Documents/GitHub/Kraken/Unreal/Content/Blueprints/BP_Kraken.uasset" SILENT=true
+[2015.07.11-09.45.11:866][677]LogSavePackage: Save=277.148529ms
+[2015.07.11-09.45.11:866][677]LogSavePackage: Moving 'C:/Users/Martin/Documents/GitHub/Kraken/Unreal/Saved/BP_KrakenEA08F67447B815EA44B33CB14D06ECA6.tmp' to 'C:/Users/Martin/Documents/GitHub/Kraken/Unreal/Content/Blueprints/BP_Kraken.uasset'
+[2015.07.11-09.45.11:875][677]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Shake" FILE="C:/Users/Martin/Documents/GitHub/Kraken/Unreal/Content/Blueprints/Shake.uasset" SILENT=true
+[2015.07.11-09.45.11:885][677]LogSavePackage: Save=1.913147ms
+[2015.07.11-09.45.11:885][677]LogSavePackage: Moving 'C:/Users/Martin/Documents/GitHub/Kraken/Unreal/Saved/ShakeDD8419C047210D36F754C282B0A8072F.tmp' to 'C:/Users/Martin/Documents/GitHub/Kraken/Unreal/Content/Blueprints/Shake.uasset'
+[2015.07.11-09.45.12:665][714]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.07.11-09.45.12:989][715]Cmd: QUIT_EDITOR
+[2015.07.11-09.45.13:470][715]LogExit: Preparing to exit.
+[2015.07.11-09.45.13:759][715]LogExit: Editor shut down
+[2015.07.11-09.45.13:760][715]LogExit: Transaction tracking system shut down
+[2015.07.11-09.45.13:761][715]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001C7D87B9C0
+[2015.07.11-09.45.13:765][715]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001C172796C0
+[2015.07.11-09.45.13:767][715]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001C0C6D65C0
+[2015.07.11-09.45.13:767][715]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001C0AD15760
+[2015.07.11-09.45.13:767][715]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001C1CC47CE0
+[2015.07.11-09.45.13:767][715]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001C1CC46480
+[2015.07.11-09.45.13:767][715]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001C1CC47100
+[2015.07.11-09.45.13:767][715]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001C1CC45EE0
+[2015.07.11-09.45.13:768][715]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001C0C721300
+[2015.07.11-09.45.13:924][715]LogExit: Object subsystem successfully closed.
+[2015.07.11-09.45.13:994][715]LogModuleManager: Shutting down and abandoning module MaterialEditor (189)
+[2015.07.11-09.45.13:994][715]LogModuleManager: Shutting down and abandoning module CrashTracker (188)
+[2015.07.11-09.45.13:994][715]LogModuleManager: Shutting down and abandoning module SceneOutliner (187)
+[2015.07.11-09.45.13:994][715]LogModuleManager: Shutting down and abandoning module SuperSearch (186)
+[2015.07.11-09.45.13:994][715]LogModuleManager: Shutting down and abandoning module WidgetCarousel (185)
+[2015.07.11-09.45.13:994][715]LogModuleManager: Shutting down and abandoning module AddContentDialog (184)
+[2015.07.11-09.45.13:995][715]LogModuleManager: Shutting down and abandoning module EditorWidgets (183)
+[2015.07.11-09.45.13:995][715]LogModuleManager: Shutting down and abandoning module CollectionManager (182)
+[2015.07.11-09.45.13:995][715]LogModuleManager: Shutting down and abandoning module StatsViewer (181)
+[2015.07.11-09.45.13:995][715]LogModuleManager: Shutting down and abandoning module FoliageEdit (180)
+[2015.07.11-09.45.13:995][715]LogModuleManager: Shutting down and abandoning module LandscapeEditor (179)
+[2015.07.11-09.45.13:995][715]LogModuleManager: Shutting down and abandoning module ActorPickerMode (178)
+[2015.07.11-09.45.13:995][715]LogModuleManager: Shutting down and abandoning module GeometryMode (177)
+[2015.07.11-09.45.13:995][715]LogModuleManager: Shutting down and abandoning module TextureAlignMode (176)
+[2015.07.11-09.45.13:995][715]LogModuleManager: Shutting down and abandoning module BspMode (175)
+[2015.07.11-09.45.13:996][715]LogModuleManager: Shutting down and abandoning module PlacementMode (174)
+[2015.07.11-09.45.13:996][715]LogModuleManager: Shutting down and abandoning module AutomationWorker (173)
+[2015.07.11-09.45.13:996][715]LogModuleManager: Shutting down and abandoning module CharacterAI (172)
+[2015.07.11-09.45.13:996][715]LogModuleManager: Shutting down and abandoning module SmartSnapping (171)
+[2015.07.11-09.45.13:996][715]LogModuleManager: Shutting down and abandoning module ViewportSnapping (170)
+[2015.07.11-09.45.13:996][715]LogModuleManager: Shutting down and abandoning module LogVisualizer (169)
+[2015.07.11-09.45.13:996][715]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (168)
+[2015.07.11-09.45.13:996][715]LogModuleManager: Shutting down and abandoning module IntroTutorials (167)
+[2015.07.11-09.45.13:996][715]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (166)
+[2015.07.11-09.45.13:996][715]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (165)
+[2015.07.11-09.45.13:996][715]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (164)
+[2015.07.11-09.45.13:996][715]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (163)
+[2015.07.11-09.45.14:783][715]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (162)
+[2015.07.11-09.45.14:783][715]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (161)
+[2015.07.11-09.45.14:783][715]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (160)
+[2015.07.11-09.45.14:783][715]LogModuleManager: Shutting down and abandoning module MergeActors (159)
+[2015.07.11-09.45.14:783][715]LogModuleManager: Shutting down and abandoning module SizeMap (158)
+[2015.07.11-09.45.14:783][715]LogModuleManager: Shutting down and abandoning module TreeMap (157)
+[2015.07.11-09.45.14:783][715]LogModuleManager: Shutting down and abandoning module ReferenceViewer (156)
+[2015.07.11-09.45.14:783][715]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (155)
+[2015.07.11-09.45.14:783][715]LogModuleManager: Shutting down and abandoning module HardwareTargeting (154)
+[2015.07.11-09.45.14:783][715]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (153)
+[2015.07.11-09.45.14:783][715]LogModuleManager: Shutting down and abandoning module UndoHistory (152)
+[2015.07.11-09.45.14:783][715]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (151)
+[2015.07.11-09.45.14:783][715]LogModuleManager: Shutting down and abandoning module UserFeedback (150)
+[2015.07.11-09.45.14:783][715]LogModuleManager: Shutting down and abandoning module XmlParser (149)
+[2015.07.11-09.45.14:783][715]LogModuleManager: Shutting down and abandoning module Blutility (148)
+[2015.07.11-09.45.14:783][715]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (147)
+[2015.07.11-09.45.14:783][715]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (146)
+[2015.07.11-09.45.14:783][715]LogModuleManager: Shutting down and abandoning module InputBindingEditor (145)
+[2015.07.11-09.45.14:783][715]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (144)
+[2015.07.11-09.45.14:783][715]LogModuleManager: Shutting down and abandoning module SettingsEditor (143)
+[2015.07.11-09.45.14:783][715]LogModuleManager: Shutting down and abandoning module ProjectLauncher (142)
+[2015.07.11-09.45.14:783][715]LogModuleManager: Shutting down and abandoning module SessionFrontend (141)
+[2015.07.11-09.45.14:783][715]LogModuleManager: Shutting down and abandoning module ProfilerClient (140)
+[2015.07.11-09.45.14:783][715]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (139)
+[2015.07.11-09.45.14:783][715]LogModuleManager: Shutting down and abandoning module DeviceManager (138)
+[2015.07.11-09.45.14:783][715]LogModuleManager: Shutting down and abandoning module AutomationController (137)
+[2015.07.11-09.45.14:783][715]LogModuleManager: Shutting down and abandoning module AutomationWindow (136)
+[2015.07.11-09.45.14:783][715]LogModuleManager: Shutting down and abandoning module Layers (135)
+[2015.07.11-09.45.14:784][715]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (134)
+[2015.07.11-09.45.14:784][715]LogModuleManager: Shutting down and abandoning module DetailCustomizations (133)
+[2015.07.11-09.45.14:784][715]LogModuleManager: Shutting down and abandoning module PackagesDialog (132)
+[2015.07.11-09.45.14:784][715]LogModuleManager: Shutting down and abandoning module AssetRegistry (131)
+[2015.07.11-09.45.14:838][715]LogModuleManager: Shutting down and abandoning module Persona (130)
+[2015.07.11-09.45.14:838][715]LogModuleManager: Shutting down and abandoning module Kismet (129)
+[2015.07.11-09.45.14:838][715]LogModuleManager: Shutting down and abandoning module GraphEditor (128)
+[2015.07.11-09.45.14:838][715]LogModuleManager: Shutting down and abandoning module ClassViewer (127)
+[2015.07.11-09.45.14:839][715]LogModuleManager: Shutting down and abandoning module Toolbox (126)
+[2015.07.11-09.45.14:839][715]LogModuleManager: Shutting down and abandoning module ModuleUI (125)
+[2015.07.11-09.45.14:839][715]LogModuleManager: Shutting down and abandoning module MovieSceneTools (124)
+[2015.07.11-09.45.14:839][715]LogModuleManager: Shutting down and abandoning module OutputLog (123)
+[2015.07.11-09.45.14:839][715]LogModuleManager: Shutting down and abandoning module GammaUI (122)
+[2015.07.11-09.45.14:839][715]LogModuleManager: Shutting down and abandoning module Documentation (121)
+[2015.07.11-09.45.14:839][715]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (120)
+[2015.07.11-09.45.14:840][715]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (119)
+[2015.07.11-09.45.14:840][715]LogModuleManager: Shutting down and abandoning module AnalyticsET (118)
+[2015.07.11-09.45.14:840][715]LogModuleManager: Shutting down and abandoning module Analytics (117)
+[2015.07.11-09.45.14:840][715]LogModuleManager: Shutting down and abandoning module AITestSuite (116)
+[2015.07.11-09.45.14:840][715]LogModuleManager: Shutting down and abandoning module GameplayDebugger (115)
+[2015.07.11-09.45.14:840][715]LogModuleManager: Shutting down and abandoning module AIModule (114)
+[2015.07.11-09.45.14:840][715]LogModuleManager: Shutting down and abandoning module ProfilerService (113)
+[2015.07.11-09.45.15:053][715]LogModuleManager: Shutting down and abandoning module TaskGraph (112)
+[2015.07.11-09.45.15:053][715]LogModuleManager: Shutting down and abandoning module SlateRemote (111)
+[2015.07.11-09.45.15:053][715]LogModuleManager: Shutting down and abandoning module SteamVRController (110)
+[2015.07.11-09.45.15:053][715]LogModuleManager: Shutting down and abandoning module SteamVR (109)
+[2015.07.11-09.45.15:053][715]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (108)
+[2015.07.11-09.45.15:053][715]LogModuleManager: Shutting down and abandoning module OculusRift (107)
+[2015.07.11-09.45.15:053][715]LogModuleManager: Shutting down and abandoning module LeapMotionController (106)
+[2015.07.11-09.45.15:069][715]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (105)
+[2015.07.11-09.45.15:069][715]LogModuleManager: Shutting down and abandoning module CableComponent (104)
+[2015.07.11-09.45.15:069][715]LogModuleManager: Shutting down and abandoning module MessagingDebugger (103)
+[2015.07.11-09.45.15:069][715]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (102)
+[2015.07.11-09.45.15:069][715]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (101)
+[2015.07.11-09.45.15:069][715]LogModuleManager: Shutting down and abandoning module PluginBrowser (100)
+[2015.07.11-09.45.15:069][715]LogModuleManager: Shutting down and abandoning module EpicSurvey (99)
+[2015.07.11-09.45.15:069][715]LogModuleManager: Shutting down and abandoning module DesktopPlatform (98)
+[2015.07.11-09.45.15:069][715]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (97)
+[2015.07.11-09.45.15:069][715]LogModuleManager: Shutting down and abandoning module UObjectPlugin (96)
+[2015.07.11-09.45.15:069][715]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (95)
+[2015.07.11-09.45.15:069][715]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (94)
+[2015.07.11-09.45.15:069][715]LogModuleManager: Shutting down and abandoning module SourceControl (93)
+[2015.07.11-09.45.15:070][715]LogModuleManager: Shutting down and abandoning module GitSourceControl (92)
+[2015.07.11-09.45.15:070][715]LogModuleManager: Shutting down and abandoning module BlankPlugin (91)
+[2015.07.11-09.45.15:070][715]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (90)
+[2015.07.11-09.45.15:070][715]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (89)
+[2015.07.11-09.45.15:070][715]LogModuleManager: Shutting down and abandoning module MeshPaint (88)
+[2015.07.11-09.45.15:070][715]LogModuleManager: Shutting down and abandoning module SlateReflector (87)
+[2015.07.11-09.45.15:070][715]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (86)
+[2015.07.11-09.45.15:071][715]LogModuleManager: Shutting down and abandoning module HotReload (85)
+[2015.07.11-09.45.15:071][715]LogModuleManager: Shutting down and abandoning module MainFrame (84)
+[2015.07.11-09.45.15:071][715]LogModuleManager: Shutting down and abandoning module LevelEditor (83)
+[2015.07.11-09.45.15:072][715]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
+[2015.07.11-09.45.15:072][715]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
+[2015.07.11-09.45.15:072][715]LogModuleManager: Shutting down and abandoning module UdpMessaging (80)
+[2015.07.11-09.45.15:173][715]LogModuleManager: Shutting down and abandoning module Paper2D (79)
+[2015.07.11-09.45.15:173][715]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (78)
+[2015.07.11-09.45.15:175][715]LogModuleManager: Shutting down and abandoning module Media (77)
+[2015.07.11-09.45.15:175][715]LogModuleManager: Shutting down and abandoning module WmfMedia (76)
+[2015.07.11-09.45.15:175][715]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (75)
+[2015.07.11-09.45.15:175][715]LogModuleManager: Shutting down and abandoning module PropertyEditor (74)
+[2015.07.11-09.45.15:175][715]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (73)
+[2015.07.11-09.45.15:175][715]LogModuleManager: Shutting down and abandoning module FunctionalTesting (72)
+[2015.07.11-09.45.15:175][715]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (71)
+[2015.07.11-09.45.15:175][715]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (70)
+[2015.07.11-09.45.15:175][715]LogModuleManager: Shutting down and abandoning module MessageLog (69)
+[2015.07.11-09.45.15:175][715]LogModuleManager: Shutting down and abandoning module Sequencer (68)
+[2015.07.11-09.45.15:176][715]LogModuleManager: Shutting down and abandoning module AssetTools (67)
+[2015.07.11-09.45.15:176][715]LogModuleManager: Shutting down and abandoning module UMGEditor (66)
+[2015.07.11-09.45.15:176][715]LogModuleManager: Shutting down and abandoning module UMG (65)
+[2015.07.11-09.45.15:176][715]LogModuleManager: Shutting down and abandoning module Slate (64)
+[2015.07.11-09.45.15:176][715]LogModuleManager: Shutting down and abandoning module EditorStyle (63)
+[2015.07.11-09.45.15:177][715]LogModuleManager: Shutting down and abandoning module SessionServices (62)
+[2015.07.11-09.45.15:177][715]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (61)
+[2015.07.11-09.45.15:178][715]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (60)
+[2015.07.11-09.45.15:178][715]LogModuleManager: Shutting down and abandoning module XAudio2 (59)
+[2015.07.11-09.45.15:178][715]LogModuleManager: Shutting down and abandoning module Networking (57)
+[2015.07.11-09.45.15:178][715]LogModuleManager: Shutting down and abandoning module Core (56)
+[2015.07.11-09.45.15:178][715]LogModuleManager: Shutting down and abandoning module KismetCompiler (55)
+[2015.07.11-09.45.15:178][715]LogModuleManager: Shutting down and abandoning module PhysXFormats (54)
+[2015.07.11-09.45.15:178][715]LogModuleManager: Shutting down and abandoning module MeshUtilities (53)
+[2015.07.11-09.45.15:178][715]LogModuleManager: Shutting down and abandoning module DerivedDataCache (52)
+[2015.07.11-09.45.15:185][715]LogDerivedDataCache: Shutdown
+[2015.07.11-09.45.15:185][715]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (51)
+[2015.07.11-09.45.15:185][715]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (50)
+[2015.07.11-09.45.15:185][715]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (49)
+[2015.07.11-09.45.15:185][715]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (48)
+[2015.07.11-09.45.15:185][715]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (47)
+[2015.07.11-09.45.15:185][715]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (46)
+[2015.07.11-09.45.15:185][715]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (45)
+[2015.07.11-09.45.15:185][715]LogModuleManager: Shutting down and abandoning module ImageWrapper (44)
+[2015.07.11-09.45.15:185][715]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (43)
+[2015.07.11-09.45.15:185][715]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (42)
+[2015.07.11-09.45.15:185][715]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (41)
+[2015.07.11-09.45.15:185][715]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (40)
+[2015.07.11-09.45.15:185][715]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (39)
+[2015.07.11-09.45.15:185][715]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (38)
+[2015.07.11-09.45.15:185][715]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (37)
+[2015.07.11-09.45.15:185][715]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (36)
+[2015.07.11-09.45.15:185][715]LogModuleManager: Shutting down and abandoning module Messaging (35)
+[2015.07.11-09.45.15:185][715]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (34)
+[2015.07.11-09.45.15:185][715]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (33)
+[2015.07.11-09.45.15:185][715]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (32)
+[2015.07.11-09.45.15:185][715]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (31)
+[2015.07.11-09.45.15:185][715]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (30)
+[2015.07.11-09.45.15:185][715]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (29)
+[2015.07.11-09.45.15:185][715]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (28)
+[2015.07.11-09.45.15:185][715]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (27)
+[2015.07.11-09.45.15:185][715]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (26)
+[2015.07.11-09.45.15:185][715]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (25)
+[2015.07.11-09.45.15:185][715]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (24)
+[2015.07.11-09.45.15:185][715]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (23)
+[2015.07.11-09.45.15:185][715]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (22)
+[2015.07.11-09.45.15:185][715]LogModuleManager: Shutting down and abandoning module DesktopTargetPlatform (21)
+[2015.07.11-09.45.15:185][715]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.07.11-09.45.15:185][715]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.07.11-09.45.15:185][715]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.07.11-09.45.15:185][715]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.07.11-09.45.15:185][715]LogModuleManager: Shutting down and abandoning module HTTP (15)
+[2015.07.11-09.45.15:187][715]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.07.11-09.45.15:187][715]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.07.11-09.45.15:187][715]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.07.11-09.45.15:187][715]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.07.11-09.45.15:187][715]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.07.11-09.45.15:191][715]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.07.11-09.45.15:191][715]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.07.11-09.45.15:191][715]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.07.11-09.45.15:191][715]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.07.11-09.45.15:191][715]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.07.11-09.45.15:191][715]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.07.11-09.45.15:191][715]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.07.11-09.45.15:191][715]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.07.11-09.45.15:191][715]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.07.11-09.45.15:191][715]LogExit: Exiting.
+[2015.07.11-09.45.15:201][715]Log file closed, 07/11/15 11:45:15
