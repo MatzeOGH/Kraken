@@ -151,4 +151,98 @@ Localization Resource: (D:/Matthias/unreal/4.8/Engine/Content/Localization/Edito
 [2015.07.11-10.45.56:847][261]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.006215s)
 [2015.07.11-10.45.56:885][261]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
 [2015.07.11-10.45.56:892][261]LogInit: FAudioDevice initialized.
-[2015.07.11-10.45.56:942][261
+[2015.07.11-10.45.56:942][261]LogWorld: Game class is 'GameMode'
+[2015.07.11-10.45.56:945][261]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2015.07.11-12.45.56
+[2015.07.11-10.45.56:945][261]LogActor:Warning: GameSession /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.11-10.45.56:946][261]LogActor:Warning: GameNetworkManager /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.11-10.45.56:946][261]LogWorld: Bringing up level for play took: 0.001800
+[2015.07.11-10.45.56:969][261]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.77
+[2015.07.11-10.45.57:048][261]LogRenderer: Reallocating scene render targets to support 1296x760 (Frame:6).
+[2015.07.11-10.45.59:121][373]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000377FDB2D40
+[2015.07.11-10.46.14:914][684]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 C:/Users/Martin/Documents/GitHub/Kraken/Unreal/Content/title_menu.png)
+[2015.07.11-10.46.14:941][684]LogTexture:Display: Building textures: title_menu (AutoDXT)
+[2015.07.11-10.46.18:549][888]LogTexture:Display: Building textures: title_menu (BGRA8)
+[2015.07.11-10.46.22:586][ 42]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/title_menu" FILE="C:/Users/Martin/Documents/GitHub/Kraken/Unreal/Content/UI/title_menu.uasset" SILENT=true
+[2015.07.11-10.46.22:670][ 42]LogSavePackage: Save=81.341599ms
+[2015.07.11-10.46.22:670][ 42]LogSavePackage: Moving 'C:/Users/Martin/Documents/GitHub/Kraken/Unreal/Saved/title_menu7141CE18453477DB8C0A9BB4AF4CDCC0.tmp' to 'C:/Users/Martin/Documents/GitHub/Kraken/Unreal/Content/UI/title_menu.uasset'
+[2015.07.11-10.46.40:489][103]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.07.11-10.46.40:565][103]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.07.11-10.46.59:306][ 54]BlueprintLog: New page: Compile WBP_MainMenu
+[2015.07.11-10.46.59:406][ 54]BlueprintEditorCompileResults: Info [0074.01] Compile of WBP_MainMenu successful! [in 100 ms]
+[2015.07.11-10.46.59:928][ 82]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MainMenu/WBP_MainMenu" FILE="C:/Users/Martin/Documents/GitHub/Kraken/Unreal/Content/Blueprints/MainMenu/WBP_MainMenu.uasset" SILENT=true
+[2015.07.11-10.46.59:960][ 82]LogSavePackage: Save=15.379076ms
+[2015.07.11-10.46.59:960][ 82]LogSavePackage: Moving 'C:/Users/Martin/Documents/GitHub/Kraken/Unreal/Saved/WBP_MainMenu276FBF22447895966C598885DED62CB2.tmp' to 'C:/Users/Martin/Documents/GitHub/Kraken/Unreal/Content/Blueprints/MainMenu/WBP_MainMenu.uasset'
+[2015.07.11-10.47.18:030][158]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MainMenu/WBP_MainMenu" FILE="C:/Users/Martin/Documents/GitHub/Kraken/Unreal/Content/Blueprints/MainMenu/WBP_MainMenu.uasset" SILENT=true
+[2015.07.11-10.47.18:054][158]LogSavePackage: Save=14.894631ms
+[2015.07.11-10.47.18:054][158]LogSavePackage: Moving 'C:/Users/Martin/Documents/GitHub/Kraken/Unreal/Saved/WBP_MainMenu618AF372420B2CD4A37595967BF27FAA.tmp' to 'C:/Users/Martin/Documents/GitHub/Kraken/Unreal/Content/Blueprints/MainMenu/WBP_MainMenu.uasset'
+[2015.07.11-10.48.08:331][848]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000375E4E54E0
+[2015.07.11-10.48.33:709][291]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/fire" FILE="C:/Users/Martin/Documents/GitHub/Kraken/Unreal/Content/UI/fire.uasset" SILENT=true
+[2015.07.11-10.48.33:726][291]LogSavePackage: Save=3.627179ms
+[2015.07.11-10.48.33:726][291]LogSavePackage: Moving 'C:/Users/Martin/Documents/GitHub/Kraken/Unreal/Saved/fire9851A2A142792629C298D2BBA80E6BBF.tmp' to 'C:/Users/Martin/Documents/GitHub/Kraken/Unreal/Content/UI/fire.uasset'
+[2015.07.11-10.51.19:969][262]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.07.11-10.51.19:969][262]PIE: New page: PIE session: Untitled_1 (Jul 11, 2015, 2:51:19 PM)
+[2015.07.11-10.51.19:969][262]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2015.07.11-10.51.19:971][262]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002100s)
+[2015.07.11-10.51.19:972][262]LogAIModule: Creating AISystem for world Untitled_1
+[2015.07.11-10.51.19:973][262]LogPlayLevel: PIE: World Init took: (0.001898s)
+[2015.07.11-10.51.19:973][262]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.004219s)
+[2015.07.11-10.51.19:993][262]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003709B16D40
+[2015.07.11-10.51.20:006][262]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.07.11-10.51.20:014][262]LogInit: FAudioDevice initialized.
+[2015.07.11-10.51.20:056][262]LogWorld: Game class is 'GameMode'
+[2015.07.11-10.51.20:059][262]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2015.07.11-12.51.20
+[2015.07.11-10.51.20:060][262]LogActor:Warning: GameSession /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.11-10.51.20:061][262]LogActor:Warning: GameNetworkManager /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.11-10.51.20:061][262]LogWorld: Bringing up level for play took: 0.003001
+[2015.07.11-10.51.20:084][262]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.345
+[2015.07.11-10.51.22:383][382]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000037134351C0
+[2015.07.11-10.51.37:985][203]LogAIModule: Creating AISystem for world Singleplayer
+[2015.07.11-10.51.38:771][203]Cmd: MAP LOAD FILE="C:/Users/Martin/Documents/GitHub/Kraken/Unreal/Content/Maps/Singleplayer.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.07.11-10.51.38:771][203]LightingResults: New page: Lighting Build
+[2015.07.11-10.51.38:789][203]LoadErrors: New page: Loading map: Singleplayer.umap
+[2015.07.11-10.51.38:789][203]MapCheck: New page: Map Check
+[2015.07.11-10.51.38:789][203]LightingResults: New page: Lighting Build
+[2015.07.11-10.51.38:807][203]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000377ABC5BC0
+[2015.07.11-10.51.38:807][203]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000377AE268E0
+[2015.07.11-10.51.38:970][203]LogAIModule: Creating AISystem for world Singleplayer
+[2015.07.11-10.51.39:033][203]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.07.11-10.51.39:064][203]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.07.11-10.51.39:179][203]MapCheck:Warning: Warning BP_Island_C_5 PaperSpriteComponent /Game/Maps/Singleplayer.Singleplayer:PersistentLevel.BP_Island_C_5.RenderComponent : Externally referenced 
+[2015.07.11-10.51.39:179][203]MapCheck:Warning: Warning BP_Island_C_4 PaperSpriteComponent /Game/Maps/Singleplayer.Singleplayer:PersistentLevel.BP_Island_C_4.RenderComponent : Externally referenced 
+[2015.07.11-10.51.39:179][203]MapCheck:Warning: Warning BP_Island_C_3 PaperSpriteComponent /Game/Maps/Singleplayer.Singleplayer:PersistentLevel.BP_Island_C_3.RenderComponent : Externally referenced 
+[2015.07.11-10.51.39:179][203]MapCheck:Warning: Warning BP_Island_C_0 PaperSpriteComponent /Game/Maps/Singleplayer.Singleplayer:PersistentLevel.BP_Island_C_0.RenderComponent : Externally referenced 
+[2015.07.11-10.51.39:179][203]MapCheck:Warning: Warning water_deep_Sprite2 PaperSpriteComponent /Game/Maps/Singleplayer.Singleplayer:PersistentLevel.water_deep_Sprite2.RenderComponent : Externally referenced 
+[2015.07.11-10.51.39:179][203]MapCheck:Warning: Warning water_2 PaperFlipbookComponent /Game/Maps/Singleplayer.Singleplayer:PersistentLevel.water_2.RenderComponent : Externally referenced 
+[2015.07.11-10.51.39:179][203]MapCheck:Warning: Warning water_2 PaperFlipbookComponent /Game/Maps/Singleplayer.Singleplayer:PersistentLevel.water_2.RenderComponent : Externally referenced 
+[2015.07.11-10.51.39:179][203]MapCheck:Warning: Warning water_deep_Sprite2 PaperSpriteComponent /Game/Maps/Singleplayer.Singleplayer:PersistentLevel.water_deep_Sprite2.RenderComponent : Externally referenced 
+[2015.07.11-10.51.39:180][203]MapCheck: Info Map check complete: 0 Error(s), 8 Warning(s), took 115.957ms to complete.
+[2015.07.11-10.51.39:187][203]LogFileHelpers: Loading map 'Singleplayer' took 0.418
+[2015.07.11-10.51.41:685][337]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.07.11-10.51.41:696][337]LogPlayLevel: [PIE] Compiling Singleplayer before PIE...
+[2015.07.11-10.51.41:806][337]LogPlayLevel: PIE:  Blueprint regeneration took 120 ms (1 blueprints)
+[2015.07.11-10.51.41:806][337]PIE: New page: PIE session: Singleplayer (Jul 11, 2015, 2:51:41 PM)
+[2015.07.11-10.51.41:807][337]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Singleplayer
+[2015.07.11-10.51.41:812][337]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005948s)
+[2015.07.11-10.51.41:813][337]LogAIModule: Creating AISystem for world Singleplayer
+[2015.07.11-10.51.41:814][337]LogPlayLevel: PIE: World Init took: (0.001118s)
+[2015.07.11-10.51.41:814][337]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Singleplayer.Singleplayer to /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer (0.007244s)
+[2015.07.11-10.51.41:844][337]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.07.11-10.51.41:850][337]LogInit: FAudioDevice initialized.
+[2015.07.11-10.51.41:886][337]LogWorld: Game class is 'BP_Gamemode_C'
+[2015.07.11-10.51.41:891][337]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer up for play (max tick rate 60) at 2015.07.11-12.51.41
+[2015.07.11-10.51.41:891][337]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.11-10.51.41:892][337]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.11-10.51.41:894][337]LogWorld: Bringing up level for play took: 0.005460
+[2015.07.11-10.51.41:920][337]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Singleplayer 0.181
+[2015.07.11-10.51.44:682][487]LogBlueprintUserMessages: X=-671.203 Y=594.634 Z=-5.000
+[2015.07.11-10.51.47:686][655]LogBlueprintUserMessages: X=-636.208 Y=448.262 Z=-5.000
+[2015.07.11-10.51.50:689][826]LogBlueprintUserMessages: X=-582.439 Y=307.965 Z=-5.000
+[2015.07.11-10.51.53:689][  3]LogBlueprintUserMessages: X=-481.010 Y=196.587 Z=-5.000
+[2015.07.11-10.51.56:693][179]LogBlueprintUserMessages: X=-331.678 Y=159.269 Z=-5.000
+[2015.07.11-10.51.59:694][352]LogBlueprintUserMessages: X=-181.561 Y=148.266 Z=-5.000
+[2015.07.11-10.52.02:692][513]LogBlueprintUserMessages: X=-31.560 Y=144.368 Z=-5.000
+[2015.07.11-10.52.05:688][688]LogBlueprintUserMessages: X=118.900 Y=132.425 Z=-5.000
+[2015.07.11-10.52.08:689][863]LogBlueprintUserMessages: X=224.559 Y=28.074 Z=-5.000
+[2015.07.11-10.52.09:033][877]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003682CE87C0
+[2015.07.11-10.52.55:194][645]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.07.11-10.52.55:207][645]LogPlayLevel: [PIE] Compiling Singl
