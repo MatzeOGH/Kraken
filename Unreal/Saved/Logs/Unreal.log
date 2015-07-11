@@ -206,4 +206,274 @@ Localization Resource: (C:/Program Files/Epic Games/4.8/Engine/Content/Localizat
 [2015.07.11-19.11.26:968][851]BlueprintEditorCompileResults: Info [0568.53] Compile of WBP_HUD successful! [in 115 ms]
 [2015.07.11-19.11.27:392][896]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Widgets/WBP_HUD" FILE="../../../../../../Users/Matthias/Desktop/Kraken/Kraken/Unreal/Content/Blueprints/Widgets/WBP_HUD.uasset" SILENT=true
 [2015.07.11-19.11.27:441][896]LogSavePackage: Save=41.161026ms
-[2015.07.11-19.11.27:441][896]LogSavePackage: Moving '../../../..
+[2015.07.11-19.11.27:441][896]LogSavePackage: Moving '../../../../../../Users/Matthias/Desktop/Kraken/Kraken/Unreal/Saved/WBP_HUD79AB43EB4B7C151A86CE25995B8C2E48.tmp' to '../../../../../../Users/Matthias/Desktop/Kraken/Kraken/Unreal/Content/Blueprints/Widgets/WBP_HUD.uasset'
+[2015.07.11-19.12.10:864][  1]BlueprintLog: New page: Compile WBP_HUD
+[2015.07.11-19.12.10:991][  1]BlueprintEditorCompileResults: Info [0612.55] Compile of WBP_HUD successful! [in 126 ms]
+[2015.07.11-19.12.11:342][ 39]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Widgets/WBP_HUD" FILE="../../../../../../Users/Matthias/Desktop/Kraken/Kraken/Unreal/Content/Blueprints/Widgets/WBP_HUD.uasset" SILENT=true
+[2015.07.11-19.12.11:391][ 39]LogSavePackage: Save=41.479042ms
+[2015.07.11-19.12.11:391][ 39]LogSavePackage: Moving '../../../../../../Users/Matthias/Desktop/Kraken/Kraken/Unreal/Saved/WBP_HUD1188A0EF4F9CF51ADFCBAA9A266303A6.tmp' to '../../../../../../Users/Matthias/Desktop/Kraken/Kraken/Unreal/Content/Blueprints/Widgets/WBP_HUD.uasset'
+[2015.07.11-19.13.28:654][218]BlueprintLog: New page: Compile WBP_HUD
+[2015.07.11-19.13.28:773][218]BlueprintEditorCompileResults: Info [0690.34] Compile of WBP_HUD successful! [in 119 ms]
+[2015.07.11-19.13.29:374][285]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Widgets/WBP_HUD" FILE="../../../../../../Users/Matthias/Desktop/Kraken/Kraken/Unreal/Content/Blueprints/Widgets/WBP_HUD.uasset" SILENT=true
+[2015.07.11-19.13.29:420][285]LogSavePackage: Save=39.069172ms
+[2015.07.11-19.13.29:420][285]LogSavePackage: Moving '../../../../../../Users/Matthias/Desktop/Kraken/Kraken/Unreal/Saved/WBP_HUDAD29140F40988C46966CAC871D1E061C.tmp' to '../../../../../../Users/Matthias/Desktop/Kraken/Kraken/Unreal/Content/Blueprints/Widgets/WBP_HUD.uasset'
+[2015.07.11-19.13.32:024][593]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Widgets/WBP_HUD" FILE="../../../../../../Users/Matthias/Desktop/Kraken/Kraken/Unreal/Content/Blueprints/Widgets/WBP_HUD.uasset" SILENT=true
+[2015.07.11-19.13.32:071][593]LogSavePackage: Save=39.688499ms
+[2015.07.11-19.13.32:071][593]LogSavePackage: Moving '../../../../../../Users/Matthias/Desktop/Kraken/Kraken/Unreal/Saved/WBP_HUD72083A744888229941B697BF67F71CA6.tmp' to '../../../../../../Users/Matthias/Desktop/Kraken/Kraken/Unreal/Content/Blueprints/Widgets/WBP_HUD.uasset'
+[2015.07.11-19.13.35:090][943]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Widgets/WBP_HUD" FILE="../../../../../../Users/Matthias/Desktop/Kraken/Kraken/Unreal/Content/Blueprints/Widgets/WBP_HUD.uasset" SILENT=true
+[2015.07.11-19.13.35:138][943]LogSavePackage: Save=40.531292ms
+[2015.07.11-19.13.35:138][943]LogSavePackage: Moving '../../../../../../Users/Matthias/Desktop/Kraken/Kraken/Unreal/Saved/WBP_HUD32193ADF45DBF34D0FD4568911F42295.tmp' to '../../../../../../Users/Matthias/Desktop/Kraken/Kraken/Unreal/Content/Blueprints/Widgets/WBP_HUD.uasset'
+[2015.07.11-19.14.18:990][839]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Widgets/WBP_HUD" FILE="../../../../../../Users/Matthias/Desktop/Kraken/Kraken/Unreal/Content/Blueprints/Widgets/WBP_HUD.uasset" SILENT=true
+[2015.07.11-19.14.19:042][839]LogSavePackage: Save=41.171741ms
+[2015.07.11-19.14.19:042][839]LogSavePackage: Moving '../../../../../../Users/Matthias/Desktop/Kraken/Kraken/Unreal/Saved/WBP_HUD41F15983448A5AC6E2439897C329436F.tmp' to '../../../../../../Users/Matthias/Desktop/Kraken/Kraken/Unreal/Content/Blueprints/Widgets/WBP_HUD.uasset'
+[2015.07.11-19.14.26:207][478]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.07.11-19.14.26:213][478]LogPlayLevel: [PIE] Compiling Singleplayer before PIE...
+[2015.07.11-19.14.26:302][478]LogPlayLevel: PIE:  Blueprint regeneration took 95 ms (1 blueprints)
+[2015.07.11-19.14.26:302][478]PIE: New page: PIE session: Singleplayer (Jul 11, 2015, 11:14:26 PM)
+[2015.07.11-19.14.26:302][478]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Singleplayer
+[2015.07.11-19.14.26:309][478]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006706s)
+[2015.07.11-19.14.26:310][478]LogAIModule: Creating AISystem for world Singleplayer
+[2015.07.11-19.14.26:310][478]LogPlayLevel: PIE: World Init took: (0.000823s)
+[2015.07.11-19.14.26:310][478]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Singleplayer.Singleplayer to /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer (0.007741s)
+[2015.07.11-19.14.26:342][478]LogInit: XAudio2 using 'Headset (Sound Blaster Tactic(3D) Alpha)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.11-19.14.26:346][478]LogInit: FAudioDevice initialized.
+[2015.07.11-19.14.26:389][478]LogWorld: Game class is 'BP_Gamemode_C'
+[2015.07.11-19.14.26:393][478]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer up for play (max tick rate 0) at 2015.07.11-21.14.26
+[2015.07.11-19.14.26:393][478]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.11-19.14.26:394][478]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.11-19.14.26:394][478]LogWorld: Bringing up level for play took: 0.003483
+[2015.07.11-19.14.26:416][478]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Singleplayer 0.068
+[2015.07.11-19.14.50:983][202]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000014739A80
+[2015.07.11-19.14.58:506][834]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Widgets/WBP_HUD" FILE="../../../../../../Users/Matthias/Desktop/Kraken/Kraken/Unreal/Content/Blueprints/Widgets/WBP_HUD.uasset" SILENT=true
+[2015.07.11-19.14.58:553][834]LogSavePackage: Save=39.928982ms
+[2015.07.11-19.14.58:553][834]LogSavePackage: Moving '../../../../../../Users/Matthias/Desktop/Kraken/Kraken/Unreal/Saved/WBP_HUD824F0B674CC6FC163E364A9C33500440.tmp' to '../../../../../../Users/Matthias/Desktop/Kraken/Kraken/Unreal/Content/Blueprints/Widgets/WBP_HUD.uasset'
+[2015.07.11-19.15.08:642][807]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.07.11-19.15.08:650][807]LogPlayLevel: [PIE] Compiling Singleplayer before PIE...
+[2015.07.11-19.15.08:739][807]LogPlayLevel: PIE:  Blueprint regeneration took 96 ms (1 blueprints)
+[2015.07.11-19.15.08:739][807]PIE: New page: PIE session: Singleplayer (Jul 11, 2015, 11:15:08 PM)
+[2015.07.11-19.15.08:739][807]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Singleplayer
+[2015.07.11-19.15.08:746][807]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006714s)
+[2015.07.11-19.15.08:746][807]LogAIModule: Creating AISystem for world Singleplayer
+[2015.07.11-19.15.08:747][807]LogPlayLevel: PIE: World Init took: (0.000881s)
+[2015.07.11-19.15.08:747][807]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Singleplayer.Singleplayer to /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer (0.007770s)
+[2015.07.11-19.15.08:779][807]LogInit: XAudio2 using 'Headset (Sound Blaster Tactic(3D) Alpha)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.11-19.15.08:785][807]LogInit: FAudioDevice initialized.
+[2015.07.11-19.15.08:825][807]LogWorld: Game class is 'BP_Gamemode_C'
+[2015.07.11-19.15.08:829][807]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer up for play (max tick rate 0) at 2015.07.11-21.15.08
+[2015.07.11-19.15.08:829][807]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.11-19.15.08:830][807]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.11-19.15.08:830][807]LogWorld: Bringing up level for play took: 0.003396
+[2015.07.11-19.15.08:852][807]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Singleplayer 0.502
+[2015.07.11-19.15.34:159][622]LogScript:Warning: Cannot access 'fire1'. It is pending kill. Property: 'fire1'
+	BP_Ship_C /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer:PersistentLevel.BP_Ship_C_12
+	Function /Game/Blueprints/BP_Ship.BP_Ship_C:ExecuteUbergraph_BP_Ship:0B4B
+[2015.07.11-19.15.34:159][622]PIE:Error: Error Cannot access 'fire1'. It is pending kill. Property: 'fire1' from node SetWorldRotation in graph 'EventGraph' in blueprint BP_Ship
+[2015.07.11-19.15.34:159][622]LogScript:Warning: Cannot access 'fire2'. It is pending kill. Property: 'fire2'
+	BP_Ship_C /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer:PersistentLevel.BP_Ship_C_12
+	Function /Game/Blueprints/BP_Ship.BP_Ship_C:ExecuteUbergraph_BP_Ship:0B83
+[2015.07.11-19.15.34:159][622]PIE:Error: Error Cannot access 'fire2'. It is pending kill. Property: 'fire2' from node SetWorldRotation in graph 'EventGraph' in blueprint BP_Ship
+[2015.07.11-19.15.34:159][622]LogScript:Warning: Cannot access 'fire3'. It is pending kill. Property: 'fire3'
+	BP_Ship_C /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer:PersistentLevel.BP_Ship_C_12
+	Function /Game/Blueprints/BP_Ship.BP_Ship_C:ExecuteUbergraph_BP_Ship:0BBB
+[2015.07.11-19.15.34:159][622]PIE:Error: Error Cannot access 'fire3'. It is pending kill. Property: 'fire3' from node SetWorldRotation in graph 'EventGraph' in blueprint BP_Ship
+[2015.07.11-19.15.34:159][622]LogScript:Warning: Cannot access 'fire4'. It is pending kill. Property: 'fire4'
+	BP_Ship_C /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer:PersistentLevel.BP_Ship_C_12
+	Function /Game/Blueprints/BP_Ship.BP_Ship_C:ExecuteUbergraph_BP_Ship:0BF3
+[2015.07.11-19.15.34:159][622]PIE:Error: Error Cannot access 'fire4'. It is pending kill. Property: 'fire4' from node SetWorldRotation in graph 'EventGraph' in blueprint BP_Ship
+[2015.07.11-19.15.34:159][622]LogScript:Warning: Cannot access 'fire5'. It is pending kill. Property: 'fire5'
+	BP_Ship_C /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer:PersistentLevel.BP_Ship_C_12
+	Function /Game/Blueprints/BP_Ship.BP_Ship_C:ExecuteUbergraph_BP_Ship:0C2B
+[2015.07.11-19.15.34:159][622]PIE:Error: Error Cannot access 'fire5'. It is pending kill. Property: 'fire5' from node SetWorldRotation in graph 'EventGraph' in blueprint BP_Ship
+[2015.07.11-19.15.51:277][856]LogScript:Warning: Cannot access 'fire1'. It is pending kill. Property: 'fire1'
+	BP_Ship_C /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer:PersistentLevel.BP_Ship_C_10
+	Function /Game/Blueprints/BP_Ship.BP_Ship_C:ExecuteUbergraph_BP_Ship:0B4B
+[2015.07.11-19.15.51:278][856]PIE:Error: Error Cannot access 'fire1'. It is pending kill. Property: 'fire1' from node SetWorldRotation in graph 'EventGraph' in blueprint BP_Ship
+[2015.07.11-19.15.51:278][856]LogScript:Warning: Cannot access 'fire2'. It is pending kill. Property: 'fire2'
+	BP_Ship_C /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer:PersistentLevel.BP_Ship_C_10
+	Function /Game/Blueprints/BP_Ship.BP_Ship_C:ExecuteUbergraph_BP_Ship:0B83
+[2015.07.11-19.15.51:278][856]PIE:Error: Error Cannot access 'fire2'. It is pending kill. Property: 'fire2' from node SetWorldRotation in graph 'EventGraph' in blueprint BP_Ship
+[2015.07.11-19.15.51:278][856]LogScript:Warning: Cannot access 'fire3'. It is pending kill. Property: 'fire3'
+	BP_Ship_C /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer:PersistentLevel.BP_Ship_C_10
+	Function /Game/Blueprints/BP_Ship.BP_Ship_C:ExecuteUbergraph_BP_Ship:0BBB
+[2015.07.11-19.15.51:278][856]PIE:Error: Error Cannot access 'fire3'. It is pending kill. Property: 'fire3' from node SetWorldRotation in graph 'EventGraph' in blueprint BP_Ship
+[2015.07.11-19.15.51:278][856]LogScript:Warning: Cannot access 'fire4'. It is pending kill. Property: 'fire4'
+	BP_Ship_C /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer:PersistentLevel.BP_Ship_C_10
+	Function /Game/Blueprints/BP_Ship.BP_Ship_C:ExecuteUbergraph_BP_Ship:0BF3
+[2015.07.11-19.15.51:278][856]PIE:Error: Error Cannot access 'fire4'. It is pending kill. Property: 'fire4' from node SetWorldRotation in graph 'EventGraph' in blueprint BP_Ship
+[2015.07.11-19.15.51:278][856]LogScript:Warning: Cannot access 'fire5'. It is pending kill. Property: 'fire5'
+	BP_Ship_C /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer:PersistentLevel.BP_Ship_C_10
+	Function /Game/Blueprints/BP_Ship.BP_Ship_C:ExecuteUbergraph_BP_Ship:0C2B
+[2015.07.11-19.15.51:278][856]PIE:Error: Error Cannot access 'fire5'. It is pending kill. Property: 'fire5' from node SetWorldRotation in graph 'EventGraph' in blueprint BP_Ship
+[2015.07.11-19.15.59:908][472]LogScript:Warning: Cannot access 'fire1'. It is pending kill. Property: 'fire1'
+	BP_Ship_C /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer:PersistentLevel.BP_Ship_C_16
+	Function /Game/Blueprints/BP_Ship.BP_Ship_C:ExecuteUbergraph_BP_Ship:0B4B
+[2015.07.11-19.15.59:908][472]PIE:Error: Error Cannot access 'fire1'. It is pending kill. Property: 'fire1' from node SetWorldRotation in graph 'EventGraph' in blueprint BP_Ship
+[2015.07.11-19.15.59:908][472]LogScript:Warning: Cannot access 'fire2'. It is pending kill. Property: 'fire2'
+	BP_Ship_C /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer:PersistentLevel.BP_Ship_C_16
+	Function /Game/Blueprints/BP_Ship.BP_Ship_C:ExecuteUbergraph_BP_Ship:0B83
+[2015.07.11-19.15.59:908][472]PIE:Error: Error Cannot access 'fire2'. It is pending kill. Property: 'fire2' from node SetWorldRotation in graph 'EventGraph' in blueprint BP_Ship
+[2015.07.11-19.15.59:908][472]LogScript:Warning: Cannot access 'fire3'. It is pending kill. Property: 'fire3'
+	BP_Ship_C /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer:PersistentLevel.BP_Ship_C_16
+	Function /Game/Blueprints/BP_Ship.BP_Ship_C:ExecuteUbergraph_BP_Ship:0BBB
+[2015.07.11-19.15.59:908][472]PIE:Error: Error Cannot access 'fire3'. It is pending kill. Property: 'fire3' from node SetWorldRotation in graph 'EventGraph' in blueprint BP_Ship
+[2015.07.11-19.15.59:908][472]LogScript:Warning: Cannot access 'fire4'. It is pending kill. Property: 'fire4'
+	BP_Ship_C /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer:PersistentLevel.BP_Ship_C_16
+	Function /Game/Blueprints/BP_Ship.BP_Ship_C:ExecuteUbergraph_BP_Ship:0BF3
+[2015.07.11-19.15.59:908][472]PIE:Error: Error Cannot access 'fire4'. It is pending kill. Property: 'fire4' from node SetWorldRotation in graph 'EventGraph' in blueprint BP_Ship
+[2015.07.11-19.15.59:908][472]LogScript:Warning: Cannot access 'fire5'. It is pending kill. Property: 'fire5'
+	BP_Ship_C /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer:PersistentLevel.BP_Ship_C_16
+	Function /Game/Blueprints/BP_Ship.BP_Ship_C:ExecuteUbergraph_BP_Ship:0C2B
+[2015.07.11-19.15.59:908][472]PIE:Error: Error Cannot access 'fire5'. It is pending kill. Property: 'fire5' from node SetWorldRotation in graph 'EventGraph' in blueprint BP_Ship
+[2015.07.11-19.16.10:460][224]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000030F27B00
+[2015.07.11-19.16.56:752][650]BlueprintLog: New page: Compile BP_Ship
+[2015.07.11-19.16.56:903][650]BlueprintEditorCompileResults: Info [0898.46] Compile of BP_Ship successful! [in 150 ms]
+[2015.07.11-19.16.57:240][664]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Ship" FILE="../../../../../../Users/Matthias/Desktop/Kraken/Kraken/Unreal/Content/Blueprints/BP_Ship.uasset" SILENT=true
+[2015.07.11-19.16.57:386][664]LogSavePackage: Save=136.013077ms
+[2015.07.11-19.16.57:386][664]LogSavePackage: Moving '../../../../../../Users/Matthias/Desktop/Kraken/Kraken/Unreal/Saved/BP_Ship835777744F9EF072C71F9682E7E8C5CB.tmp' to '../../../../../../Users/Matthias/Desktop/Kraken/Kraken/Unreal/Content/Blueprints/BP_Ship.uasset'
+[2015.07.11-19.16.57:843][687]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.07.11-19.16.57:851][687]LogPlayLevel: [PIE] Compiling Singleplayer before PIE...
+[2015.07.11-19.16.57:943][687]LogPlayLevel: PIE:  Blueprint regeneration took 100 ms (1 blueprints)
+[2015.07.11-19.16.57:943][687]PIE: New page: PIE session: Singleplayer (Jul 11, 2015, 11:16:57 PM)
+[2015.07.11-19.16.57:944][687]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Singleplayer
+[2015.07.11-19.16.57:950][687]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006726s)
+[2015.07.11-19.16.57:951][687]LogAIModule: Creating AISystem for world Singleplayer
+[2015.07.11-19.16.57:951][687]LogPlayLevel: PIE: World Init took: (0.000775s)
+[2015.07.11-19.16.57:951][687]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Singleplayer.Singleplayer to /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer (0.007691s)
+[2015.07.11-19.16.57:983][687]LogInit: XAudio2 using 'Headset (Sound Blaster Tactic(3D) Alpha)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.11-19.16.57:989][687]LogInit: FAudioDevice initialized.
+[2015.07.11-19.16.58:033][687]LogWorld: Game class is 'BP_Gamemode_C'
+[2015.07.11-19.16.58:037][687]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer up for play (max tick rate 0) at 2015.07.11-21.16.58
+[2015.07.11-19.16.58:037][687]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.11-19.16.58:038][687]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.11-19.16.58:038][687]LogWorld: Bringing up level for play took: 0.003325
+[2015.07.11-19.16.58:081][687]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Singleplayer -0.27
+[2015.07.11-19.17.12:296][331]LogScript:Warning: Cannot access 'fire1'. It is pending kill. Property: 'fire1'
+	BP_Ship_C /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer:PersistentLevel.BP_Ship_C_12
+	Function /Game/Blueprints/BP_Ship.BP_Ship_C:ExecuteUbergraph_BP_Ship:0B4B
+[2015.07.11-19.17.12:296][331]PIE:Error: Error Cannot access 'fire1'. It is pending kill. Property: 'fire1' from node SetWorldRotation in graph 'EventGraph' in blueprint BP_Ship
+[2015.07.11-19.17.12:296][331]LogScript:Warning: Cannot access 'fire2'. It is pending kill. Property: 'fire2'
+	BP_Ship_C /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer:PersistentLevel.BP_Ship_C_12
+	Function /Game/Blueprints/BP_Ship.BP_Ship_C:ExecuteUbergraph_BP_Ship:0B83
+[2015.07.11-19.17.12:296][331]PIE:Error: Error Cannot access 'fire2'. It is pending kill. Property: 'fire2' from node SetWorldRotation in graph 'EventGraph' in blueprint BP_Ship
+[2015.07.11-19.17.12:296][331]LogScript:Warning: Cannot access 'fire3'. It is pending kill. Property: 'fire3'
+	BP_Ship_C /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer:PersistentLevel.BP_Ship_C_12
+	Function /Game/Blueprints/BP_Ship.BP_Ship_C:ExecuteUbergraph_BP_Ship:0BBB
+[2015.07.11-19.17.12:296][331]PIE:Error: Error Cannot access 'fire3'. It is pending kill. Property: 'fire3' from node SetWorldRotation in graph 'EventGraph' in blueprint BP_Ship
+[2015.07.11-19.17.12:296][331]LogScript:Warning: Cannot access 'fire4'. It is pending kill. Property: 'fire4'
+	BP_Ship_C /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer:PersistentLevel.BP_Ship_C_12
+	Function /Game/Blueprints/BP_Ship.BP_Ship_C:ExecuteUbergraph_BP_Ship:0BF3
+[2015.07.11-19.17.12:296][331]PIE:Error: Error Cannot access 'fire4'. It is pending kill. Property: 'fire4' from node SetWorldRotation in graph 'EventGraph' in blueprint BP_Ship
+[2015.07.11-19.17.12:296][331]LogScript:Warning: Cannot access 'fire5'. It is pending kill. Property: 'fire5'
+	BP_Ship_C /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer:PersistentLevel.BP_Ship_C_12
+	Function /Game/Blueprints/BP_Ship.BP_Ship_C:ExecuteUbergraph_BP_Ship:0C2B
+[2015.07.11-19.17.12:296][331]PIE:Error: Error Cannot access 'fire5'. It is pending kill. Property: 'fire5' from node SetWorldRotation in graph 'EventGraph' in blueprint BP_Ship
+[2015.07.11-19.17.28:531][ 65]LogScript:Warning: Cannot access 'fire1'. It is pending kill. Property: 'fire1'
+	BP_Ship_C /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer:PersistentLevel.BP_Ship_C_14
+	Function /Game/Blueprints/BP_Ship.BP_Ship_C:ExecuteUbergraph_BP_Ship:0B4B
+[2015.07.11-19.17.28:531][ 65]PIE:Error: Error Cannot access 'fire1'. It is pending kill. Property: 'fire1' from node SetWorldRotation in graph 'EventGraph' in blueprint BP_Ship
+[2015.07.11-19.17.28:531][ 65]LogScript:Warning: Cannot access 'fire2'. It is pending kill. Property: 'fire2'
+	BP_Ship_C /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer:PersistentLevel.BP_Ship_C_14
+	Function /Game/Blueprints/BP_Ship.BP_Ship_C:ExecuteUbergraph_BP_Ship:0B83
+[2015.07.11-19.17.28:531][ 65]PIE:Error: Error Cannot access 'fire2'. It is pending kill. Property: 'fire2' from node SetWorldRotation in graph 'EventGraph' in blueprint BP_Ship
+[2015.07.11-19.17.28:531][ 65]LogScript:Warning: Cannot access 'fire3'. It is pending kill. Property: 'fire3'
+	BP_Ship_C /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer:PersistentLevel.BP_Ship_C_14
+	Function /Game/Blueprints/BP_Ship.BP_Ship_C:ExecuteUbergraph_BP_Ship:0BBB
+[2015.07.11-19.17.28:532][ 65]PIE:Error: Error Cannot access 'fire3'. It is pending kill. Property: 'fire3' from node SetWorldRotation in graph 'EventGraph' in blueprint BP_Ship
+[2015.07.11-19.17.28:532][ 65]LogScript:Warning: Cannot access 'fire4'. It is pending kill. Property: 'fire4'
+	BP_Ship_C /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer:PersistentLevel.BP_Ship_C_14
+	Function /Game/Blueprints/BP_Ship.BP_Ship_C:ExecuteUbergraph_BP_Ship:0BF3
+[2015.07.11-19.17.28:532][ 65]PIE:Error: Error Cannot access 'fire4'. It is pending kill. Property: 'fire4' from node SetWorldRotation in graph 'EventGraph' in blueprint BP_Ship
+[2015.07.11-19.17.28:532][ 65]LogScript:Warning: Cannot access 'fire5'. It is pending kill. Property: 'fire5'
+	BP_Ship_C /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer:PersistentLevel.BP_Ship_C_14
+	Function /Game/Blueprints/BP_Ship.BP_Ship_C:ExecuteUbergraph_BP_Ship:0C2B
+[2015.07.11-19.17.28:532][ 65]PIE:Error: Error Cannot access 'fire5'. It is pending kill. Property: 'fire5' from node SetWorldRotation in graph 'EventGraph' in blueprint BP_Ship
+[2015.07.11-19.17.43:240][732]LogScript:Warning: Cannot access 'fire1'. It is pending kill. Property: 'fire1'
+	BP_Ship_C /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer:PersistentLevel.BP_Ship_C_13
+	Function /Game/Blueprints/BP_Ship.BP_Ship_C:ExecuteUbergraph_BP_Ship:0B4B
+[2015.07.11-19.17.43:240][732]PIE:Error: Error Cannot access 'fire1'. It is pending kill. Property: 'fire1' from node SetWorldRotation in graph 'EventGraph' in blueprint BP_Ship
+[2015.07.11-19.17.43:240][732]LogScript:Warning: Cannot access 'fire2'. It is pending kill. Property: 'fire2'
+	BP_Ship_C /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer:PersistentLevel.BP_Ship_C_13
+	Function /Game/Blueprints/BP_Ship.BP_Ship_C:ExecuteUbergraph_BP_Ship:0B83
+[2015.07.11-19.17.43:240][732]PIE:Error: Error Cannot access 'fire2'. It is pending kill. Property: 'fire2' from node SetWorldRotation in graph 'EventGraph' in blueprint BP_Ship
+[2015.07.11-19.17.43:240][732]LogScript:Warning: Cannot access 'fire3'. It is pending kill. Property: 'fire3'
+	BP_Ship_C /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer:PersistentLevel.BP_Ship_C_13
+	Function /Game/Blueprints/BP_Ship.BP_Ship_C:ExecuteUbergraph_BP_Ship:0BBB
+[2015.07.11-19.17.43:240][732]PIE:Error: Error Cannot access 'fire3'. It is pending kill. Property: 'fire3' from node SetWorldRotation in graph 'EventGraph' in blueprint BP_Ship
+[2015.07.11-19.17.43:240][732]LogScript:Warning: Cannot access 'fire4'. It is pending kill. Property: 'fire4'
+	BP_Ship_C /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer:PersistentLevel.BP_Ship_C_13
+	Function /Game/Blueprints/BP_Ship.BP_Ship_C:ExecuteUbergraph_BP_Ship:0BF3
+[2015.07.11-19.17.43:240][732]PIE:Error: Error Cannot access 'fire4'. It is pending kill. Property: 'fire4' from node SetWorldRotation in graph 'EventGraph' in blueprint BP_Ship
+[2015.07.11-19.17.43:240][732]LogScript:Warning: Cannot access 'fire5'. It is pending kill. Property: 'fire5'
+	BP_Ship_C /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer:PersistentLevel.BP_Ship_C_13
+	Function /Game/Blueprints/BP_Ship.BP_Ship_C:ExecuteUbergraph_BP_Ship:0C2B
+[2015.07.11-19.17.43:241][732]PIE:Error: Error Cannot access 'fire5'. It is pending kill. Property: 'fire5' from node SetWorldRotation in graph 'EventGraph' in blueprint BP_Ship
+[2015.07.11-19.18.19:941][386]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000035B39440
+[2015.07.11-19.19.13:847][448]BlueprintLog: New page: Compile BP_Ship
+[2015.07.11-19.19.13:993][448]BlueprintEditorCompileResults: Info [1035.55] Compile of BP_Ship successful! [in 146 ms]
+[2015.07.11-19.19.14:681][481]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.07.11-19.19.14:688][481]LogPlayLevel: [PIE] Compiling Singleplayer before PIE...
+[2015.07.11-19.19.14:781][481]LogPlayLevel: PIE:  Blueprint regeneration took 99 ms (1 blueprints)
+[2015.07.11-19.19.14:781][481]PIE: New page: PIE session: Singleplayer (Jul 11, 2015, 11:19:14 PM)
+[2015.07.11-19.19.14:781][481]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Singleplayer
+[2015.07.11-19.19.14:787][481]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006360s)
+[2015.07.11-19.19.14:788][481]LogAIModule: Creating AISystem for world Singleplayer
+[2015.07.11-19.19.14:788][481]LogPlayLevel: PIE: World Init took: (0.000817s)
+[2015.07.11-19.19.14:788][481]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Singleplayer.Singleplayer to /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer (0.007350s)
+[2015.07.11-19.19.14:820][481]LogInit: XAudio2 using 'Headset (Sound Blaster Tactic(3D) Alpha)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.11-19.19.14:824][481]LogInit: FAudioDevice initialized.
+[2015.07.11-19.19.14:869][481]LogWorld: Game class is 'BP_Gamemode_C'
+[2015.07.11-19.19.14:873][481]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer up for play (max tick rate 0) at 2015.07.11-21.19.14
+[2015.07.11-19.19.14:873][481]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.11-19.19.14:873][481]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.11-19.19.14:874][481]LogWorld: Bringing up level for play took: 0.003468
+[2015.07.11-19.19.14:923][481]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Singleplayer 0.569
+[2015.07.11-19.19.26:387][989]LogScript:Warning: Cannot access 'fire1'. It is pending kill. Property: 'fire1'
+	BP_Ship_C /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer:PersistentLevel.BP_Ship_C_22
+	Function /Game/Blueprints/BP_Ship.BP_Ship_C:ExecuteUbergraph_BP_Ship:0BA0
+[2015.07.11-19.19.26:388][989]PIE:Error: Error Cannot access 'fire1'. It is pending kill. Property: 'fire1' from node SetWorldRotation in graph 'EventGraph' in blueprint BP_Ship
+[2015.07.11-19.19.26:388][989]LogScript:Warning: Cannot access 'fire2'. It is pending kill. Property: 'fire2'
+	BP_Ship_C /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer:PersistentLevel.BP_Ship_C_22
+	Function /Game/Blueprints/BP_Ship.BP_Ship_C:ExecuteUbergraph_BP_Ship:0BD8
+[2015.07.11-19.19.26:388][989]PIE:Error: Error Cannot access 'fire2'. It is pending kill. Property: 'fire2' from node SetWorldRotation in graph 'EventGraph' in blueprint BP_Ship
+[2015.07.11-19.19.26:388][989]LogScript:Warning: Cannot access 'fire3'. It is pending kill. Property: 'fire3'
+	BP_Ship_C /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer:PersistentLevel.BP_Ship_C_22
+	Function /Game/Blueprints/BP_Ship.BP_Ship_C:ExecuteUbergraph_BP_Ship:0C10
+[2015.07.11-19.19.26:388][989]PIE:Error: Error Cannot access 'fire3'. It is pending kill. Property: 'fire3' from node SetWorldRotation in graph 'EventGraph' in blueprint BP_Ship
+[2015.07.11-19.19.26:388][989]LogScript:Warning: Cannot access 'fire4'. It is pending kill. Property: 'fire4'
+	BP_Ship_C /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer:PersistentLevel.BP_Ship_C_22
+	Function /Game/Blueprints/BP_Ship.BP_Ship_C:ExecuteUbergraph_BP_Ship:0C48
+[2015.07.11-19.19.26:388][989]PIE:Error: Error Cannot access 'fire4'. It is pending kill. Property: 'fire4' from node SetWorldRotation in graph 'EventGraph' in blueprint BP_Ship
+[2015.07.11-19.19.26:388][989]LogScript:Warning: Cannot access 'fire5'. It is pending kill. Property: 'fire5'
+	BP_Ship_C /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer:PersistentLevel.BP_Ship_C_22
+	Function /Game/Blueprints/BP_Ship.BP_Ship_C:ExecuteUbergraph_BP_Ship:0C80
+[2015.07.11-19.19.26:388][989]PIE:Error: Error Cannot access 'fire5'. It is pending kill. Property: 'fire5' from node SetWorldRotation in graph 'EventGraph' in blueprint BP_Ship
+[2015.07.11-19.19.36:067][416]LogScript:Warning: Cannot access 'fire1'. It is pending kill. Property: 'fire1'
+	BP_Ship_C /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer:PersistentLevel.BP_Ship_C_25
+	Function /Game/Blueprints/BP_Ship.BP_Ship_C:ExecuteUbergraph_BP_Ship:0BA0
+[2015.07.11-19.19.36:067][416]PIE:Error: Error Cannot access 'fire1'. It is pending kill. Property: 'fire1' from node SetWorldRotation in graph 'EventGraph' in blueprint BP_Ship
+[2015.07.11-19.19.36:067][416]LogScript:Warning: Cannot access 'fire2'. It is pending kill. Property: 'fire2'
+	BP_Ship_C /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer:PersistentLevel.BP_Ship_C_25
+	Function /Game/Blueprints/BP_Ship.BP_Ship_C:ExecuteUbergraph_BP_Ship:0BD8
+[2015.07.11-19.19.36:068][416]PIE:Error: Error Cannot access 'fire2'. It is pending kill. Property: 'fire2' from node SetWorldRotation in graph 'EventGraph' in blueprint BP_Ship
+[2015.07.11-19.19.36:068][416]LogScript:Warning: Cannot access 'fire3'. It is pending kill. Property: 'fire3'
+	BP_Ship_C /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer:PersistentLevel.BP_Ship_C_25
+	Function /Game/Blueprints/BP_Ship.BP_Ship_C:ExecuteUbergraph_BP_Ship:0C10
+[2015.07.11-19.19.36:068][416]PIE:Error: Error Cannot access 'fire3'. It is pending kill. Property: 'fire3' from node SetWorldRotation in graph 'EventGraph' in blueprint BP_Ship
+[2015.07.11-19.19.36:068][416]LogScript:Warning: Cannot access 'fire4'. It is pending kill. Property: 'fire4'
+	BP_Ship_C /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer:PersistentLevel.BP_Ship_C_25
+	Function /Game/Blueprints/BP_Ship.BP_Ship_C:ExecuteUbergraph_BP_Ship:0C48
+[2015.07.11-19.19.36:068][416]PIE:Error: Error Cannot access 'fire4'. It is pending kill. Property: 'fire4' from node SetWorldRotation in graph 'EventGraph' in blueprint BP_Ship
+[2015.07.11-19.19.36:068][416]LogScript:Warning: Cannot access 'fire5'. It is pending kill. Property: 'fire5'
+	BP_Ship_C /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer:PersistentLevel.BP_Ship_C_25
+	Function /Game/Blueprints/BP_Ship.BP_Ship_C:ExecuteUbergraph_BP_Ship:0C80
+[2015.07.11-19.19.36:068][416]PIE:Error: Error Cannot access 'fire5'. It is pending kill. Property: 'fire5' from node SetWorldRotation in graph 'EventGraph' in blueprint BP_Ship
+[2015.07.11-19.20.13:903][331]LogScript:Warning: Cannot access 'fire1'. It is pending kill. Property: 'fire1'
+	BP_Ship_C /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer:PersistentLevel.BP_Ship_C_23
+	Function /Game/Blueprints/BP_Ship.BP_Ship_C:ExecuteUbergraph_BP_Ship:0BA0
+[2015.07.11-19.20.13:904][331]PIE:Error: Error Cannot access 'fire1'. It is pending kill. Property: 'fire1' from node SetWorldRotation in graph 'EventGraph' in blueprint BP_Ship
+[2015.07.11-19.20.13:904][331]LogScript:Warning: Cannot access 'fire2'. It is pending kill. Property: 'fire2'
+	BP_Ship_C /Game/Maps/UEDPIE_0_Singleplayer.Singleplayer:PersistentLevel.BP_Ship_C_23
+	Function /Game/Blueprints/BP_Ship.BP_Ship_C:ExecuteUbergraph_BP_Ship:0BD8
+[2015.07.11-19.20.13:904][331]PIE:Error: Error Cannot access 'fire2'. It is pending kill. Property: 'fire2' from node SetWorldRotation in graph 'EventGraph' in blueprint BP_Ship
+[2015.07.11-19.20.13:904][331]LogScript:Warning: Cannot access 'fire3'. It is pending kill. Property: 'fire3'
+	BP_Ship_C /Gam
